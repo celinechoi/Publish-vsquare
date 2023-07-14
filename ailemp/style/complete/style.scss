@@ -6735,6 +6735,23 @@ body {
 			}
 		}
 	}
+	&__detail {
+		&-con {
+			.attach {
+				&-box {
+					&__list {
+						flex-direction: column;
+						>li {
+							width: 100%;
+						}
+						&--left {
+							width: 60%;
+						}
+					}
+				}
+			}
+		}
+	}
 }
 /*filter*/
 .icon {

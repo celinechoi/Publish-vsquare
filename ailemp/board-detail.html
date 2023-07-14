@@ -38,48 +38,79 @@
 				<li><img src="img/common/custom_logo.svg" class="logo-custom"></li>
 			</ul>
 			<div class="header-box">
-				<div class="header-box__bg"></div>
 				<div class="header-box__top">
 					<div class="inner">
 						<div class="header-box__top--left">
-							<div class="member-area">
-								<!--								<a href="javascript:;" class="member-area__login">로그인 하기</a>-->
-								<!-- TODO : 로그인 했을 경우 -->
-								<div class="member-area__me">
-									<a href="javascript:;" class="member-area__me--info">
-										<span>홍길동</span> 님
-									</a>
-									<a href="javascript:;" class="icon-settings_outline" title="정보보기"></a>
+							<div class="login-after__row">
+								<img src="img/common/img-profile-02.svg" class="profile-icon" alt="프로필아이콘">
+								<div class="login-info">
+									<p class="name">홍길동 <span>님</span></p>
+									<p class="turn">프로필 전환 <span class="icon-sync_outline"></span></p>
 								</div>
 							</div>
+							<ul class="login-after__table">
+								<li>
+									<span>완료된 학습</span>
+									<div>
+										<span class="complete-num">42</span>
+										<span class="icon-arrow_forward"></span>
+									</div>
+								</li>
+							</ul>
 						</div>
 						<div class="header-box__top--right">
 							<a href="javascript:;" class="event-banner"></a>
 							<ul class="list-default">
-								<li>
-									<!-- TODO 로그인 안 했을 경우 -->
-									<!--<a href="javascript:;" class="inside tm-hide">로그인</a>-->
-									<!-- TODO 로그인 했을 경우 -->
-									<a href="javascript:;" class="btn-small">로그아웃</a>
+								<!-- TODO 로그인 후 : 학습자 -->
+								<li class="tm-show">
+									<a href="javascript:;" class="btn-small&#45;&#45;bg">로그아웃</a>
 								</li>
 								<li>
-									<a href="javascript:;" class="btn-small--bg">회원가입</a>
+									<div class="login-after__frame">
+										<a href="javascript:;" class="login-after">
+											<img src="img/common/img-profile-02.svg" class="profile-icon" alt="프로필아이콘">
+											<span class="name">홍길동</span>
+											<span class="icon-chevron_down"></span>
+										</a>
+										<div class="login-after__box">
+											<div class="login-after__row">
+												<img src="img/common/img-profile-02.svg" class="profile-icon" alt="프로필아이콘">
+												<div class="login-info">
+													<p class="name">홍길동</p>
+													<p class="turn">프로필 전환 <span class="icon-sync_outline"></span></p>
+												</div>
+											</div>
+											<ul class="login-list">
+												<li>
+													<span>완료된 학습</span>
+													<span class="complete-num">42</span>
+												</li>
+												<li><span>고객센터</span></li>
+												<li><span>로그아웃</span></li>
+											</ul>
+										</div>
+									</div>
 								</li>
+								<!-- TODO 로그인 후 : 학습자 끝 -->
 							</ul>
 							<a href="javascript:;" class="icon-close js-menu-hide" title="닫기"></a>
 						</div>
 					</div>
 				</div>
 				<div class="header-box__bottom">
-					<ul id="gnb" class="gnb-list">
+					<ul class="menu-tab">
+						<li class="on" data-menu="0">전체메뉴</li>
+						<li data-menu="1">퀵메뉴</li>
+					</ul>
+					<ul id="gnb" class="gnb-list menu-box" data-con="0">
 						<li>
-							<a href="javascript:;" class="gnb-list__txt" data-index="0">전남 교육청</a>
-							<ul class="depth2-list" data-num="1">
+							<a href="javascript:;" class="gnb-list__txt">전남 교육청</a>
+							<ul class="depth2-list">
 								<li>
 									<a href="javascript:;" class="depth2-list__txt">인사말</a>
 								</li>
 								<li>
-									<a href="javascript:;" class="depth2-list__txt gray-color--900">사업소개</a>
+									<a href="javascript:;" class="depth2-list__txt">사업소개</a>
 								</li>
 								<li>
 									<a href="javascript:;" class="depth2-list__txt">이용안내</a>
@@ -88,84 +119,119 @@
 									<a href="javascript:;" class="depth2-list__txt">학습지표 및 보상 안내</a>
 								</li>
 								<li>
-									<a href="introduce_map.html" class="depth2-list__txt">Contact</a>
+									<a href="javascript:;" class="depth2-list__txt">Contact</a>
 								</li>
 							</ul>
 						</li>
 						<li>
-							<a href="javascript:;" class="gnb-list__txt" data-index="1">스마트학습</a>
-							<ul class="depth2-list" data-num="1">
-								<li>
-									<a href="smart_learning.html" class="depth2-list__txt">스마트학습</a>
-								</li>
-								<li>
-									<a href="non_face.html" class="depth2-list__txt">비대면과외서비스</a>
-								</li>
-								<li>
-									<a href="digital_con.html" class="depth2-list__txt">디지털교육</a>
-								</li>
-							</ul>
+							<a href="javascript:;" class="gnb-list__txt">스마트학습</a>
 						</li>
 						<li>
-							<a href="javascript:;" class="gnb-list__txt" data-index="1">1:1 과외</a>
-							<ul class="depth2-list" data-num="1">
-								<li>
-									<a href="chain.html" class="depth2-list__txt">가맹점 소개</a>
-								</li>
-							</ul>
+							<a href="javascript:;" class="gnb-list__txt">1:1 과외</a>
 						</li>
 						<li>
-							<a href="process_list.html" class="gnb-list__txt" data-index="2">외국어</a>
+							<a href="javascript:;" class="gnb-list__txt">외국어</a>
 						</li>
 						<li>
-							<a href="javascript:;" class="gnb-list__txt" data-index="3">독서/문해력</a>
-							<ul class="depth2-list" data-num="3">
-								<li>
-									<a href="board_list.html" class="depth2-list__txt">공지사항</a>
-								</li>
-								<li>
-									<a href="board_question.html" class="depth2-list__txt">문의사항</a>
-								</li>
-								<li>
-									<a href="board_faq.html" class="depth2-list__txt">FAQ</a>
-								</li>
-								<li>
-									<a href="board_list_nodata.html" class="depth2-list__txt">자료실</a>
-								</li>
-								<li>
-									<a href="javascript:;" class="depth2-list__txt">가맹점</a>
-								</li>
-							</ul>
+							<a href="javascript:;" class="gnb-list__txt">독서/문해력</a>
 						</li>
 						<li>
-							<a href="javascript:;" class="gnb-list__txt" data-index="4">디지털교육</a>
-							<ul class="depth2-list" data-num="4">
-								<li>
-									<a href="mypage_class.html" class="depth2-list__txt">학습 현황</a>
-								</li>
-								<li>
-									<a href="javascript:;" class="depth2-list__txt">결제관리</a>
-								</li>
-								<li>
-									<a href="mypage_survey.html" class="depth2-list__txt">설문</a>
-								</li>
-								<li>
-									<a href="board_question_v2.html" class="depth2-list__txt">문의내역</a>
-								</li>
-								<li>
-									<a href="mypage_info_edit.html" class="depth2-list__txt">회원정보수정</a>
-								</li>
-							</ul>
+							<a href="javascript:;" class="gnb-list__txt">디지털교육</a>
 						</li>
 						<li>
 							<a href="javascript:;" class="gnb-list__txt">학습신청</a>
+							<ul class="depth2-list">
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">학습신청</a>
+								</li>
+							</ul>
 						</li>
-						<li>
+						<li class="active">
 							<a href="javascript:;" class="gnb-list__txt">커뮤니티</a>
+							<ul class="depth2-list">
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">
+										공지사항
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">
+										이벤트
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">
+										이달의 우수 학습자
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">
+										FAQ
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">
+										자료실
+									</a>
+								</li>
+							</ul>
 						</li>
 						<li>
-							<a href="javascript:;" class="gnb-list__txt">마이페이지</a>
+							<a href="javascript:;" class="gnb-list__txt">나의 학습</a>
+							<ul class="depth2-list">
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">학습현황</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">포인트 현황</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">설문</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">문의내역</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">회원정보수정</a>
+								</li>
+							</ul>
 						</li>
+					</ul>
+					<div class="floating-menu menu-box" data-con="1">
+						<a class="floating-menu__item" href="javascript:;">
+							<img class="icon" src="img/common/quick.png" />
+							<span class="title">나의 학습</span>
+						</a>
+						<a class="floating-menu__item" href="javascript:;">
+							<img class="icon" src="img/common/quick2.png" />
+							<span class="title">진단 검사</span>
+						</a>
+						<a class="floating-menu__item" href="javascript:;">
+							<img class="icon" src="img/common/quick3.png" />
+							<span class="title">수료증 발급</span>
+						</a>
+						<a class="floating-menu__item" href="javascript:;">
+							<img class="icon" src="img/common/quick4.png" />
+							<span class="title">설문</span>
+						</a>
+						<a class="floating-menu__item" href="javascript:;">
+							<img class="icon" src="img/common/quick5.png" />
+							<span class="title">문의하기</span>
+						</a>
+						<a class="floating-menu__item" href="javascript:;">
+							<img class="icon" src="img/common/quick6.png" />
+							<span class="title">원격지원</span>
+						</a>
+						<a class="floating-menu__item" href="javascript:;">
+							<img class="icon" src="img/common/quick7.png" />
+							<span class="title small">바우처대상확인</span>
+						</a>
+						<a class="floating-menu__item" href="javascript:;">
+						</a>
+					</div>
+					<ul class="menu-bottom">
+						<li>고객센터</li>
+						<li>이벤트</li>
 					</ul>
 				</div>
 			</div>
@@ -175,28 +241,31 @@
 				</li>
 			</ul>
 		</div>
+		<!--*** TODO 2depth가 있을 경우-->
+		<div class="tm-depth2">
+			<div class="title">
+				공지사항
+				<span class="icon-chevron_down"></span>
+			</div>
+			<ul class="tm-depth2__list">
+				<li class="on">공지사항</li>
+				<li>이벤트</li>
+				<li>이달의 우수 학습자</li>
+				<li>FAQ</li>
+				<li>자료실</li>
+			</ul>
+		</div>
 	</header>
 	<!-- // header area -->
 	<!--서브 비주얼-->
-	<div class="sub-visual">
+	<div class="sub-visual none-icon nodepth">
 		<div class="inner">
 			<div class="sub-visual__title">
-				<p class="sub-title">나의 학습</p>
+				<p class="sub-title">커뮤니티</p>
 				<ul class="cm-index-list">
 					<li><a href="javascript:;" class="inside"><span class="icon-home"></span></a></li>
-					<li><a href="javascript:;" class="inside">나의 학습</a></li>
-					<li><a href="javascript:;" class="inside">문의내역</a></li>
-					<li class="now"><a href="javascript:;" class="inside">서비스 문의</a></li>
-				</ul>
-			</div>
-			<div class="board__tab-frame">
-				<div class="title">
-					서비스 문의
-					<span class="icon-chevron_down"></span>
-				</div>
-				<ul class="board__tab">
-					<li class="now"><a href="javascript:;" class="board__tab--block">서비스 문의</a></li>
-					<li><a href="javascript:;" class="board__tab--block">나의 학습 문의</a></li>
+					<li><a href="javascript:;" class="inside">커뮤니티</a></li>
+					<li class="now"><a href="javascript:;" class="inside">공지사항</a></li>
 				</ul>
 			</div>
 		</div>
@@ -204,11 +273,56 @@
 	<!--서브 비주얼 끝-->
 	<!-- container -->
 	<div id="container" class="container">
-
+		<div class="floating">
+			<img src="img/common/quick_icon.png" class="quick-icon" alt="퀵아이콘">
+			<div class="floating-menu">
+				<a class="floating-menu__item" href="javascript:;">
+					<img class="icon" src="img/common/quick.png" />
+					<span class="title">나의 학습</span>
+				</a>
+				<a class="floating-menu__item" href="javascript:;">
+					<img class="icon" src="img/common/quick2.png" />
+					<span class="title">진단 검사</span>
+				</a>
+				<a class="floating-menu__item" href="javascript:;">
+					<img class="icon" src="img/common/quick3.png" />
+					<span class="title">수료증 발급</span>
+				</a>
+				<a class="floating-menu__item" href="javascript:;">
+					<img class="icon" src="img/common/quick4.png" />
+					<span class="title">설문</span>
+				</a>
+				<a class="floating-menu__item" href="javascript:;">
+					<img class="icon" src="img/common/quick5.png" />
+					<span class="title">문의하기</span>
+				</a>
+				<a class="floating-menu__item" href="javascript:;">
+					<img class="icon" src="img/common/quick6.png" />
+					<span class="title">원격지원</span>
+				</a>
+				<a class="floating-menu__item" href="javascript:;">
+					<img class="icon" src="img/common/quick7.png" />
+					<span class="title small">바우처대상확인</span>
+				</a>
+			</div>
+			<button class="floating-top" title="위로 가기">TOP</button>
+			<div class="chat-box on">
+				<div class="chat-box__circle">
+					<img src="img/common/lamp_icon_off.jpg" alt="챗봇아이콘">
+				</div>
+				<div class="chat-box__inner">
+					<div class="left">
+						<p class="chat-title">무엇이든 물어보세요!</p>
+						<p class="chat-sub">전남 GPT</p>
+					</div>
+					<img src="img/common/lamp_icon.png" class="lamp-icon" alt="챗봇아이콘">
+				</div>
+			</div>
+		</div>
 		<section class="section-box-v2">
 			<div class="inner">
 				<div class="page-head">
-					<p class="cm-txt__title--normal">나의 학습 문의</p>
+					<p class="cm-txt__title--normal">공지사항</p>
 					<div class="share">
 						<a href="javascript:;" class="share-item url"></a>
 						<a href="javascript:;" class="share-item print"></a>
@@ -221,7 +335,7 @@
 							<div class="board__detail-title">
 								<ul class="board__detail-title--list">
 									<li>
-										<span class="board-tag">문의학습명</span>
+										<span class="board-tag">공지</span>
 										<a href="javascript:;" class="icon-ellipsis_vertical js-edit" title="편집하기"></a>
 										<ul class="board__detail-show-box">
 											<li><a href="javascript:;">수정</a></li>
@@ -229,11 +343,11 @@
 										</ul>
 									</li>
 									<li>
-										<p class="txt--m7">비밀 문의 질문 제목입니다</p>
+										<p class="txt--m7">공지사항 제목이 나오는 부분입니다.</p>
 									</li>
 									<li class="flex-box">
 										<ul class="list-dot">
-											<li>홍길동</li>
+											<li>관리자</li>
 											<li>2021.01.01</li>
 										</ul>
 										<span class="state__green">답변완료</span>

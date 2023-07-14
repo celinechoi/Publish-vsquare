@@ -38,14 +38,21 @@
 				<li><img src="img/common/custom_logo.svg" class="logo-custom"></li>
 			</ul>
 			<div class="header-box">
-				<!-- TODO 로그인 전 -->
-				<div class="header-box__top login-before">
+				<div class="header-box__top">
 					<div class="inner">
 						<div class="header-box__top--left">
+							<div class="login-after__row">
+								<img src="img/common/img-profile-02.svg" class="profile-icon" alt="프로필아이콘">
+								<div class="login-info">
+									<p class="name">홍길동 <span>님</span></p>
+									<p class="turn">프로필 전환 <span class="icon-sync_outline"></span></p>
+								</div>
+							</div>
 							<ul class="login-after__table">
 								<li>
-									<span>로그인 후 이용해 보세요</span>
+									<span>완료된 학습</span>
 									<div>
+										<span class="complete-num">42</span>
 										<span class="icon-arrow_forward"></span>
 									</div>
 								</li>
@@ -54,28 +61,52 @@
 						<div class="header-box__top--right">
 							<a href="javascript:;" class="event-banner"></a>
 							<ul class="list-default">
-								<li>
-									<a href="javascript:;" class="btn-small">로그인</a>
+								<!-- TODO 로그인 후 : 학습자 -->
+								<li class="tm-show">
+									<a href="javascript:;" class="btn-small&#45;&#45;bg">로그아웃</a>
 								</li>
 								<li>
-									<a href="javascript:;" class="btn-small--bg">회원가입</a>
+									<div class="login-after__frame">
+										<a href="javascript:;" class="login-after">
+											<img src="img/common/img-profile-02.svg" class="profile-icon" alt="프로필아이콘">
+											<span class="name">홍길동</span>
+											<span class="icon-chevron_down"></span>
+										</a>
+										<div class="login-after__box">
+											<div class="login-after__row">
+												<img src="img/common/img-profile-02.svg" class="profile-icon" alt="프로필아이콘">
+												<div class="login-info">
+													<p class="name">홍길동</p>
+													<p class="turn">프로필 전환 <span class="icon-sync_outline"></span></p>
+												</div>
+											</div>
+											<ul class="login-list">
+												<li>
+													<span>완료된 학습</span>
+													<span class="complete-num">42</span>
+												</li>
+												<li><span>고객센터</span></li>
+												<li><span>로그아웃</span></li>
+											</ul>
+										</div>
+									</div>
 								</li>
+								<!-- TODO 로그인 후 : 학습자 끝 -->
 							</ul>
 							<a href="javascript:;" class="icon-close js-menu-hide" title="닫기"></a>
 						</div>
 					</div>
 				</div>
-				<!-- TODO 로그인 전 끝 -->
 				<div class="header-box__bottom">
 					<ul class="menu-tab">
 						<li class="on" data-menu="0">전체메뉴</li>
 						<li data-menu="1">퀵메뉴</li>
 					</ul>
 					<ul id="gnb" class="gnb-list menu-box" data-con="0">
-						<li class="on">
+						<li>
 							<a href="javascript:;" class="gnb-list__txt">전남 교육청</a>
 							<ul class="depth2-list">
-								<li class="on">
+								<li>
 									<a href="javascript:;" class="depth2-list__txt">인사말</a>
 								</li>
 								<li>
@@ -105,39 +136,54 @@
 							<a href="javascript:;" class="gnb-list__txt">독서/문해력</a>
 						</li>
 						<li>
-							<a href="javascript:;" class="gnb-list__txt" data-index="4">디지털교육</a>
+							<a href="javascript:;" class="gnb-list__txt">디지털교육</a>
 						</li>
 						<li>
 							<a href="javascript:;" class="gnb-list__txt">학습신청</a>
+							<ul class="depth2-list">
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">학습신청</a>
+								</li>
+							</ul>
 						</li>
-						<li>
+						<li class="active">
 							<a href="javascript:;" class="gnb-list__txt">커뮤니티</a>
 							<ul class="depth2-list">
 								<li>
-									<a href="javascript:;" class="depth2-list__txt">공지사항</a>
+									<a href="javascript:;" class="depth2-list__txt">
+										공지사항
+									</a>
 								</li>
 								<li>
-									<a href="javascript:;" class="depth2-list__txt">이벤트</a>
+									<a href="javascript:;" class="depth2-list__txt">
+										이벤트
+									</a>
 								</li>
 								<li>
-									<a href="javascript:;" class="depth2-list__txt">이달의 우수 학습자</a>
+									<a href="javascript:;" class="depth2-list__txt">
+										이달의 우수 학습자
+									</a>
 								</li>
 								<li>
-									<a href="javascript:;" class="depth2-list__txt">FAQ</a>
+									<a href="javascript:;" class="depth2-list__txt">
+										FAQ
+									</a>
 								</li>
 								<li>
-									<a href="javascript:;" class="depth2-list__txt">자료실</a>
+									<a href="javascript:;" class="depth2-list__txt">
+										자료실
+									</a>
 								</li>
 							</ul>
 						</li>
 						<li>
-							<a href="javascript:;" class="gnb-list__txt">마이페이지</a>
+							<a href="javascript:;" class="gnb-list__txt">나의 학습</a>
 							<ul class="depth2-list">
 								<li>
-									<a href="javascript:;" class="depth2-list__txt">학습 관리</a>
+									<a href="javascript:;" class="depth2-list__txt">학습현황</a>
 								</li>
 								<li>
-									<a href="javascript:;" class="depth2-list__txt">결제 관리</a>
+									<a href="javascript:;" class="depth2-list__txt">포인트 현황</a>
 								</li>
 								<li>
 									<a href="javascript:;" class="depth2-list__txt">설문</a>
@@ -146,10 +192,7 @@
 									<a href="javascript:;" class="depth2-list__txt">문의내역</a>
 								</li>
 								<li>
-									<a href="javascript:;" class="depth2-list__txt">회원정보</a>
-								</li>
-								<li>
-									<a href="javascript:;" class="depth2-list__txt">통합 마이페이지</a>
+									<a href="javascript:;" class="depth2-list__txt">회원정보수정</a>
 								</li>
 							</ul>
 						</li>
@@ -198,10 +241,24 @@
 				</li>
 			</ul>
 		</div>
+		<!--*** TODO 2depth가 있을 경우-->
+		<div class="tm-depth2">
+			<div class="title">
+				FAQ
+				<span class="icon-chevron_down"></span>
+			</div>
+			<ul class="tm-depth2__list">
+				<li>공지사항</li>
+				<li>이벤트</li>
+				<li>이달의 우수 학습자</li>
+				<li class="on">FAQ</li>
+				<li>자료실</li>
+			</ul>
+		</div>
 	</header>
 	<!-- // header area -->
 	<!--서브 비주얼-->
-	<div class="sub-visual none-icon">
+	<div class="sub-visual none-icon nodepth">
 		<div class="inner">
 			<div class="sub-visual__title">
 				<p class="sub-title">커뮤니티</p>
@@ -216,7 +273,52 @@
 	<!--서브 비주얼 끝-->
 	<!-- container -->
 	<div id="container" class="container">
-
+		<div class="floating">
+			<img src="img/common/quick_icon.png" class="quick-icon" alt="퀵아이콘">
+			<div class="floating-menu">
+				<a class="floating-menu__item" href="javascript:;">
+					<img class="icon" src="img/common/quick.png" />
+					<span class="title">나의 학습</span>
+				</a>
+				<a class="floating-menu__item" href="javascript:;">
+					<img class="icon" src="img/common/quick2.png" />
+					<span class="title">진단 검사</span>
+				</a>
+				<a class="floating-menu__item" href="javascript:;">
+					<img class="icon" src="img/common/quick3.png" />
+					<span class="title">수료증 발급</span>
+				</a>
+				<a class="floating-menu__item" href="javascript:;">
+					<img class="icon" src="img/common/quick4.png" />
+					<span class="title">설문</span>
+				</a>
+				<a class="floating-menu__item" href="javascript:;">
+					<img class="icon" src="img/common/quick5.png" />
+					<span class="title">문의하기</span>
+				</a>
+				<a class="floating-menu__item" href="javascript:;">
+					<img class="icon" src="img/common/quick6.png" />
+					<span class="title">원격지원</span>
+				</a>
+				<a class="floating-menu__item" href="javascript:;">
+					<img class="icon" src="img/common/quick7.png" />
+					<span class="title small">바우처대상확인</span>
+				</a>
+			</div>
+			<button class="floating-top" title="위로 가기">TOP</button>
+			<div class="chat-box on">
+				<div class="chat-box__circle">
+					<img src="img/common/lamp_icon_off.jpg" alt="챗봇아이콘">
+				</div>
+				<div class="chat-box__inner">
+					<div class="left">
+						<p class="chat-title">무엇이든 물어보세요!</p>
+						<p class="chat-sub">전남 GPT</p>
+					</div>
+					<img src="img/common/lamp_icon.png" class="lamp-icon" alt="챗봇아이콘">
+				</div>
+			</div>
+		</div>
 		<section class="section-box-v2">
 			<div class="inner">
 				<div class="page-head">

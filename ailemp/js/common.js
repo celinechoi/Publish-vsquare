@@ -289,7 +289,7 @@ $(function () {
 			$floating = $(".floating");
 			thisTop = $(this).scrollTop();
 			footerHei = $('footer').outerHeight();
-			if ($('.container, .chat-box').length > 0) {
+			if ($('.container, .chat-box')) {
 				$parentFix = $('.container').offset().top - 100;
 				$childFix = $('.chat-box').offset().top - 100;
 			}
