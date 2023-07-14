@@ -121,7 +121,7 @@ button {
 		display: block;
 		width: 16px;
 		height: 16px;
-		background: url('/res/home/publish/img/common/icon_house.png') no-repeat center / contain;
+		background: url('../img/common/icon_house.png') no-repeat center / contain;
 	}
 	&-custom {
 		&-dot {
@@ -137,7 +137,7 @@ button {
 			width: #{$size--24};
 			height: #{$size--24};
 			margin-right: 8px;
-			background: url('/res/home/publish/img/common/symbol_purple.svg') no-repeat center / contain;
+			background: url('../img/common/symbol_purple.svg') no-repeat center / contain;
 		}
 		&-roundchk {
 			display: inline-block;
@@ -145,7 +145,7 @@ button {
 			width: 14px;
 			height: 14px;
 			margin-right: 8px;
-			background: url('/res/home/publish/img/common/icon-check.svg') no-repeat center / contain;
+			background: url('../img/common/icon-check.svg') no-repeat center / contain;
 			@include tablet {
 				vertical-align: -2px;
 			}
@@ -351,7 +351,7 @@ button {
 				.consulting {
 					&-box {
 						&__top {
-							background: url('/res/home/publish/img/sub/program01.png') no-repeat right center / 38px 40px;
+							background: url('../img/sub/program01.png') no-repeat right center / 38px 40px;
 						}
 					}
 				}
@@ -360,7 +360,7 @@ button {
 				.consulting {
 					&-box {
 						&__top {
-							background: url('/res/home/publish/img/sub/program02.png') no-repeat right center / 38px 36px;
+							background: url('../img/sub/program02.png') no-repeat right center / 38px 36px;
 						}
 					}
 				}
@@ -369,7 +369,7 @@ button {
 				.consulting {
 					&-box {
 						&__top {
-							background: url('/res/home/publish/img/sub/program03.png') no-repeat right center / 33px 36px;
+							background: url('../img/sub/program03.png') no-repeat right center / 33px 36px;
 						}
 					}
 				}
@@ -378,7 +378,7 @@ button {
 				.consulting {
 					&-box {
 						&__top {
-							background: url('/res/home/publish/img/sub/program04.png') no-repeat right center / 43px 36px;
+							background: url('../img/sub/program04.png') no-repeat right center / 43px 36px;
 						}
 					}
 				}
@@ -387,7 +387,7 @@ button {
 				.consulting {
 					&-box {
 						&__top {
-							background: url('/res/home/publish/img/sub/program05.png') no-repeat right center / 35px 36px;
+							background: url('../img/sub/program05.png') no-repeat right center / 35px 36px;
 						}
 					}
 				}
@@ -418,7 +418,7 @@ button {
 		&-list {
 			.box {
 				&-img {
-					background: #{$gray--100} url('/res/home/publish/img/common/symbol.png') no-repeat center center / 56px 56px;
+					background: #{$gray--100} url('../img/common/symbol.png') no-repeat center center / 56px 56px;
 					border-radius: 16px;
 					padding-bottom: 59.25%;
 
@@ -473,7 +473,7 @@ button {
 						width: 100%;
 						min-height: 100%;
 						box-sizing: border-box;
-						background: #{$gray--100} url('/res/home/publish/img/common/symbol.png') no-repeat center center / 56px 56px;
+						background: #{$gray--100} url('../img/common/symbol.png') no-repeat center center / 56px 56px;
 						@include tablet {
 							min-height: auto;
 						}
@@ -945,7 +945,7 @@ button {
 		height: 44px;
 		margin: 79px 0 0 48px;
 		@include background-contain;
-		background-image: url('/res/home/publish/img/common/logo.svg');
+		background-image: url('../img/common/logo.svg');
 
 		@include desktop {
 			width: 20%;
@@ -1874,7 +1874,7 @@ button {
 						&__title {
 							&-frame {
 								@include background-contain;
-								background-image: url('/res/home/publish/img/sub/sidebar_title_bg.png');
+								background-image: url('../img/sub/sidebar_title_bg.png');
 							}
 						}
 
@@ -1893,7 +1893,7 @@ button {
 						background-size: cover;
 						background-repeat: no-repeat;
 						&.v1 {
-							background-image: url('/res/home/publish/img/home/main_slide.png');
+							background-image: url('../img/home/main_slide.png');
 						}
 					}
 
@@ -2488,7 +2488,7 @@ button {
 					height: 303px;
 					padding: 32px;
 					border-radius: 24px;
-					background: #4589ff url('/res/home/publish/img/home/main_banner.png') no-repeat right bottom / 264px 142px;
+					background: #4589ff url('../img/home/main_banner.png') no-repeat right bottom / 264px 142px;
 
 					@include tablet {
 						width: 100%;
@@ -3128,7 +3128,7 @@ button {
 		height: 100%;
 		border-top-right-radius: 24px;
 		border-bottom-right-radius: 24px;
-		background: #{$gray--050} url('/res/home/publish/img/sub/sidebar_bg.png') no-repeat right 191px top / 401px 206px;
+		background: #{$gray--050} url('../img/sub/sidebar_bg.png') no-repeat right 191px top / 401px 206px;
 	}
 	&__menu {
 		padding-top: 60px;
@@ -3399,7 +3399,7 @@ button {
 				z-index: -1;
 				width: 50px;
 				height: 38px;
-				background: url('/res/home/publish/img/sub/figure_bg.png') center / contain;
+				background: url('../img/sub/figure_bg.png') center / contain;
 			}
 			&::after {
 				content: '';
@@ -3408,7 +3408,7 @@ button {
 				bottom: 10px;
 				width: 50px;
 				height: 38px;
-				background: url('/res/home/publish/img/sub/figure_bg.png') center / contain;
+				background: url('../img/sub/figure_bg.png') center / contain;
 			}
 			&.roadmap {
 				max-height: 127px;
@@ -3427,7 +3427,7 @@ button {
 					bottom: 0;
 					width: 174px;
 					height: 107px;
-					background-image: url('/res/home/publish/img/sub/roadmap_bg.png');
+					background-image: url('../img/sub/roadmap_bg.png');
 					@include tablet {
 						width: 145px;
 						height: 86px;
@@ -4448,7 +4448,7 @@ button {
 	&-frame {
 		.box {
 			&-img {
-				background: #{$gray--100} url('/res/home/publish/img/common/symbol.png') no-repeat center center / 56px 56px;
+				background: #{$gray--100} url('../img/common/symbol.png') no-repeat center center / 56px 56px;
 				border-radius: 16px;
 				padding-bottom: 59.25%;
 
@@ -4517,7 +4517,7 @@ button {
 										width: 20px;
 										height: 20px;
 										@include background-contain;
-										background-image: url('/res/home/publish/img/sub/m_icon.svg');
+										background-image: url('../img/sub/m_icon.svg');
 									}
 								}
 							}
@@ -7038,7 +7038,7 @@ button {
 			height: 68px;
 			background-color: #{$gray--fff};
 			border-radius: 100%;
-			background-image: url("/res/home/publish/img/sub/test_icon.svg");
+			background-image: url("../img/sub/test_icon.svg");
 			background-repeat: no-repeat;
 			background-size: 40px 40px;
 			background-position: center center;
@@ -7235,13 +7235,13 @@ button {
 				}
 
 				&.work-icon{
-					background: url("/res/home/publish/img/sub/work_icon.svg")no-repeat;
+					background: url("../img/sub/work_icon.svg")no-repeat;
 				}
 				&.test-icon{
-					background: url("/res/home/publish/img/sub/test_icon.svg")no-repeat;
+					background: url("../img/sub/test_icon.svg")no-repeat;
 				}
 				&.complete-icon{
-					background: url("/res/home/publish/img/sub/complete_icon.svg")no-repeat;
+					background: url("../img/sub/complete_icon.svg")no-repeat;
 				}
 			}
 
@@ -7377,16 +7377,16 @@ button {
 						}
 
 						&.job-01{
-							background: url("/res/home/publish/img/sub/job1_icon.svg")no-repeat;
+							background: url("../img/sub/job1_icon.svg")no-repeat;
 						}
 						&.job-02{
-							background: url("/res/home/publish/img/sub/job2_icon.svg")no-repeat;
+							background: url("../img/sub/job2_icon.svg")no-repeat;
 						}
 						&.job-03{
-							background: url("/res/home/publish/img/sub/job3_icon.svg")no-repeat;
+							background: url("../img/sub/job3_icon.svg")no-repeat;
 						}
 						&.job-04{
-							background: url("/res/home/publish/img/sub/job4_icon.svg")no-repeat;
+							background: url("../img/sub/job4_icon.svg")no-repeat;
 						}
 					}
 
@@ -7486,7 +7486,7 @@ button {
 								left: 0;
 								top: 50%;
 								transform: translate(0,-50%);
-								background: url("/res/home/publish/img/common/icon-check-yellow.svg") no-repeat;
+								background: url("../img/common/icon-check-yellow.svg") no-repeat;
 							}
 						}
 
