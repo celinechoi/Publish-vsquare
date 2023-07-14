@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<!-- TODO add -->
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="/res/home/publish/font/spoqa-han-sans/style.css">
+	<link rel="stylesheet" href="/res/home/publish/font/ns-round/style.css">
+	<link rel="stylesheet" href="/res/home/publish/style/slick-1.8.1.min.css">
+	<link rel="stylesheet" href="/res/home/publish/style/swiper-4.5.1.min.css">
+	<link rel="stylesheet" href="/res/home/publish/icon_fonts/icon_fonts.min.css">
+	
+	<link rel="stylesheet" href="/res/home/publish/style/style_sub.min.css">
+<!--	<link rel="stylesheet" href="/res/home/publish/style/style.min.css">-->
+	
+	<script src="/res/home/publish/js/jquery-3.6.0.min.js"></script>
+	<script src="/res/home/publish/js/slick-1.8.1.min.js"></script>
+	<script src="/res/home/publish/js/swiper-4.5.1.min.js"></script>
+	<script src="/res/home/publish/js/common.js"></script>
+	<script src="/res/home/publish/js/sub.js"></script>
+	<title>DEMO</title>
+</head>
+
+<body>
+	<noscript>자바스크립트를 지원하지 않는 브라우저에서는 일부 기능이 정상 동작 하지 않을 수 있습니다.</noscript>
+	<div class="skip-navigation"><a href="#container">본문 바로가기</a></div>
+	<div class="skip-navigation"><a href="#gnb">주메뉴 바로가기</a></div>
+	<div class="skip-navigation"><a href="/">메인으로 바로가기</a></div>
+	<!-- header area -->
+	<header class="header">
+		<div class="inner">
+			<ul class="logo-frame">
+				<li><img src="/res/home/publish/img/common/logo.svg" class="logo" alt="AI-LEMP"></li>
+				<li><img src="/res/home/publish/img/common/custom_logo.svg" class="logo-custom"></li>
+			</ul>
+			<div class="header-box">
+				<div class="header-box__bg"></div>
+				<div class="header-box__top">
+					<div class="inner">
+						<div class="header-box__top--left">
+							<div class="member-area">
+								<!--								<a href="javascript:;" class="member-area__login">로그인 하기</a>-->
+								<!-- TODO : 로그인 했을 경우 -->
+								<div class="member-area__me">
+									<a href="javascript:;" class="member-area__me--info">
+										<span>홍길동</span> 님
+									</a>
+									<a href="javascript:;" class="icon-settings_outline" title="정보보기"></a>
+								</div>
+							</div>
+						</div>
+						<div class="header-box__top--right">
+							<a href="javascript:;" class="event-banner"></a>
+							<ul class="list-default">
+								<li>
+									<!-- TODO 로그인 안 했을 경우 -->
+									<!--<a href="javascript:;" class="inside tm-hide">로그인</a>-->
+									<!-- TODO 로그인 했을 경우 -->
+									<a href="javascript:;" class="btn-small">로그아웃</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="btn-small--bg">회원가입</a>
+								</li>
+							</ul>
+							<a href="javascript:;" class="icon-close js-menu-hide" title="닫기"></a>
+						</div>
+					</div>
+				</div>
+				<div class="header-box__bottom">
+					<ul id="gnb" class="gnb-list">
+						<li>
+							<a href="javascript:;" class="gnb-list__txt" data-index="0">전남 교육청</a>
+							<ul class="depth2-list" data-num="1">
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">인사말</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt gray-color--900">사업소개</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">이용안내</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">학습지표 및 보상 안내</a>
+								</li>
+								<li>
+									<a href="introduce_map.html" class="depth2-list__txt">Contact</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnb-list__txt" data-index="1">스마트학습</a>
+							<ul class="depth2-list" data-num="1">
+								<li>
+									<a href="smart_learning.html" class="depth2-list__txt">스마트학습</a>
+								</li>
+								<li>
+									<a href="non_face.html" class="depth2-list__txt">비대면과외서비스</a>
+								</li>
+								<li>
+									<a href="digital_con.html" class="depth2-list__txt">디지털교육</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnb-list__txt" data-index="1">1:1 과외</a>
+							<ul class="depth2-list" data-num="1">
+								<li>
+									<a href="chain.html" class="depth2-list__txt">가맹점 소개</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="process_list.html" class="gnb-list__txt" data-index="2">외국어</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnb-list__txt" data-index="3">독서/문해력</a>
+							<ul class="depth2-list" data-num="3">
+								<li>
+									<a href="board_list.html" class="depth2-list__txt">공지사항</a>
+								</li>
+								<li>
+									<a href="board_question.html" class="depth2-list__txt">문의사항</a>
+								</li>
+								<li>
+									<a href="board_faq.html" class="depth2-list__txt">FAQ</a>
+								</li>
+								<li>
+									<a href="board_list_nodata.html" class="depth2-list__txt">자료실</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">가맹점</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnb-list__txt" data-index="4">디지털교육</a>
+							<ul class="depth2-list" data-num="4">
+								<li>
+									<a href="mypage_class.html" class="depth2-list__txt">학습 현황</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">결제관리</a>
+								</li>
+								<li>
+									<a href="mypage_survey.html" class="depth2-list__txt">설문</a>
+								</li>
+								<li>
+									<a href="board_question_v2.html" class="depth2-list__txt">문의내역</a>
+								</li>
+								<li>
+									<a href="mypage_info_edit.html" class="depth2-list__txt">회원정보수정</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnb-list__txt">학습신청</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnb-list__txt">커뮤니티</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnb-list__txt">마이페이지</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<ul class="header__list-icon">
+				<li class="header__menu">
+					<a href="javascript:;" class="icon-vs_menu js-menu-show" title="메뉴 펼치기"></a>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<!-- // header area -->
+	<!--서브 비주얼-->
+	<div class="sub-visual">
+		<div class="inner">
+			<div class="sub-visual__title">
+				<p class="sub-title">마이페이지</p>
+				<ul class="cm-index-list">
+					<li><a href="javascript:;" class="inside"><span class="icon-home"></span></a></li>
+					<li><a href="javascript:;" class="inside">마이페이지</a></li>
+					<li><a href="javascript:;" class="inside">회원정보</a></li>
+					<li class="now"><a href="javascript:;" class="inside">회원탈퇴</a></li>
+				</ul>
+			</div>
+			<div class="board__tab-frame">
+				<div class="title">
+					회원탈퇴
+					<span class="icon-chevron_down"></span>
+				</div>
+				<ul class="board__tab">
+					<li><a href="javascript:;" class="board__tab--block">회원정보 수정</a></li>
+					<li><a href="javascript:;" class="board__tab--block">비밀번호 변경</a></li>
+					<li class="now"><a href="javascript:;" class="board__tab--block">회원탈퇴</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--서브 비주얼 끝-->
+	<!-- container -->
+	<div id="container" class="container">
+		
+		<section class="section-box-v2">
+			<div class="inner">
+				<div class="page-head">
+					<p class="cm-txt__title--normal">회원탈퇴</p>
+				</div>
+				<div class="box-info">
+					<div class="flex-box">
+						<span class="icon-alert_circle"></span>
+						<p>
+							<span>회원탈퇴 신청 전에 아래 유의사항 및 안내사항을 확인하신 후 진행해 주시기 바랍니다.</span><br/>
+							· 회원탈퇴 진행 시 본인을 포함한 타인 모두 아이디 재사용이나 복구가 불가능합니다.<br/>
+							· 내정보 및 개인형 서비스 이용기록이 모두 삭제되며 , 삭제된 데이터는 복구되지 않습니다.<br/>
+							· 현재 운영 중인 학습 과목에 대해서는 자동 학습 취소되며 , 이수한 과목의 출력이 불가능합니다.
+						</p>
+					</div>
+				</div>
+				<div class="board__block">
+					<div class="board__detail">
+						<div class="board__form">
+							<div class="board__form--inner">
+								<ul class="board__form--list">
+									<li>
+										<div class="board__form--flex">
+											<div class="board__form--title">
+												<span>아이디</span>
+											</div>
+											<div class="board__form--con">
+												<label for="idCon">
+													<input type="text" id="idCon" placeholder="vsquare01" disabled="">
+												</label>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="board__form--flex">
+											<div class="board__form--title">
+												<span>비밀번호</span>
+											</div>
+											<div class="board__form--con">
+												<label for="pwdCon">
+													<input type="password" id="pwdCon" placeholder="비밀번호를 입력해주세요.">
+												</label>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="board__form--inner">
+								<ul class="board__form--list">
+									<li>
+										<div class="board__form--flex">
+											<div class="board__form--title">
+												<span>탈퇴사유</span>
+											</div>
+											<div class="board__form--con">
+												<textarea placeholder="탈퇴 사유를 입력해주세요."></textarea>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- // board__form  -->
+					</div>
+					<label for="confirm" class="single chk-box">
+						<input type="checkbox" id="confirm" name="confirm">
+						<span class="chk-box__icon"></span>
+						<span class="chk-box__txt">해당 내용을 모두 확인했으며, 회원탈퇴에 동의합니다.</span>
+					</label>
+					<div class="btn-interval-small--side">
+						<div class="btn-interval__right">
+							<a href="javascript:;" class="btn-large-dark">회원탈퇴</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	
+	
+	<!-- // container -->
+	<!-- footer area -->
+	
+	<footer class="footer">
+		<div class="banner-list">
+			<div class="inner">
+				<div class="banner-list__control">
+					<a href="javascript:;" class="banner-list__prev icon-arrow_back" title="이전"></a>
+					<a href="javascript:;" class="banner-list__stop icon-pause_outline" title="리모트"></a>
+					<a href="javascript:;" class="banner-list__next icon-arrow_forward" title="다음"></a>
+				</div>
+				<div class="swiper banner-list__slider">
+					<div class="swiper-wrapper">
+							<a href="http://www.macadamia.kr/" class="swiper-slide" target="_blank">
+								<img src="/res/home/publish/img/common/macadamia.png" alt="macadamia">
+							</a>
+							<a href="http://www.dailydaechi.com/elementary/main" class="swiper-slide" target="_blank">
+								<img src="/res/home/publish/img/common/daechi.png" alt="일간대치동">
+							</a>
+							<a href="http://www.soluny.com/main/index.do" class="swiper-slide" target="_blank">
+								<img src="/res/home/publish/img/common/soluni.png" alt="솔루니 독서토론논술">
+							</a>
+
+							<a href="http://caihong.daekyo.com/web/main/homeLayout.do" class="swiper-slide" target="_blank">
+								<img src="/res/home/publish/img/common/chai.png" alt="차이홍">
+							</a>
+							<a href="http://eng.ybmclass.com/phone/junior/" class="swiper-slide" target="_blank">
+								<img src="/res/home/publish/img/common/ybm.png" alt="ybm전화 화상">
+							</a>
+							<a href="https://redbrick.land/" class="swiper-slide" target="_blank">
+								<img src="/res/home/publish/img/common/redbrick.png" alt="redbrick">
+							</a>
+							<a href="https://codmos.io/" class="swiper-slide" target="_blank">
+								<img src="/res/home/publish/img/common/codmos.png" alt="codmos">
+							</a>
+							<a href="http://www.welaaa.com/" class="swiper-slide" target="_blank">
+								<img src="/res/home/publish/img/common/willa.png" alt="윌라">
+							</a>
+							<a href="http://www.readinggate.com/" class="swiper-slide" target="_blank">
+								<img src="/res/home/publish/img/common/rg.png" alt="rg">
+							</a>
+							<a href="http://www.home-learn.co.kr/" class="swiper-slide" target="_blank">
+								<img src="/res/home/publish/img/common/homelearn.png" alt="homelearn">
+							</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="inner">
+			<div class="footer__top">
+				<div class="footer__flex">
+					<div>
+						<img src="/res/home/publish/img/common/footer_logo.svg" class="footer__logo" alt="AI-LEMP">
+					</div>
+					<div>
+						<ul class="footer__link">
+							<li><a href="javascript" class="inside">고객센터</a></li>
+							<li><a href="javascript" class="inside">이용약관</a></li>
+							<li><a href="javascript" class="inside">개인정보처리방침</a></li>
+							<li><a href="javascript" class="inside">기업/단체 제휴문의</a></li>
+							<li><a href="javascript" class="inside">가맹문의</a></li>
+						</ul>
+					</div>
+				</div>
+				<ul class="list-address">
+					<li>주식회사 아이스크림에듀</li>
+					<li>대표이사 이윤석</li>
+					<li>사업자등록번호 120-87-97004</li>
+					<li>서울시 강남구 테헤란로 88길 15</li>
+					<li>고객센터 000-0000 (운영시간) 평일ㆍ토요일 9:00-18:00 / 공휴일 및 일요일 휴무</li>
+				</ul>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__flex">
+					<p class="copyright">Copyright ⓒ VSQUARE 2023. All rights reserved.</p>
+					<label for="familySite" class="family-site-frame">
+						<select id="familySite" class="family-site">
+							<option value="">관련사이트</option>
+						</select>
+					</label>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- // footer area -->
+	<script src="js/main.js"></script>
+</body>
+
+</html>

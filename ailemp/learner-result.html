@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<!-- TODO add -->
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="/res/home/publish/font/spoqa-han-sans/style.css">
+	<link rel="stylesheet" href="/res/home/publish/font/ns-round/style.css">
+	<link rel="stylesheet" href="/res/home/publish/style/slick-1.8.1.min.css">
+<!--	<link rel="stylesheet" href="/res/home/publish/style/swiper-4.5.1.min.css">-->
+	<link rel="stylesheet" href="/res/home/publish/style/swiper-bundle.min.css">
+<!--	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />-->
+	<link rel="stylesheet" href="/res/home/publish/icon_fonts/icon_fonts.min.css">
+	
+	<link rel="stylesheet" href="/res/home/publish/style/style_sub.min.css">
+<!--	<link rel="stylesheet" href="/res/home/publish/style/style.min.css">-->
+	
+	<script src="/res/home/publish/js/jquery-3.6.0.min.js"></script>
+	<script src="/res/home/publish/js/slick-1.8.1.min.js"></script>
+<!--	<script src="/res/home/publish/js/swiper-4.5.1.min.js"></script>-->
+	
+	<title>DEMO</title>
+</head>
+
+<body>
+	<noscript>자바스크립트를 지원하지 않는 브라우저에서는 일부 기능이 정상 동작 하지 않을 수 있습니다.</noscript>
+	<div class="skip-navigation"><a href="#container">본문 바로가기</a></div>
+	<div class="skip-navigation"><a href="#gnb">주메뉴 바로가기</a></div>
+	<div class="skip-navigation"><a href="/">메인으로 바로가기</a></div>
+	<!-- header area -->
+	<header class="header">
+		<div class="inner">
+			<ul class="logo-frame">
+				<li><img src="/res/home/publish/img/common/logo.svg" class="logo" alt="AI-LEMP"></li>
+				<li><img src="/res/home/publish/img/common/custom_logo.svg" class="logo-custom"></li>
+			</ul>
+			<div class="header-box">
+				<!-- TODO 로그인 전 -->
+				<div class="header-box__top login-before">
+					<div class="inner">
+						<div class="header-box__top--left">
+							<ul class="login-after__table">
+								<li>
+									<span>로그인 후 이용해 보세요</span>
+									<div>
+										<span class="icon-arrow_forward"></span>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="header-box__top--right">
+							<a href="javascript:;" class="event-banner"></a>
+							<ul class="list-default">
+								<li>
+									<a href="javascript:;" class="btn-small">로그인</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="btn-small--bg">회원가입</a>
+								</li>
+							</ul>
+							<a href="javascript:;" class="icon-close js-menu-hide" title="닫기"></a>
+						</div>
+					</div>
+				</div>
+				<!-- TODO 로그인 전 끝 -->
+				<div class="header-box__bottom">
+					<ul class="menu-tab">
+						<li class="on" data-menu="0">전체메뉴</li>
+						<li data-menu="1">퀵메뉴</li>
+					</ul>
+					<ul id="gnb" class="gnb-list menu-box" data-con="0">
+						<li class="on">
+							<a href="javascript:;" class="gnb-list__txt">전남 교육청</a>
+							<ul class="depth2-list">
+								<li class="on">
+									<a href="javascript:;" class="depth2-list__txt">인사말</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">사업소개</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">이용안내</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">학습지표 및 보상 안내</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">Contact</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnb-list__txt">스마트학습</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnb-list__txt">1:1 과외</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnb-list__txt">외국어</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnb-list__txt">독서/문해력</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnb-list__txt" data-index="4">디지털교육</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnb-list__txt">학습신청</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnb-list__txt">커뮤니티</a>
+							<ul class="depth2-list">
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">공지사항</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">이벤트</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">이달의 우수 학습자</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">FAQ</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">자료실</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;" class="gnb-list__txt">마이페이지</a>
+							<ul class="depth2-list">
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">학습 관리</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">결제 관리</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">설문</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">문의내역</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">회원정보</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">통합 마이페이지</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<div class="floating-menu menu-box" data-con="1">
+						<a class="floating-menu__item" href="javascript:;">
+							<img class="icon" src="/res/home/publish/img/common/quick.png" />
+							<span class="title">나의 학습</span>
+						</a>
+						<a class="floating-menu__item" href="javascript:;">
+							<img class="icon" src="/res/home/publish/img/common/quick2.png" />
+							<span class="title">진단 검사</span>
+						</a>
+						<a class="floating-menu__item" href="javascript:;">
+							<img class="icon" src="/res/home/publish/img/common/quick3.png" />
+							<span class="title">수료증 발급</span>
+						</a>
+						<a class="floating-menu__item" href="javascript:;">
+							<img class="icon" src="/res/home/publish/img/common/quick4.png" />
+							<span class="title">설문</span>
+						</a>
+						<a class="floating-menu__item" href="javascript:;">
+							<img class="icon" src="/res/home/publish/img/common/quick5.png" />
+							<span class="title">문의하기</span>
+						</a>
+						<a class="floating-menu__item" href="javascript:;">
+							<img class="icon" src="/res/home/publish/img/common/quick6.png" />
+							<span class="title">원격지원</span>
+						</a>
+						<a class="floating-menu__item" href="javascript:;">
+							<img class="icon" src="/res/home/publish/img/common/quick7.png" />
+							<span class="title small">바우처대상확인</span>
+						</a>
+						<a class="floating-menu__item" href="javascript:;">
+						</a>
+					</div>
+					<ul class="menu-bottom">
+						<li>고객센터</li>
+						<li>이벤트</li>
+					</ul>
+				</div>
+			</div>
+			<ul class="header__list-icon">
+				<li class="header__menu">
+					<a href="javascript:;" class="icon-vs_menu js-menu-show" title="메뉴 펼치기"></a>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<!-- // header area -->
+	<!--서브 비주얼-->
+	<div class="sub-visual">
+		<div class="inner">
+			<div class="sub-visual__title">
+				<p class="sub-title">나의 학습</p>
+				<ul class="cm-index-list">
+					<li><a href="javascript:;" class="inside"><span class="icon-home"></span></a></li>
+					<li><a href="javascript:;" class="inside">나의 학습</a></li>
+					<li><a href="javascript:;" class="inside">학습현황</a></li>
+					<li class="now"><a href="javascript:;" class="inside">학습성과</a></li>
+				</ul>
+			</div>
+			<div class="board__tab-frame">
+				<div class="title">
+					학습성과
+					<span class="icon-chevron_down"></span>
+				</div>
+				<ul class="board__tab">
+					<li><a href="javascript:;" class="board__tab--block">대쉬보드</a></li>
+					<li><a href="javascript:;" class="board__tab--block">학습과정</a></li>
+					<li><a href="javascript:;" class="board__tab--block">완료과정</a></li>
+					<li class="now"><a href="javascript:;" class="board__tab--block">학습성과</a></li>
+					<li><a href="javascript:;" class="board__tab--block">관심학습</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--서브 비주얼 끝-->
+	<!-- container -->
+	<div id="container" class="container">
+		
+		<section class="section-box-v2">
+			<div class="inner">
+				<div class="page-head">
+					<p class="cm-txt__title--normal">학습성과</p>
+					<div class="share">
+						<a href="javascript:;" class="share-item url"></a>
+						<a href="javascript:;" class="share-item print"></a>
+					</div>
+				</div>
+				
+				<div class="learn-result">
+					<div class="box">
+						<div class="box-con">
+							<div class="line">
+								<img class="tm-hide" src="/res/home/publish/img/sub/line.svg" />
+								<img class="ta-show" src="/res/home/publish/img/sub/line_t.svg" />
+							</div>
+							
+							
+							<div class="badge-list">
+								<div class="item">
+									<div class="badge-img">
+										<img src="/res/home/publish/img/sub/badge_gold_01.svg" />
+									</div>
+									<div class="badge-info">
+										<p class="title">이달의 우수학습자</p>
+										<p class="con">배지설명이 나오는 부분입니다.<br/>배지설명이 나오는 부분입니다.</p>
+										<p class="date">2023.06.01</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="badge-img">
+										<img src="/res/home/publish/img/sub/badge_gold_02.svg" />
+									</div>
+									<div class="badge-info">
+										<p class="title">이달의 우수학습자</p>
+										<p class="con">배지설명이 나오는 부분입니다.<br/>배지설명이 나오는 부분입니다.</p>
+										<p class="date">2023.06.01</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="badge-img">
+										<img src="/res/home/publish/img/sub/badge_gold_03.svg" />
+									</div>
+									<div class="badge-info">
+										<p class="title">이달의 우수학습자</p>
+										<p class="con">배지설명이 나오는 부분입니다.<br/>배지설명이 나오는 부분입니다.</p>
+										<p class="date">2023.06.01</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="badge-img">
+										<img src="/res/home/publish/img/sub/badge_silver_01.svg" />
+									</div>
+									<div class="badge-info">
+										<p class="title">이달의 우수학습자</p>
+										<p class="con">배지설명이 나오는 부분입니다.<br/>배지설명이 나오는 부분입니다.</p>
+										<p class="date">2023.06.01</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="badge-img">
+										<img src="/res/home/publish/img/sub/badge_silver_02.svg" />
+									</div>
+									<div class="badge-info">
+										<p class="title">이달의 우수학습자</p>
+										<p class="con">배지설명이 나오는 부분입니다.<br/>배지설명이 나오는 부분입니다.</p>
+										<p class="date">2023.06.01</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="badge-img">
+										<img src="/res/home/publish/img/sub/badge_bronze_01.svg" />
+									</div>
+									<div class="badge-info">
+										<p class="title">이달의 우수학습자</p>
+										<p class="con">배지설명이 나오는 부분입니다.<br/>배지설명이 나오는 부분입니다.</p>
+										<p class="date">2023.06.01</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="badge-img">
+										<img src="/res/home/publish/img/sub/badge_bronze_02.svg" />
+									</div>
+									<div class="badge-info">
+										<p class="title">이달의 우수학습자</p>
+										<p class="con">배지설명이 나오는 부분입니다.<br/>배지설명이 나오는 부분입니다.</p>
+										<p class="date">2023.06.01</p>
+									</div>
+								</div>
+								<div class="item none">
+									<div class="badge-img"></div>
+									<div class="badge-info">
+										<p class="title">획득한 배지가 없습니다.</p>
+									</div>
+								</div>
+								<div class="item none">
+									<div class="badge-img"></div>
+									<div class="badge-info">
+										<p class="title">획득한 배지가 없습니다.</p>
+									</div>
+								</div>
+								<div class="item none">
+									<div class="badge-img"></div>
+									<div class="badge-info">
+										<p class="title">획득한 배지가 없습니다.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="section-box">
+					<div class="section-box__head">
+						<p class="section-title">배지 종류</p>
+					</div>
+					<div class="section-box__con">
+						<div class="badge-swiper">
+							<div class="badge-list swiper-wrapper badge-type">
+								<div class="item swiper-slide">
+									<div class="badge-img">
+										<img src="/res/home/publish/img/sub/badge_gold_01.svg" />
+									</div>
+									<div class="badge-info">
+										<p class="title">이달의 우수학습자</p>
+										<p class="con">배지설명이 나오는 부분입니다.<br/>배지설명이 나오는 부분입니다.</p>
+									</div>
+								</div>
+								<div class="item swiper-slide">
+									<div class="badge-img">
+										<img src="/res/home/publish/img/sub/badge_gold_02.svg" />
+									</div>
+									<div class="badge-info">
+										<p class="title">이달의 우수학습자</p>
+										<p class="con">배지설명이 나오는 부분입니다.<br/>배지설명이 나오는 부분입니다.</p>
+									</div>
+								</div>
+								<div class="item swiper-slide">
+									<div class="badge-img">
+										<img src="/res/home/publish/img/sub/badge_gold_03.svg" />
+									</div>
+									<div class="badge-info">
+										<p class="title">이달의 우수학습자</p>
+										<p class="con">배지설명이 나오는 부분입니다.<br/>배지설명이 나오는 부분입니다.</p>
+									</div>
+								</div>
+								<div class="item swiper-slide">
+									<div class="badge-img">
+										<img src="/res/home/publish/img/sub/badge_silver_01.svg" />
+									</div>
+									<div class="badge-info">
+										<p class="title">이달의 우수학습자</p>
+										<p class="con">배지설명이 나오는 부분입니다.<br/>배지설명이 나오는 부분입니다.</p>
+									</div>
+								</div>
+								<div class="item swiper-slide">
+									<div class="badge-img">
+										<img src="/res/home/publish/img/sub/badge_silver_02.svg" />
+									</div>
+									<div class="badge-info">
+										<p class="title">이달의 우수학습자</p>
+										<p class="con">배지설명이 나오는 부분입니다.<br/>배지설명이 나오는 부분입니다.</p>
+									</div>
+								</div>
+								<div class="item swiper-slide">
+									<div class="badge-img">
+										<img src="/res/home/publish/img/sub/badge_bronze_01.svg" />
+									</div>
+									<div class="badge-info">
+										<p class="title">이달의 우수학습자</p>
+										<p class="con">배지설명이 나오는 부분입니다.<br/>배지설명이 나오는 부분입니다.</p>
+									</div>
+								</div>
+								<div class="item swiper-slide">
+									<div class="badge-img">
+										<img src="/res/home/publish/img/sub/badge_bronze_02.svg" />
+									</div>
+									<div class="badge-info">
+										<p class="title">이달의 우수학습자</p>
+										<p class="con">배지설명이 나오는 부분입니다.<br/>배지설명이 나오는 부분입니다.</p>
+									</div>
+								</div>
+								<div class="item swiper-slide">
+									<div class="badge-img">
+										<img src="/res/home/publish/img/sub/badge_gold_03.svg" />
+									</div>
+									<div class="badge-info">
+										<p class="title">이달의 우수학습자</p>
+										<p class="con">배지설명이 나오는 부분입니다.<br/>배지설명이 나오는 부분입니다.</p>
+									</div>
+								</div>
+								<div class="item swiper-slide">
+									<div class="badge-img">
+										<img src="/res/home/publish/img/sub/badge_silver_01.svg" />
+									</div>
+									<div class="badge-info">
+										<p class="title">이달의 우수학습자</p>
+										<p class="con">배지설명이 나오는 부분입니다.<br/>배지설명이 나오는 부분입니다.</p>
+									</div>
+								</div>
+								<div class="item swiper-slide">
+									<div class="badge-img">
+										<img src="/res/home/publish/img/sub/badge_silver_02.svg" />
+									</div>
+									<div class="badge-info">
+										<p class="title">이달의 우수학습자</p>
+										<p class="con">배지설명이 나오는 부분입니다.<br/>배지설명이 나오는 부분입니다.</p>
+									</div>
+								</div>
+								<div class="item swiper-slide">
+									<div class="badge-img">
+										<img src="/res/home/publish/img/sub/badge_bronze_01.svg" />
+									</div>
+									<div class="badge-info">
+										<p class="title">이달의 우수학습자</p>
+										<p class="con">배지설명이 나오는 부분입니다.<br/>배지설명이 나오는 부분입니다.</p>
+									</div>
+								</div>
+								<div class="item swiper-slide">
+									<div class="badge-img">
+										<img src="/res/home/publish/img/sub/badge_bronze_02.svg" />
+									</div>
+									<div class="badge-info">
+										<p class="title">이달의 우수학습자</p>
+										<p class="con">배지설명이 나오는 부분입니다.<br/>배지설명이 나오는 부분입니다.</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-controller">
+								<button type="button" class="swiper-btn prev"></button>
+								<div class="swiper-pagination"></div>
+								<button type="button" class="swiper-btn next"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	
+	
+	<!-- // container -->
+	<!-- footer area -->
+	
+	<footer class="footer">
+		<div class="banner-list">
+			<div class="inner">
+				<div class="banner-list__control">
+					<a href="javascript:;" class="banner-list__prev icon-arrow_back" title="이전"></a>
+					<a href="javascript:;" class="banner-list__stop icon-pause_outline" title="리모트"></a>
+					<a href="javascript:;" class="banner-list__next icon-arrow_forward" title="다음"></a>
+				</div>
+				<div class="swiper banner-list__slider">
+					<div class="swiper-wrapper">
+							<a href="http://www.macadamia.kr/" class="swiper-slide" target="_blank">
+								<img src="/res/home/publish/img/common/macadamia.png" alt="macadamia">
+							</a>
+							<a href="http://www.dailydaechi.com/elementary/main" class="swiper-slide" target="_blank">
+								<img src="/res/home/publish/img/common/daechi.png" alt="일간대치동">
+							</a>
+							<a href="http://www.soluny.com/main/index.do" class="swiper-slide" target="_blank">
+								<img src="/res/home/publish/img/common/soluni.png" alt="솔루니 독서토론논술">
+							</a>
+
+							<a href="http://caihong.daekyo.com/web/main/homeLayout.do" class="swiper-slide" target="_blank">
+								<img src="/res/home/publish/img/common/chai.png" alt="차이홍">
+							</a>
+							<a href="http://eng.ybmclass.com/phone/junior/" class="swiper-slide" target="_blank">
+								<img src="/res/home/publish/img/common/ybm.png" alt="ybm전화 화상">
+							</a>
+							<a href="https://redbrick.land/" class="swiper-slide" target="_blank">
+								<img src="/res/home/publish/img/common/redbrick.png" alt="redbrick">
+							</a>
+							<a href="https://codmos.io/" class="swiper-slide" target="_blank">
+								<img src="/res/home/publish/img/common/codmos.png" alt="codmos">
+							</a>
+							<a href="http://www.welaaa.com/" class="swiper-slide" target="_blank">
+								<img src="/res/home/publish/img/common/willa.png" alt="윌라">
+							</a>
+							<a href="http://www.readinggate.com/" class="swiper-slide" target="_blank">
+								<img src="/res/home/publish/img/common/rg.png" alt="rg">
+							</a>
+							<a href="http://www.home-learn.co.kr/" class="swiper-slide" target="_blank">
+								<img src="/res/home/publish/img/common/homelearn.png" alt="homelearn">
+							</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="inner">
+			<div class="footer__top">
+				<div class="footer__flex">
+					<div>
+						<img src="/res/home/publish/img/common/footer_logo.svg" class="footer__logo" alt="AI-LEMP">
+					</div>
+					<div>
+						<ul class="footer__link">
+							<li><a href="javascript" class="inside">고객센터</a></li>
+							<li><a href="javascript" class="inside">이용약관</a></li>
+							<li><a href="javascript" class="inside">개인정보처리방침</a></li>
+							<li><a href="javascript" class="inside">기업/단체 제휴문의</a></li>
+							<li><a href="javascript" class="inside">가맹문의</a></li>
+						</ul>
+					</div>
+				</div>
+				<ul class="list-address">
+					<li>주식회사 아이스크림에듀</li>
+					<li>대표이사 이윤석</li>
+					<li>사업자등록번호 120-87-97004</li>
+					<li>서울시 강남구 테헤란로 88길 15</li>
+					<li>고객센터 000-0000 (운영시간) 평일ㆍ토요일 9:00-18:00 / 공휴일 및 일요일 휴무</li>
+				</ul>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__flex">
+					<p class="copyright">Copyright ⓒ VSQUARE 2023. All rights reserved.</p>
+					<label for="familySite" class="family-site-frame">
+						<select id="familySite" class="family-site">
+							<option value="">관련사이트</option>
+						</select>
+					</label>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- // footer area -->
+<!--	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>-->
+<!--	<script src="/res/lia/vendor/vendor.js" type="text/javascript" charset="utf-8"></script>-->
+	<script src="/res/home/publish/js/swiper-bundle.min.js"></script>
+	<script src="/res/home/publish/js/common.js"></script>
+	<script src="/res/home/publish/js/sub.js"></script>
+	<script src="/res/home/publish/js/learn.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+		  content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<!-- TODO add -->
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="font/spoqa-han-sans/style.css">
+	<link rel="stylesheet" href="font/ns-round/style.css">
+	<link rel="stylesheet" href="style/slick-1.8.1.min.css">
+	<link rel="stylesheet" href="style/swiper-4.5.1.min.css">
+	<link rel="stylesheet" href="icon_fonts/icon_fonts.min.css">
+	<link rel="stylesheet" href="style/style_sub.min.css">
+	<!--<link rel="stylesheet" href="style/complete/style.min.css">-->
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/slick-1.8.1.min.js"></script>
+	<script src="js/swiper-4.5.1.min.js"></script>
+	<script src="js/ScrollMagic.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/sub.js"></script>
+	<title>AI-LEMP</title>
+</head>
+
+<body>
+<noscript>자바스크립트를 지원하지 않는 브라우저에서는 일부 기능이 정상 동작 하지 않을 수 있습니다.</noscript>
+<div class="skip-navigation"><a href="#container">본문 바로가기</a></div>
+<div class="skip-navigation"><a href="#gnb">주메뉴 바로가기</a></div>
+<div class="skip-navigation"><a href="/">메인으로 바로가기</a></div>
+<!-- header area -->
+<header class="header">
+	<div class="inner">
+		<ul class="logo-frame">
+			<li><img src="/res/home/publish/img/common/logo.svg" class="logo" alt="AI-LEMP"></li>
+			<li><img src="/res/home/publish/img/common/custom_logo.svg" class="logo-custom"></li>
+		</ul>
+		<div class="header-box">
+			<div class="header-box__top">
+				<div class="inner">
+					<div class="header-box__top--left">
+						<div class="login-after__row">
+							<img src="/res/home/publish/img/common/img-profile-02.svg" class="profile-icon" alt="프로필아이콘">
+							<div class="login-info">
+								<p class="name">홍길동 <span>님</span></p>
+								<p class="turn">프로필 전환 <span class="icon-sync_outline"></span></p>
+							</div>
+						</div>
+						<ul class="login-after__table">
+							<li>
+								<span>완료된 학습</span>
+								<div>
+									<span class="complete-num">42</span>
+									<span class="icon-arrow_forward"></span>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="header-box__top--right">
+						<a href="javascript:;" class="event-banner"></a>
+						<ul class="list-default">
+							<!-- TODO 로그인 후 : 학습자 -->
+							<li class="tm-show">
+								<a href="javascript:;" class="btn-small&#45;&#45;bg">로그아웃</a>
+							</li>
+							<li>
+								<div class="login-after__frame">
+									<a href="javascript:;" class="login-after">
+										<img src="/res/home/publish/img/common/img-profile-02.svg" class="profile-icon" alt="프로필아이콘">
+										<span class="name">홍길동</span>
+										<span class="icon-chevron_down"></span>
+									</a>
+									<div class="login-after__box">
+										<div class="login-after__row">
+											<img src="/res/home/publish/img/common/img-profile-02.svg" class="profile-icon" alt="프로필아이콘">
+											<div class="login-info">
+												<p class="name">홍길동</p>
+												<p class="turn">프로필 전환 <span class="icon-sync_outline"></span></p>
+											</div>
+										</div>
+										<ul class="login-list">
+											<li>
+												<span>완료된 학습</span>
+												<span class="complete-num">42</span>
+											</li>
+											<li><span>고객센터</span></li>
+											<li><span>로그아웃</span></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<!-- TODO 로그인 후 : 학습자 끝 -->
+						</ul>
+						<a href="javascript:;" class="icon-close js-menu-hide" title="닫기"></a>
+					</div>
+				</div>
+			</div>
+			<div class="header-box__bottom">
+				<ul class="menu-tab">
+					<li class="on" data-menu="0">전체메뉴</li>
+					<li data-menu="1">퀵메뉴</li>
+				</ul>
+				<ul id="gnb" class="gnb-list menu-box" data-con="0">
+					<li>
+						<a href="javascript:;" class="gnb-list__txt">전남 교육청</a>
+						<ul class="depth2-list">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">인사말</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">사업소개</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">이용안내</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">학습지표 및 보상 안내</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">Contact</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt">스마트학습</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt">1:1 과외</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt">외국어</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt">독서/문해력</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt">디지털교육</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt">학습신청</a>
+						<ul class="depth2-list">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">학습신청</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt">커뮤니티</a>
+						<ul class="depth2-list">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">
+									공지사항
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">
+									이벤트
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">
+									이달의 우수 학습자
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">
+									FAQ
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">
+									자료실
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt">나의 학습</a>
+						<ul class="depth2-list">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">학습현황</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">포인트 현황</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">설문</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">문의내역</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">회원정보수정</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<div class="floating-menu menu-box" data-con="1">
+					<a class="floating-menu__item" href="javascript:;">
+						<img class="icon" src="/res/home/publish/img/common/quick.png" />
+						<span class="title">나의 학습</span>
+					</a>
+					<a class="floating-menu__item" href="javascript:;">
+						<img class="icon" src="/res/home/publish/img/common/quick2.png" />
+						<span class="title">진단 검사</span>
+					</a>
+					<a class="floating-menu__item" href="javascript:;">
+						<img class="icon" src="/res/home/publish/img/common/quick3.png" />
+						<span class="title">수료증 발급</span>
+					</a>
+					<a class="floating-menu__item" href="javascript:;">
+						<img class="icon" src="/res/home/publish/img/common/quick4.png" />
+						<span class="title">설문</span>
+					</a>
+					<a class="floating-menu__item" href="javascript:;">
+						<img class="icon" src="/res/home/publish/img/common/quick5.png" />
+						<span class="title">문의하기</span>
+					</a>
+					<a class="floating-menu__item" href="javascript:;">
+						<img class="icon" src="/res/home/publish/img/common/quick6.png" />
+						<span class="title">원격지원</span>
+					</a>
+					<a class="floating-menu__item" href="javascript:;">
+						<img class="icon" src="/res/home/publish/img/common/quick7.png" />
+						<span class="title small">바우처대상확인</span>
+					</a>
+					<a class="floating-menu__item" href="javascript:;">
+					</a>
+				</div>
+				<ul class="menu-bottom">
+					<li>고객센터</li>
+					<li>이벤트</li>
+				</ul>
+			</div>
+		</div>
+		<ul class="header__list-icon">
+			<li class="header__menu">
+				<a href="javascript:;" class="icon-vs_menu js-menu-show" title="메뉴 펼치기"></a>
+			</li>
+		</ul>
+	</div>
+	<!--*** TODO 2depth가 있을 경우-->
+	<div class="tm-depth2">
+		<div class="title">
+			학습현황
+			<span class="icon-chevron_down"></span>
+		</div>
+		<ul class="tm-depth2__list">
+			<li class="on">학습현황</li>
+			<li>포인트 현황</li>
+			<li>설문</li>
+			<li>문의내역</li>
+			<li>회원정보수정</li>
+		</ul>
+	</div>
+</header>
+<!-- // header area -->
+<!-- container -->
+<!--TODO : 서브 비주얼-->
+<div class="sub-visual">
+	<div class="inner">
+		<div class="sub-visual__title">
+			<p class="sub-title">나의 학습</p>
+			<ul class="cm-index-list">
+				<li><a href="javascript:;" class="inside"><span class="icon-home"></span></a></li>
+				<li><a href="javascript:;" class="inside">나의 학습</a></li>
+				<li><a href="javascript:;" class="inside">학습현황</a></li>
+				<li class="now"><a href="javascript:;" class="inside">학습과정</a></li>
+			</ul>
+		</div>
+		<div class="board__tab-frame">
+			<div class="title">
+				대시보드
+				<span class="icon-chevron_down"></span>
+			</div>
+			<ul class="board__tab">
+				<li><a href="javascript:;" class="board__tab--block">대시보드</a></li>
+				<li class="now"><a href="javascript:;" class="board__tab--block">학습과정</a></li>
+				<li><a href="javascript:;" class="board__tab--block">완료과정</a></li>
+				<li><a href="javascript:;" class="board__tab--block">학습성과</a></li>
+				<li><a href="javascript:;" class="board__tab--block">관심학습</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!--TODO : 서브 비주얼 끝-->
+<div id="container" class="container">
+	<div class="floating">
+		<img src="/res/home/publish/img/common/quick_icon.png" class="quick-icon" alt="퀵아이콘">
+		<div class="floating-menu">
+			<a class="floating-menu__item" href="javascript:;">
+				<img class="icon" src="/res/home/publish/img/common/quick.png" />
+				<span class="title">나의 학습</span>
+			</a>
+			<a class="floating-menu__item" href="javascript:;">
+				<img class="icon" src="/res/home/publish/img/common/quick2.png" />
+				<span class="title">진단 검사</span>
+			</a>
+			<a class="floating-menu__item" href="javascript:;">
+				<img class="icon" src="/res/home/publish/img/common/quick3.png" />
+				<span class="title">수료증 발급</span>
+			</a>
+			<a class="floating-menu__item" href="javascript:;">
+				<img class="icon" src="/res/home/publish/img/common/quick4.png" />
+				<span class="title">설문</span>
+			</a>
+			<a class="floating-menu__item" href="javascript:;">
+				<img class="icon" src="/res/home/publish/img/common/quick5.png" />
+				<span class="title">문의하기</span>
+			</a>
+			<a class="floating-menu__item" href="javascript:;">
+				<img class="icon" src="/res/home/publish/img/common/quick6.png" />
+				<span class="title">원격지원</span>
+			</a>
+			<a class="floating-menu__item" href="javascript:;">
+				<img class="icon" src="/res/home/publish/img/common/quick7.png" />
+				<span class="title small">바우처대상확인</span>
+			</a>
+		</div>
+		<button class="floating-top" title="위로 가기">TOP</button>
+		<div class="chat-box on">
+			<div class="chat-box__circle">
+				<img src="/res/home/publish/img/common/lamp_icon_off.jpg" alt="챗봇아이콘">
+			</div>
+			<div class="chat-box__inner">
+				<div class="left">
+					<p class="chat-title">무엇이든 물어보세요!</p>
+					<p class="chat-sub">전남 GPT</p>
+				</div>
+				<img src="/res/home/publish/img/common/lamp_icon.png" class="lamp-icon" alt="챗봇아이콘">
+			</div>
+		</div>
+	</div>
+	<section class="section-box-v2">
+		<div class="inner">
+			<div class="profile-section">
+				<div class="talk notail">
+					<ul class="talk-list">
+						<li>
+							<dl>
+								<dd>아이스크림홈런</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dd>온라인 학습명</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dd>학습구분명</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dd>학습명</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dd>2023.01.01</dd>
+							</dl>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="back-box">
+				<span class="icon-chevron_back"></span>
+				<p class="title">학습 리포트</p>
+				<ul class="cm-share-list">
+					<li><a href="javascript:;" class="icon-share_social_outline inside" title="공유하기"></a></li>
+					<li class="print"><a href="javascript:;" class="icon-vs_print_outline inside" title="프린트하기"></a></li>
+				</ul>
+			</div>
+			<div class="report-section">
+				<div class="goal-box report-area">
+					<div class="title-area">
+						<p class="cm-txt__title--forward">학습 달성현황</p>
+						<div class="during-box">
+							<div class="form-sort-triple">
+								<label for="kinds2">
+									<select id="kinds2">
+										<option>월간</option>
+									</select>
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="goal-flex">
+						<div class="goal-flex__item">
+							<div id="reportT"></div>
+							<p class="graph-title">출석률 <span class="icon-help_circle js-help"></span></p>
+							<div class="help-box">
+								<div class="flex-box">
+									<img src="/res/home/publish/img/sub/clock_icon.svg" alt="시간아이콘">
+									<p class="txt--m">학습 달성률에 대한 부가적인
+										설명이 나오는 부분입니다.
+										설명은 최대 3줄까지만 표시</p>
+								</div>
+							</div>
+						</div>
+						<div class="goal-flex__item">
+							<div id="reportM"></div>
+							<p class="graph-title">수행률 <span class="icon-help_circle js-help"></span></p>
+							<div class="help-box">
+								<div class="flex-box">
+									<img src="/res/home/publish/img/sub/clock_icon.svg" alt="시간아이콘">
+									<p class="txt--m">학습 달성률에 대한 부가적인
+										설명이 나오는 부분입니다.
+										설명은 최대 3줄까지만 표시</p>
+								</div>
+							</div>
+						</div>
+						<div class="goal-flex__item">
+							<div id="reportB"></div>
+							<p class="graph-title">정답률 <span class="icon-help_circle js-help"></span></p>
+							<div class="help-box">
+								<div class="flex-box">
+									<img src="/res/home/publish/img/sub/clock_icon.svg" alt="시간아이콘">
+									<p class="txt--m">학습 달성률에 대한 부가적인
+										설명이 나오는 부분입니다.
+										설명은 최대 3줄까지만 표시</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="compare-box">
+					<div class="white-area">
+						<div class="compare-graph">
+							<div id="compareCol"></div>
+						</div>
+					</div>
+					<div class="white-area">
+						<div class="compare-profile">
+							<div class="first">
+								<div class="title-area">
+									<p class="cm-txt__title--forward">스스로 학습 수</p>
+								</div>
+								<div class="img-box mo-show">
+									<img src="/res/home/publish/img/sub/compare_bg.png" alt="스스로 학습 수 이미지">
+								</div>
+								<p class="cm-txt__sub--nano gray-color--700">한 해 동안 스스로 학습한 수를 확인해봅시다.<br>
+									달 별로 마지막 학습 날짜도 확인할 수 있어요.</p>
+								<a href="javascript:;" class="btn-small tm-show">마지막 학습 날짜 확인</a>
+							</div>
+							<div class="img-box mo-hide">
+								<img src="/res/home/publish/img/sub/compare_bg.png" alt="스스로 학습 수 이미지">
+							</div>
+						</div>
+						<div class="self-graph">
+							<div id="selfPro"></div>
+							<div class="self-graph__year">
+								<div class="first">2022월 1월</div>
+								<div class="second">2022월 12월</div>
+							</div>
+						</div>
+						<p class="container__txt--info mo-show"><span class="icon-alert_circle_outline"></span>좌우 스크롤 하시면 내용을 확인하실 수 있습니다.</p>
+					</div>
+				</div>
+				<div class="sum-box white-area">
+					<div class="during-box">
+						<div class="form-sort-triple">
+							<label for="kinds">
+								<select id="kinds">
+									<option>당월</option>
+								</select>
+							</label>
+						</div>
+					</div>
+					<div class="sum-graph">
+						<div id="sumBar"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+<!-- // container -->
+<!-- footer area -->
+<footer class="footer">
+	<div class="banner-list">
+		<div class="inner">
+			<div class="banner-list__control">
+				<a href="javascript:;" class="banner-list__prev icon-arrow_back" title="이전"></a>
+				<a href="javascript:;" class="banner-list__stop icon-pause_outline" title="리모트"></a>
+				<a href="javascript:;" class="banner-list__next icon-arrow_forward" title="다음"></a>
+			</div>
+			<div class="swiper banner-list__slider">
+				<div class="swiper-wrapper">
+					<a href="http://www.macadamia.kr/" class="swiper-slide" target="_blank">
+						<img src="/res/home/publish/img/common/macadamia.png" alt="macadamia">
+					</a>
+					<a href="http://www.dailydaechi.com/elementary/main" class="swiper-slide" target="_blank">
+						<img src="/res/home/publish/img/common/daechi.png" alt="일간대치동">
+					</a>
+					<a href="http://www.soluny.com/main/index.do" class="swiper-slide" target="_blank">
+						<img src="/res/home/publish/img/common/soluni.png" alt="솔루니 독서토론논술">
+					</a>
+
+					<a href="http://caihong.daekyo.com/web/main/homeLayout.do" class="swiper-slide" target="_blank">
+						<img src="/res/home/publish/img/common/chai.png" alt="차이홍">
+					</a>
+					<a href="http://eng.ybmclass.com/phone/junior/" class="swiper-slide" target="_blank">
+						<img src="/res/home/publish/img/common/ybm.png" alt="ybm전화 화상">
+					</a>
+					<a href="https://redbrick.land/" class="swiper-slide" target="_blank">
+						<img src="/res/home/publish/img/common/redbrick.png" alt="redbrick">
+					</a>
+					<a href="https://codmos.io/" class="swiper-slide" target="_blank">
+						<img src="/res/home/publish/img/common/codmos.png" alt="codmos">
+					</a>
+					<a href="http://www.welaaa.com/" class="swiper-slide" target="_blank">
+						<img src="/res/home/publish/img/common/willa.png" alt="윌라">
+					</a>
+					<a href="http://www.readinggate.com/" class="swiper-slide" target="_blank">
+						<img src="/res/home/publish/img/common/rg.png" alt="rg">
+					</a>
+					<a href="http://www.home-learn.co.kr/" class="swiper-slide" target="_blank">
+						<img src="/res/home/publish/img/common/homelearn.png" alt="homelearn">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="inner">
+		<div class="footer__top">
+			<div class="footer__flex">
+				<div>
+					<img src="/res/home/publish/img/common/footer_logo.svg" class="footer__logo" alt="AI-LEMP">
+				</div>
+				<div>
+					<ul class="footer__link">
+						<li><a href="javascript" class="inside">고객센터</a></li>
+						<li><a href="javascript" class="inside">이용약관</a></li>
+						<li><a href="javascript" class="inside">개인정보처리방침</a></li>
+						<li><a href="javascript" class="inside">기업/단체 제휴문의</a></li>
+						<li><a href="javascript" class="inside">가맹문의</a></li>
+					</ul>
+				</div>
+			</div>
+			<ul class="list-address">
+				<li>주식회사 아이스크림에듀</li>
+				<li>대표이사 이윤석</li>
+				<li>사업자등록번호 120-87-97004</li>
+				<li>서울시 강남구 테헤란로 88길 15</li>
+				<li>고객센터 000-0000 (운영시간) 평일ㆍ토요일 9:00-18:00 / 공휴일 및 일요일 휴무</li>
+			</ul>
+		</div>
+		<div class="footer__bottom">
+			<div class="footer__flex">
+				<p class="copyright">Copyright ⓒ VSQUARE 2023. All rights reserved.</p>
+				<label for="familySite" class="family-site-frame">
+					<select id="familySite" class="family-site">
+						<option value="">관련사이트</option>
+					</select>
+				</label>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- // footer area -->
+<!-- plugin : 차트 스크립트 -->
+<script src="js/apexcharts.min.js"></script>
+<script>
+	$(function (){
+		/* custom */
+		var time = [8, 53];
+		var evaluation = {
+			Bad: {
+				name: 'Bad',
+				color: '#ff435f'
+			},
+			Good: {
+				name: 'Good',
+				color: '#ff8e22'
+			},
+			Nice: {
+				name: 'Nice',
+				color: '#00bd99'
+			},
+			Exellent: {
+				name: 'Exellent',
+				color: '#57d8f4'
+			},
+			Perfect: {
+				name: 'Perfect',
+				color: '#8f58ff'
+			}
+		};
+		/* 학습 달성현황 - 출석률 */
+		var reportT = {
+			series: [80],
+			chart: {
+				type: 'radialBar',
+				offsetY: -50,
+				sparkline: {
+					enabled: false
+				},
+				width: "100%",
+			},
+			noData: {
+				text: '데이터가 없습니다.',
+				align: 'center',
+				verticalAlign: 'middle',
+				offsetX: 0,
+				offsetY: 0,
+				style: {
+					color: '#000',
+					fontSize: '16px',
+					fontFamily: 'spoqa-regular'
+				}
+			},
+			stroke: {
+				lineCap: 'round'
+			},
+			plotOptions: {
+				radialBar: {
+					startAngle: -100,
+					endAngle: 100,
+					track: {
+						background: "#eee",
+						strokeWidth: '100%',
+						margin: 13,
+					},
+					dataLabels: {
+						name: {
+							show: false,
+						},
+						value: {
+							offsetY: 0,
+							fontSize: '32px',
+							fontWeight: 'bold',
+							fontFamily: 'nsr-eb',
+							color: '#000',
+							formatter: function (val) {
+								return val + "%";
+							}
+						}
+					}
+				}
+			},
+			grid: {
+				padding: {
+					top: 0
+				}
+			},
+			fill: {
+				colors: evaluation.Nice.color,
+			},
+			responsive: [
+				{
+					breakpoint: 1280,
+					options: {
+						chart: {
+							offsetY: -30,
+							height: 300
+						},
+						plotOptions: {
+							radialBar: {
+								track: {
+									margin: 0,
+								},
+								hollow: {
+									margin: 0,
+									size: '65%'
+								},
+								dataLabels: {
+									value: {
+										fontSize: '28px',
+									}
+								}
+							}
+						}
+					}
+				},
+			]
+		};
+		var half1 = new ApexCharts(document.querySelector("#reportT"), reportT);
+		half1.render();
+		/* 학습 달성현황 - 수행률 */
+		var reportM = {
+			series: [85],
+			chart: {
+				type: 'radialBar',
+				offsetY: -50,
+				sparkline: {
+					enabled: false
+				},
+				width: "100%",
+			},
+			noData: {
+				text: '데이터가 없습니다.',
+				align: 'center',
+				verticalAlign: 'middle',
+				offsetX: 0,
+				offsetY: 0,
+				style: {
+					color: '#000',
+					fontSize: '16px',
+					fontFamily: 'spoqa-regular'
+				}
+			},
+			stroke: {
+				lineCap: 'round'
+			},
+			plotOptions: {
+				radialBar: {
+					startAngle: -100,
+					endAngle: 100,
+					track: {
+						background: "#eee",
+						strokeWidth: '100%',
+						margin: 13,
+					},
+					dataLabels: {
+						name: {
+							show: false,
+						},
+						value: {
+							offsetY: 0,
+							fontSize: '32px',
+							fontWeight: 'bold',
+							fontFamily: 'nsr-eb',
+							color: '#000',
+							formatter: function (val) {
+								return val + "%";
+							}
+						}
+					}
+				}
+			},
+			grid: {
+				padding: {
+					top: 0
+				}
+			},
+			fill: {
+				colors: evaluation.Exellent.color,
+			},
+			responsive: [
+				{
+					breakpoint: 1280,
+					options: {
+						chart: {
+							offsetY: -30,
+							height: 300
+						},
+						plotOptions: {
+							radialBar: {
+								track: {
+									margin: 0,
+								},
+								hollow: {
+									margin: 0,
+									size: '65%'
+								},
+								dataLabels: {
+									value: {
+										fontSize: '28px',
+									}
+								}
+							}
+						}
+					}
+				},
+			]
+		};
+		var half2 = new ApexCharts(document.querySelector("#reportM"), reportM);
+		half2.render();
+		/* 학습 달성현황 - 정답률 */
+		var reportB = {
+			series: [60],
+			chart: {
+				type: 'radialBar',
+				offsetY: -50,
+				sparkline: {
+					enabled: false
+				},
+				width: "100%",
+			},
+			noData: {
+				text: '데이터가 없습니다.',
+				align: 'center',
+				verticalAlign: 'middle',
+				offsetX: 0,
+				offsetY: 0,
+				style: {
+					color: '#000',
+					fontSize: '16px',
+					fontFamily: 'spoqa-regular'
+				}
+			},
+			stroke: {
+				lineCap: 'round'
+			},
+			plotOptions: {
+				radialBar: {
+					startAngle: -105,
+					endAngle: 105,
+					track: {
+						background: "#eee",
+						strokeWidth: '100%',
+						margin: 13, // margin is in pixels
+					},
+					dataLabels: {
+						name: {
+							show: false,
+						},
+						value: {
+							offsetY: 0,
+							fontSize: '32px',
+							fontWeight: 'bold',
+							fontFamily: 'nsr-eb',
+							color: '#000',
+							formatter: function (val) {
+								return val + "%";
+							}
+						}
+					}
+				}
+			},
+			grid: {
+				padding: {
+					top: 0
+				}
+			},
+			fill: {
+				colors: evaluation.Good.color,
+			},
+			responsive: [
+				{
+					breakpoint: 1280,
+					options: {
+						chart: {
+							offsetY: -30,
+							height: 300
+						},
+						plotOptions: {
+							radialBar: {
+								track: {
+									margin: 0,
+								},
+								hollow: {
+									margin: 0,
+									size: '65%'
+								},
+								dataLabels: {
+									value: {
+										fontSize: '28px',
+									}
+								}
+							}
+						}
+					}
+				},
+			]
+		};
+		var half3 = new ApexCharts(document.querySelector("#reportB"), reportB);
+		half3.render();
+		/* 상위 학습자 비교현황 */
+		var compareCol = {
+			series: [{
+				name: '학습자',
+				type: 'bar',
+				data: [90, 90, 90],
+			}, {
+				name: '상위평균학습',
+				type: 'bar',
+				data: [60, 60, 60]
+			}],
+			chart: {
+				toolbar: {
+					tools: {
+						download: false
+					}
+				},
+				height: 310,
+				type: 'bar',
+				stacked: false,
+				offsetY: 0,
+			},
+			title: {
+				text: '상위 학습자 비교현황',
+				align: 'left',
+				margin: 0,
+				offsetX: 0,
+				offsetY: 0,
+				floating: false,
+				style: {
+					fontSize:  '24px',
+					fontWeight:  'bold',
+					fontFamily:  'nsr-eb',
+					color:  '#000'
+				},
+			},
+			colors: ['#8f58ff', '#e8e8f0'],
+			noData: {
+				text: '데이터가 없습니다.',
+				align: 'center',
+				verticalAlign: 'middle',
+				offsetX: 0,
+				offsetY: 0,
+				style: {
+					color: '#000',
+					fontSize: '16px',
+					fontFamily: 'spoqa-regular'
+				}
+			},
+			plotOptions: {
+				bar: {
+					columnWidth: '44px',
+					startingShape: 'flat',
+					endingShape: 'rounded',
+					borderRadius: 12,
+					dataLabels: {
+						position: "top"
+					},
+				}
+			},
+			dataLabels: {
+				enabled: true,
+				offsetY: -25,
+				style: {
+					fontFamily: 'spoqa-regular',
+					fontSize: '14px',
+					colors: ["#000"]
+				},
+				formatter: function (val) {
+					return val + "%";
+				},
+			},
+			stroke: {
+				show: true,
+				width: 20,
+				colors: ['transparent']
+			},
+			xaxis: {
+				categories: ['출석률', '수행률', '정답률'],
+				labels: {
+					style: {
+						colors: ['#000'],
+						fontSize: '16px',
+						fontFamily: 'spoqa-regular',
+						fontWeight: 500,
+						cssClass: 'compareCol-x',
+					},
+				},
+				axisTicks: {
+					show: false,
+				},
+			},
+			yaxis: {
+				labels: {
+					style: {
+						colors: ['#9e9e9e'],
+						fontSize: '14px',
+						fontFamily: 'spoqa-regular',
+						fontWeight: 500,
+						cssClass: 'compareCol-y',
+					},
+				},
+			},
+			legend: {
+				position: 'top',
+				horizontalAlign: 'right',
+				fontFamily: 'spoqa-regular',
+				fontSize: '14px',
+				labels: {
+					useSeriesColors: false,
+				},
+				formatter: function(seriesName, opts) {
+					return (
+							"<div class='graph-legend'>"
+							+ seriesName
+							+"</div>"
+					)
+				},
+			},
+			responsive: [
+				{
+					breakpoint: 1280,
+					options: {
+						plotOptions: {
+							bar: {
+								horizontal: false,
+								columnWidth: '40px',
+								borderRadius: 10,
+							}
+						},
+						xaxis: {
+							labels: {
+								style: {
+									colors: ['#000'],
+									fontSize: '14px',
+								},
+							},
+							position: 'bottom',
+							axisBorder: {
+								show: false,
+							},
+						},
+						yaxis: {
+							labels: {
+								style: {
+									colors: ['#9e9e9e'],
+									fontSize: '14px',
+								},
+							},
+						},
+						stroke: {
+							width: 20,
+						},
+						dataLabels: {
+							offsetX: 0,
+							offsetY: -25,
+							style: {
+								fontSize: '13px',
+							},
+						},
+						grid: {
+							xaxis: {
+								lines: {
+									show: false
+								}
+							},
+							yaxis: {
+								lines: {
+									show: true
+								}
+							},
+						},
+					}
+				},
+				{
+					breakpoint: 767,
+					options: {
+						chart: {
+							height: '400',
+						},
+						plotOptions: {
+							bar: {
+								horizontal: true,
+								columnWidth: '40px',
+								borderRadius: 7,
+							}
+						},
+						xaxis: {
+							tickAmount: 6,
+							labels: {
+								width: '10px',
+								style: {
+									colors: ['#9e9e9e'],
+									fontSize: '14px'
+								},
+							},
+							position: 'top',
+							axisBorder: {
+								show: false,
+							},
+						},
+						yaxis: {
+							labels: {
+								width: '10px',
+								style: {
+									colors: ['#000'],
+									fontSize: '14px'
+								},
+							},
+						},
+						legend: {
+							position: 'top',
+							horizontalAlign: 'left',
+						},
+						stroke: {
+							width: 16,
+						},
+						dataLabels: {
+							textAnchor: 'middle',
+							offsetY: -7,
+							offsetX: 45
+						},
+						grid: {
+							xaxis: {
+								lines: {
+									show: true
+								}
+							},
+							yaxis: {
+								lines: {
+									show: false
+								}
+							},
+						},
+						title: {
+							style: {
+								fontSize:  '18px',
+							},
+						},
+					}
+				}
+			]
+		};
+		var columnLabel = new ApexCharts(document.querySelector("#compareCol"), compareCol);
+		columnLabel.render();
+		/*스스로 학습 수*/
+		/*월별 마지막 학습 일:last*/
+		var learnDate = {
+			Jan: {
+				name: '2022.01',
+				last: '.21',
+			},
+			Feb: {
+				name: '2022.02',
+				last: '.01',
+			},
+			Mar: {
+				name: '2022.03',
+				last: '.08',
+			},
+			Apr: {
+				name: '2022.04',
+				last: '.27',
+			},
+			May: {
+				name: '2022.05',
+				last: '.21',
+			},
+			Jun: {
+				name: '2022.06',
+				last: '.24',
+			},
+			Jul: {
+				name: '2022.07',
+				last: '.21',
+			},
+			Aug: {
+				name: '2022.08',
+				last: '.18',
+			},
+			Sep: {
+				name: '2022.09',
+				last: '.11',
+			},
+			Ocp: {
+				name: '2022.10',
+				last: '.21',
+			},
+			Nov: {
+				name: '2022.11',
+				last: '.21',
+			},
+			Dec: {
+				name: '2022.12',
+				last: '.21',
+			}
+		}
+		var selfPro = {
+			series: [
+				{
+					name: learnDate.Jan.name + learnDate.Jan.last,
+					data: [5]
+				}, {
+					name: learnDate.Feb.name + learnDate.Feb.last,
+					data: [8]
+				}, {
+					name: learnDate.Mar.name + learnDate.Mar.last,
+					data: [17]
+				}, {
+					name: learnDate.Apr.name + learnDate.Apr.last,
+					data: [3]
+				}, {
+					name: learnDate.May.name + learnDate.May.last,
+					data: [1]
+				}, {
+					name: learnDate.Jun.name + learnDate.Jun.last,
+					data: [23]
+				}, {
+					name: learnDate.Jul.name + learnDate.Jul.last,
+					data: [3]
+				}, {
+					name: learnDate.Aug.name + learnDate.Aug.last,
+					data: [3]
+				}, {
+					name: learnDate.Sep.name + learnDate.Sep.last,
+					data: [3]
+				}, {
+					name: learnDate.Ocp.name + learnDate.Ocp.last,
+					data: [3]
+				}, {
+					name: learnDate.Nov.name + learnDate.Nov.last,
+					data: [15]
+				}, {
+					name: learnDate.Dec.name + learnDate.Dec.last,
+					data: [10]
+				},
+			],
+			chart: {
+				type: 'bar',
+				width: '100%',
+				height: 140,
+				stacked: true,
+				sparkline: {
+					enabled: true
+				},
+				toolbar: {
+					tools: {
+						download: false
+					}
+				},
+				/*stackType: '100%'*/
+			},
+			colors: ['#ffaa33', '#f4b433', '#f7d633', '#95dc4e', '#33e089', '#33cfcf', '#388ee4', '#8f58ff', '#b666c6', '#f933a9', '#ff435f', '#ff8e22'],
+			plotOptions: {
+				bar: {
+					horizontal: true,
+				},
+			},
+			stroke: {
+				width: 1,
+				colors: ['#fff']
+			},
+			xaxis: {
+				categories: ['year'],
+			},
+			yaxis: {
+			},
+			tooltip: {
+				theme: 'dark',
+				x: {
+					formatter: function (val) {
+						return "마지막 학습 날"
+					}
+				},
+				y: {
+					formatter: function(value, { series, seriesIndex, dataPointIndex, w }) {
+						return;
+					}
+				},
+				marker: {
+					show: false,
+				},
+			},
+			fill: {
+				opacity: 1
+
+			},
+			legend: {
+				show: false,
+				position: 'bottom',
+				horizontalAlign: 'left',
+				offsetX: 0
+			},
+			labels: [1,2,3,4,5,6,7,8,9,10,11,12],
+			noData: {
+				text: '데이터가 없습니다.',
+				align: 'center',
+				verticalAlign: 'middle',
+				offsetX: 0,
+				offsetY: 0,
+				style: {
+					color: '#000',
+					fontSize: '16px',
+					fontFamily: 'spoqa-regular'
+				}
+			},
+			dataLabels: {
+				enabled: true,
+				offsetX: -5,
+				offsetY: 0,
+				textAnchor: 'top',
+				style: {
+					fontFamily: 'spoqa-regular',
+					fontWeight: 400,
+					fontSize: '14px',
+					colors: ["#fff"]
+				},
+				formatter: function (val) {
+					return val;
+				},
+			},
+			responsive: [
+				{
+					breakpoint: 767,
+					options: {
+						chart: {
+							width: 700
+						},
+						tooltip: {
+							fixed: {
+								enabled: false,
+								position: 'topLeft',
+								offsetX: 0,
+								offsetY: 0,
+							},
+						}
+					}
+				}
+			]
+		};
+		var selfPro = new ApexCharts(document.querySelector("#selfPro"), selfPro);
+		selfPro.render();
+		/* 총 학습시간 */
+		var sumBar = {
+			series: [{
+				name: '학습시간',
+				type: 'column',
+				data: [
+					{
+						x: '1주차',
+						y: 55,
+						fillColor: '#ff435f',
+					},
+					{
+						x: '2주차',
+						y: 65,
+						fillColor: '#ff8e22',
+					},
+					{
+						x: '3주차',
+						y: 80,
+						fillColor: '#00bd99',
+					},
+					{
+						x: '4주차',
+						y: 42,
+						fillColor: '#57d8f4',
+					},
+					{
+						x: '5주차',
+						y: 64,
+						fillColor: '#8f58ff',
+					}
+				],
+			}],
+			chart: {
+				toolbar: {
+					tools: {
+						download: false
+					}
+				},
+				height: 354,
+				type: 'bar',
+				offsetY: 0,
+				stacked: false,
+				sparkline: {
+					enabled: false
+				}
+			},
+			title: {
+				text: '총 학습시간',
+				align: 'left',
+				margin: 40,
+				offsetX: 0,
+				offsetY: -10,
+				floating: false,
+				style: {
+					fontSize:  '24px',
+					fontWeight:  'bold',
+					fontFamily:  'nsr-eb',
+					color:  '#000'
+				},
+			},
+			noData: {
+				text: '데이터가 없습니다.',
+				align: 'center',
+				verticalAlign: 'middle',
+				offsetX: 0,
+				offsetY: 0,
+				style: {
+					color: '#000',
+					fontSize: '16px',
+					fontFamily: 'spoqa-regular'
+				}
+			},
+			stroke: {
+				show: true,
+				lineCap: 'round'
+			},
+			plotOptions: {
+				bar: {
+					horizontal: false,
+					columnWidth: '60px',
+					startingShape: 'flat',
+					endingShape: 'flat',
+					borderRadius: 0,
+					dataLabels: {
+						position: "top"
+					},
+				}
+			},
+			dataLabels: {
+				enabled: true,
+				offsetY: -25,
+				style: {
+					fontFamily: 'spoqa-regular',
+					fontSize: '14px',
+					colors: ["#000"]
+				},
+				formatter: function (val) {
+					return val;
+				},
+			},
+			xaxis: {
+				categories: ['1주차', '2주차', '3주차', '4주차', '5주차'],
+				labels: {
+					style: {
+						colors: ['#000'],
+						fontSize: '16px',
+						fontFamily: 'spoqa-regular',
+						fontWeight: 500,
+						cssClass: 'sumBar-x',
+					},
+				},
+				axisTicks: {
+					show: false,
+				},
+			},
+			yaxis: {
+				tickAmount: 4,
+				min: 0,
+				max: 200,
+				labels: {
+					style: {
+						colors: ['#9e9e9e'],
+						fontSize: '14px',
+						fontFamily: 'spoqa-regular',
+						fontWeight: 500,
+						cssClass: 'sumBar-y',
+					},
+					formatter: (val) => {
+						if(val ===0) {
+							return val
+						} else {
+							return (val + '시간')
+						}
+					},
+				},
+			},
+			responsive: [
+				{
+					breakpoint: 1280,
+					options: {
+						plotOptions: {
+							bar: {
+								horizontal: false,
+								columnWidth: '40px',
+							}
+						},
+						dataLabels: {
+							offsetX: 0,
+							offsetY: -25,
+							style: {
+								fontSize: '13px',
+							},
+						},
+						xaxis: {
+							position: 'bottom',
+							labels: {
+								style: {
+									color: ['#000'],
+									fontSize: '14px',
+								},
+							},
+						},
+						yaxis: {
+							tickAmount: 4,
+							min: 0,
+							max: 200,
+							labels: {
+								style: {
+									fontSize: '14px',
+									colors: ['#9e9e9e'],
+								},
+								formatter: (val) => {
+									if(val ===0) {
+										return val
+									} else {
+										return (val + '시간')
+									}
+								},
+							},
+						},
+						grid: {
+							xaxis: {
+								lines: {
+									show: false
+								}
+							},
+							yaxis: {
+								lines: {
+									show: true
+								}
+							},
+						},
+						title: {
+							style: {
+								fontSize:  '20px',
+							},
+						},
+					}
+				},
+				{
+					breakpoint: 767,
+					options: {
+						plotOptions: {
+							bar: {
+								horizontal: true,
+							}
+						},
+						xaxis: {
+							tickAmount: 4,
+							min: 0,
+							max: 200,
+							range: 50,
+							labels: {
+								style: {
+									colors: ['#9e9e9e'],
+								},
+							},
+							position: 'top',
+							axisBorder: {
+								show: false,
+							},
+						},
+						yaxis: {
+							labels: {
+								style: {
+									fontSize: '13px'
+								},
+							},
+							formatter: false,
+						},
+						dataLabels: {
+							textAnchor: 'middle',
+							offsetY: 0,
+							offsetX: 27
+						},
+						grid: {
+							xaxis: {
+								lines: {
+									show: true
+								}
+							},
+							yaxis: {
+								lines: {
+									show: false
+								}
+							},
+						},
+						title: {
+							style: {
+								fontSize:  '18px',
+							},
+						},
+					}
+				}
+			]
+		};
+		var sumBarLabel = new ApexCharts(document.querySelector("#sumBar"), sumBar);
+		sumBarLabel.render();
+	});
+</script>
+</body>
+
+</html>

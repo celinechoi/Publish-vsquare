@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41.2924532px" height="44px" viewBox="0 0 41.2924532 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 11</title>
+    <defs>
+        <filter x="-2.8%" y="-25.0%" width="105.6%" height="157.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="W_마스터_대시보드" transform="translate(-486.707547, -597.000000)">
+            <g id="프로필" transform="translate(260.000000, 581.000000)">
+                <g id="Group-6" filter="url(#filter-1)" transform="translate(236.707547, 8.000000)">
+                    <g id="Group-11" transform="translate(0.000000, 16.000000)">
+                        <path d="M21.2924532,0.315259933 L21.2924532,23.7256546 L7.62060494,17.1962032 C3.20701435,14.9710306 1.00021906,13.7198003 1.00021906,13.4425125 C1.00021906,13.0265808 0.191230726,11.9697037 1.00021906,10.3337498 C1.53954461,9.24311384 5.12361728,7.50548808 11.7524371,5.1208725 L21.2924532,0.315259933 Z" id="Path-2" fill="#FFFFFF"></path>
+                        <path d="M21.2924532,0 L21.2924532,0.618033989 L20.7396668,0.894427191 L2.10622998,10.2111456 C1.71917517,10.404673 1.40533019,10.718518 1.21180279,11.1055728 C0.71782429,12.0935298 1.11827298,13.2948759 2.10622998,13.7888544 L20.7396668,23.1055728 L21.2924532,23.381966 L21.2924532,24 L20.2924532,24 L1.65901638,14.6832816 C0.177080891,13.9423138 -0.423592149,12.1402947 0.317375597,10.6583592 C0.6076667,10.077777 1.07843418,9.60700953 1.65901638,9.31671843 L20.2924532,0 L21.2924532,0 Z" id="Combined-Shape" fill="#00BD99" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

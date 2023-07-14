@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'DXHanlgrum';
+    src: url('DXHanlgrum');
+    src: url('DXHanlgrum.otf') format('opentype'),
+        url('DXHanlgrum.woff') format('woff'),
+        url('DXHanlgrum.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
