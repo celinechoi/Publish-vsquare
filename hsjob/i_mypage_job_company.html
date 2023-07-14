@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="font/noto-sans-kr/style.css">
+	<link rel="stylesheet" href="font/spoqa-han-sans/style.css">
+	<link rel="stylesheet" href="style/slick-1.8.1.min.css">
+	<link rel="stylesheet" href="style/swiper-4.5.1.min.css">
+	<link rel="stylesheet" href="icon_fonts/icon_fonts.min.css">
+	<!-- <link rel="stylesheet" href="lia/vendor/jquery-ui-1.12.1.custom/jquery-ui.css"> -->
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="style/style.min.css">
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="lia/vendor/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+	<script src="js/slick-1.8.1.min.js"></script>
+	<script src="js/swiper-4.5.1.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/sub.js"></script>
+	<title>한신대학교 - 대학일자리플러스센터</title>
+</head>
+
+<body>
+	<noscript>자바스크립트를 지원하지 않는 브라우저에서는 일부 기능이 정상 동작 하지 않을 수 있습니다.</noscript>
+	<div class="skip-navigation"><a href="#container">본문 바로가기</a></div>
+	<div class="skip-navigation"><a href="#gnb">주메뉴 바로가기</a></div>
+	<div class="skip-navigation"><a href="/">메인으로 바로가기</a></div>
+	<!-- header area -->
+	<header class="header">
+		<a href="javascript:;" class="logo" title="한신대학교_대학일자리플러스센터"></a>
+		<div class="header-box">
+			<div class="header-box__bg"></div>
+			<div class="header-box__top">
+				<div class="inner">
+					<div class="header-box__top--left">
+						<a href="javascript:;">한신대학교</a>
+					</div>
+					<div class="header-box__top--right">
+						<ul class="list-default">
+							<li>
+								<a href="javascript:;" class="inside">회원가입</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="inside">로그인</a>
+								<!-- TODO : 로그인 했을 경우 -->
+								<!-- <a href="javascript:;" class="inside">로그아웃</a> -->
+							</li>
+						</ul>
+						<a href="javascript:;" class="icon-close js-menu-hide" title="닫기"></a>
+					</div>
+				</div>
+			</div>
+			<div class="header-box__bottom">
+				<ul id="gnb" class="gnb-list">
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="0">대학일자리플러스센터</a>
+						<div class="depth2-frame">
+							<ul class="depth2-list" data-num="0">
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">센터소개</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">인사말</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">조직도</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">오시는 길</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="1">JOB學사전</a>
+						<div class="depth2-frame">
+							<ul class="depth2-list" data-num="1">
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">한신커리어 로드맵</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">전공계열별 진로가이드북</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">직업심리검사(워크넷)</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">직업정보(워크넷)</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="2">채용정보</a>
+						<div class="depth2-frame">
+							<ul class="depth2-list" data-num="2">
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">추천채용정보</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">전체채용정보</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">공채속보</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">채용공고등록</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="3">프로그램</a>
+						<div class="depth2-frame">
+							<ul class="depth2-list" data-num="3">
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">교내 프로그램</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">교외 프로그램</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">진로/취업 교과목 안내</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="4">상담</a>
+						<div class="depth2-frame">
+							<ul class="depth2-list" data-num="4">
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">상담안내</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">상담신청</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="5">취업콘텐츠</a>
+						<div class="depth2-frame">
+							<ul class="depth2-list" data-num="5">
+								<li>
+									<a href="javascript:;" class="depth2-list__txt" target="_blank">청년정책<span class="icon-arrow_back"></span></a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt" target="_blank">한신취업솔루션<span class="icon-arrow_back"></span></a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt" target="_blank">잡플래닛<span class="icon-arrow_back"></span></a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt" target="_blank">AI Solution<span class="icon-arrow_back"></span></a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="6">커뮤니티</a>
+						<div class="depth2-frame">
+							<ul class="depth2-list" data-num="6">
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">공지사항</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">한꿈인(취업수기)</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">자료실</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="7">마이페이지</a>
+						<div class="depth2-frame">
+							<ul class="depth2-list" data-num="7">
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">J-라운지</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">이력서관리</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">채용지원내역</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">상담 이력</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="depth2-list__txt">나의 스크랩</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+				<a href="javascript:;" class="header-box__bottom-btn">
+					한신대학교
+					<span class="icon-arrow_back"></span>
+				</a>
+			</div>
+		</div>
+		<ul class="header__list-icon">
+			<li id="searchShow" class="header__search"> <!--searchShow-->
+				<a href="javascript:;" class="icon-search js-search-show"" title="검색창띄우기"></a> <!--js-search-show-->
+				<div class="search-show">
+					<label for="inputIcon" class="input-button">
+						<input type="text" id="inputIcon" class="js-option" placeholder="검색어를 입력하세요.">
+						<!-- <a href="javascript:;" class="icon-close_circle js-remove" title="지우기"></a> -->
+					</label>
+					<a href="javascript:;" class="icon-search js-option" title="검색"></a>
+					<a href="javascript:;" class="btn-cancel js-tm-search-cancel"><span class="icon-close"></span></a>
+				</div>
+			</li>
+			<li class="header__menu">
+				<a href="javascript:;" class="icon-menu js-menu-show" title="메뉴 펼치기"></a>
+			</li>
+		</ul>
+	</header>
+	<!-- // header area -->
+	<!-- container -->
+	<div id="container" class="container sub">
+		<div class="inner">
+			<div class="sidebar">
+				<h2 class="container__sub-title">마이페이지</h2>
+				<ul class="sidebar__menu">
+					<li><a href="javascript:;" class="inside">J-라운지</a></li>
+					<li><a href="javascript:;" class="inside">나의 스크랩</a></li>
+					<li class="on"><a href="javascript:;" class="inside">채용공고(기업회원 전용)</a></li>
+					<li><a href="javascript:;" class="inside">회원정보수정</a></li>
+				</ul>
+			</div>
+			<div class="contents">
+				<section class="section-box">
+					<ul class="cm-index-list">
+						<li><a href="javascript:;" class="inside"><span class="icon-house"></span></a></li>
+						<li><a href="javascript:;" class="inside">마이페이지</a></li>
+						<li><a href="javascript:;" class="inside">채용공고(기업회원 전용)</a></li>
+					</ul>
+					<div class="cm-index-title">
+						<p class="txt--b9">채용공고(기업회원 전용)</p>
+						<ul class="cm-share-list">
+							<li class="print"><a href="javascript:;" class="icon-vs_print inside" title="프린트하기"></a></li>
+						</ul>
+					</div>
+					<div class="board-frame">
+						<div class="board__block">
+							<div class="job-box">
+								<div class="job-status">
+									<div class="job-status__left">
+										<p class="title-s2">서류전형</p>
+										<p class="txt-default">서류합격 이후에 대한 면접 또는 최종합격 여부는 각 기업에서 별도 연락을 통해 진행됩니다.</p>
+									</div>
+									<div class="job-status__right">
+										<a href="javascript:;" class="btn-regular-primary--outline">합격</a>
+										<a href="javascript:;" class="btn-regular">불합격</a>
+									</div>
+								</div>
+								<div class="flex-box">
+									<p class="title-s1">지원자 이력서 제목이 나오는 부분입니다.</p>
+									<a href="javascript:;" class="btn-regular-primary ml-auto js-popup-btn" data-tab="popup-07">이력서 다운로드</a>
+								</div>
+								<ul class="list-table-bg">
+									<li>
+										<dl class="list-definition">
+											<dd class="table-single">
+												<div>
+													<div class="user-profile">
+														<div class="user-profile__left">
+															<!--
+																	기본 사진 basic 클래스 추가
+																	사진 업로드 시 basic 클래스 빼고 user-photo에 백그라운드 이미지로 등록
+																-->
+															<div class="user-photo basic"></div>
+														</div>
+														<div class="user-profile__right">
+															<div class="user-profile__info">
+																	<div class="info-line">
+																			<div class="info-item">
+																					<p class="info-item__title">성명</p>
+																					<p class="info-item__con">홍길동</p>
+																			</div>
+																			<div class="info-item">
+																					<p class="info-item__title">학번</p>
+																					<p class="info-item__con">12100857</p>
+																			</div>
+																	</div>
+																	<div class="info-line">
+																			<div class="info-item">
+																					<p class="info-item__title">생년월일</p>
+																					<p class="info-item__con">910628</p>
+																			</div>
+																			<div class="info-item">
+																					<p class="info-item__title">성별</p>
+																					<p class="info-item__con">남</p>
+																			</div>
+																	</div>
+																	<div class="info-line">
+																			<div class="info-item">
+																					<p class="info-item__title">계열/학과</p>
+																					<p class="info-item__con">창조문화예술대학 영상예술디자인학과</p>
+																			</div>
+																	</div>
+																	<div class="info-line">
+																			<div class="info-item">
+																					<p class="info-item__title">E-mail</p>
+																					<p class="info-item__con">vsquare@naver.com</p>
+																			</div>
+																	</div>
+																	<div class="info-line">
+																			<div class="info-item">
+																					<p class="info-item__title">주소</p>
+																					<p class="info-item__con">(31020) 충청남도 천안시 서북구 성환읍 대학로 91번지</p>
+																			</div>
+																	</div>
+															</div>
+														</div>
+													</div> <!-- // user-profile END -->
+												</div>
+											</dd>
+										</dl>
+									</li>
+								</ul>
+								<p class="container__title-sub">기본정보</p>
+								<ul class="list-table-bg">
+									<li>
+										<dl class="list-definition">
+											<dt>희망직종</dt>
+											<dd>희망직종</dd>
+										</dl>
+									</li>
+									<li>
+										<dl class="list-definition">
+											<dt>희망취업형태</dt>
+											<dd>정규직</dd>
+										</dl>
+									</li>
+									<li>
+										<dl class="list-definition">
+											<dt>경력사항</dt>
+											<dd>신입</dd>
+										</dl>
+									</li>
+									<li>
+										<dl class="list-definition">
+											<dt>희망근무지</dt>
+											<dd>서울전지역</dd>
+										</dl>
+									</li>
+								</ul>
+								<p class="container__title-sub">신상정보 및 병역사항</p>
+								<ul class="list-table-bg">
+									<li>
+										<dl class="list-definition">
+											<dt>보훈대상여부</dt>
+											<dd>비대상</dd>
+										</dl>
+									</li>
+									<li>
+										<dl class="list-definition">
+											<dt>병역사항</dt>
+											<dd>비대상</dd>
+										</dl>
+									</li>
+								</ul>
+								<p class="container__title-sub">자격면허</p>
+								<ul class="list-table-bg align-center">
+									<li>
+										<dl class="list-definition-title">
+											<dt>자격증/면허증</dt>
+											<dt>발행기관</dt>
+											<dt>발급일자</dt>
+										</dl>
+									</li>
+									<li>
+										<dl class="list-definition">
+											<dd>영상번역능력인증시험(3급)</dd>
+											<dd>
+												<div class="flex-box">
+													<div class="flex-box__left">발행기관</div>
+													<div class="flex-box__right">한국영상번역가협회</div>
+												</div>
+											</dd>
+											<dd>
+												<div class="flex-box">
+													<div class="flex-box__left">발급일자</div>
+													<div class="flex-box__right">2022-01-01</div>
+												</div>
+											</dd>
+										</dl>
+									</li>
+									<li>
+										<dl class="list-definition">
+											<dd>시각디자인기사</dd>
+											<dd>
+												<div class="flex-box">
+													<div class="flex-box__left">발행기관</div>
+													<div class="flex-box__right">한국산업인력공단</div>
+												</div>
+											</dd>
+											<dd>
+												<div class="flex-box">
+													<div class="flex-box__left">발급일자</div>
+													<div class="flex-box__right">2022-01-01</div>
+												</div>
+											</dd>
+										</dl>
+									</li>
+								</ul>
+								<p class="container__title-sub">어학능력</p>
+								<ul class="list-table-bg align-center">
+									<li>
+										<dl class="list-definition-title">
+											<dt>어학시험명</dt>
+											<dt>점수(등급)</dt>
+											<dt>취득일자</dt>
+										</dl>
+									</li>
+									<li>
+										<dl class="list-definition">
+											<dd>어학시험명</dd>
+											<dd>
+												<div class="flex-box">
+													<div class="flex-box__left">점수(등급)</div>
+													<div class="flex-box__right">1등급</div>
+												</div>
+											</dd>
+											<dd>
+												<div class="flex-box">
+													<div class="flex-box__left">취득일자</div>
+													<div class="flex-box__right">2022-01-01</div>
+												</div>
+											</dd>
+										</dl>
+									</li>
+								</ul>
+								<p class="container__title-sub">수상내역</p>
+								<ul class="list-table-bg align-center">
+									<li>
+										<dl class="list-definition-title">
+											<dt>수상명</dt>
+											<dt>수상기관</dt>
+											<dt>수상일자</dt>
+										</dl>
+									</li>
+									<li>
+										<dl class="list-definition">
+											<dd>수상명</dd>
+											<dd>
+												<div class="flex-box">
+													<div class="flex-box__left">수상기관</div>
+													<div class="flex-box__right">기관명</div>
+												</div>
+											</dd>
+											<dd>
+												<div class="flex-box">
+													<div class="flex-box__left">수상일자</div>
+													<div class="flex-box__right">2022-01-01</div>
+												</div>
+											</dd>
+										</dl>
+									</li>
+								</ul>
+								<p class="container__title-sub">봉사활동</p>
+								<ul class="list-table-bg align-center">
+									<li>
+										<dl class="list-definition-title">
+											<dt>봉사기관</dt>
+											<dt>봉사기간</dt>
+											<dt class="width-e-title">봉사내용</dt>
+										</dl>
+									</li>
+									<li>
+										<dl class="list-definition">
+											<dd>봉사기관명</dd>
+											<dd>
+												<div class="flex-box">
+													<div class="flex-box__left">봉사기간</div>
+													<div class="flex-box__right">2023.01.01~2023.01.30</div>
+												</div>
+											</dd>
+											<dd class="width-e">봉사내용이 입력되는 부분입니다.봉사내용이 입력되는 부분입니다.봉사 내용이 입력되는 부분입니다.</dd>
+										</dl>
+									</li>
+								</ul>
+								<p class="container__title-sub">자기소개서</p>
+								<ul class="list-table-bg">
+									<li>
+										<dl class="list-definition">
+											<dd class="table-single">
+												<div>
+													<div class="title-s3">성장과정</div>
+													<div class="title-s4">
+														자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다.자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다.자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다.자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다.자기소개서 내용이 입력된 부분입니다.자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다.
+													</div>
+												</div>
+												<div>
+													<div class="title-s3">성격 및 장,단점</div>
+													<div class="title-s4">
+														자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다.자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다.자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다.자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다.자기소개서 내용이 입력된 부분입니다.자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다.
+													</div>
+												</div>
+												<div>
+													<div class="title-s3">학창생활</div>
+													<div class="title-s4">
+														자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다.자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다.자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다.자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다.자기소개서 내용이 입력된 부분입니다.자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다.
+													</div>
+												</div>
+												<div>
+													<div class="title-s3">향후 진로 및 포부</div>
+													<div class="title-s4">
+														자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다.자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다.자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다.자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다.자기소개서 내용이 입력된 부분입니다.자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다. 자기소개서 내용이 입력된 부분입니다.
+													</div>
+												</div>
+											</dd>
+										</dl>
+									</li>
+								</ul>
+								<p class="container__title-sub">포트폴리오 및 기타문서</p>
+								<ul class="list-table-bg">
+									<li>
+										<dl class="list-definition">
+											<dd class="table-single">
+												<div>
+													<ul class="attach-box__list">
+														<li>
+															<a href="javascript:;" class="inside-attach">
+																<div class="attach-box__list--left">
+																	<span class="icon-vs_clip" title="첨부파일"></span>
+																	<p class="attach-box__file word-line-single">첨부파일.jpg</p>
+																</div>
+																<div class="attach-box__list--right">
+																	<span class="attach-box__volume">98.7KB</span>
+																</div>
+															</a>
+														</li>
+														<li>
+															<a href="javascript:;" class="inside-attach">
+																<div class="attach-box__list--left">
+																	<span class="icon-vs_clip" title="첨부파일"></span>
+																	<p class="attach-box__file word-line-single">첨부파일.jpg</p>
+																</div>
+																<div class="attach-box__list--right">
+																	<span class="attach-box__volume">98.7KB</span>
+																</div>
+															</a>
+														</li>
+													</ul>
+												</div>
+											</dd>
+										</dl>
+									</li>
+								</ul>
+								<div class="btn-interval-small--side">
+									<div class="btn-interval__right">
+										<a href="javascript:;" class="btn-regular-primary" data-tab="popup-07">이력서 다운로드</a>
+									</div>
+								</div>
+							</div><!-- // job-box END -->	
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+	<!-- // container -->
+	<!-- footer area -->
+	<div class="banner-list">
+		<div class="inner">
+			<div class="banner-list__control">
+				<a href="javascript:;" class="banner-list__prev icon-chevron_back" title="이전"></a>
+				<a href="javascript:;" class="banner-list__stop icon-pause_outline" title="리모트"></a>
+				<a href="javascript:;" class="banner-list__next icon-chevron_forward" title="다음"></a>
+			</div>
+			<div class="swiper banner-list__slider">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href="javascript:;" target="_blank">
+							<img src="./img/common/banner_logo.png" alt="온라인청년센터">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="javascript:;" target="_blank">
+							<img src="./img/common/banner_logo2.png" alt="JOB Solution for University">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="javascript:;" target="_blank">
+							<img src="./img/common/banner_logo3.png" alt="Jobplanet">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="javascript:;" target="_blank">
+							<img src="./img/common/banner_logo4.png" alt="한신대학교도서관">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="javascript:;" target="_blank">
+							<img src="./img/common/banner_logo5.png" alt="한신대학교">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<!-- top -->
+		<a href="javascript:;" id="top" title="문의하기"><img src="img/common/icon_talking.png" alt="문의하기"></a>
+		<!-- // top -->
+		<div class="footer__inner inner">
+			<div class="footer__inner--left">
+				<ul class="footer__link">
+					<li><a href="javascript:;" class="inside">개인정보처리방침</a></li>
+					<li><a href="javascript:;" class="inside">이메일주소 무단수집거부</a></li>
+					<li><a href="javascript:;" class="inside">찾아오시는길</a></li>
+				</ul>
+				<div class="footer__info">
+					<p class="address"><b>한신대학교[오산캠퍼스]</b> 18101 경기도 오산시 한신대길 137(양산동)<span>T : <a
+								href="tel:031-379-0114">031-379-0114</a></span></p>
+					<p class="address"><b>신학대학원[서울캠퍼스]</b> 01025 서울특별시 강북구 인수봉로 159<span>T : <a
+								href="tel:02-2125-0114">02-2125-0114</a></span></p>
+					<p class="copyright">Copyrightⓒ 2022 HANSHIN UNIVERSITY. All Rights Reserved.</p>
+				</div>
+			</div>
+			<div class="footer__inner--right">
+				<label for="familySite">
+					<select id="familySite" class="family-site">
+						<option value="">대학/대학원</option>
+					</select>
+				</label>
+				<label for="majorSite">
+					<select id="majorSite" class="family-site">
+						<option value="">주요 사이트</option>
+					</select>
+				</label>
+			</div>
+		</div>
+	</footer>
+	<!-- // footer area -->
+	<!-- 이력서 다운로드 팝업 -->
+	<div id="popup-07" class="popup-wrap">
+		<div class="alert-popup">
+			<div class="popup-head">
+				<p class="popup-head__title"></p>
+				<a href="javascript:;" class="close-btn icon-close"></a>
+			</div>
+			<div class="popup-body">
+				<div class="box-info">
+					<div class="flex-box">
+						<span class="icon-alert_circle"></span>
+						<p>이력서 다운로드 유의사항</p>
+					</div>
+					<p class="box-info__small">
+						본 정보는 사람인과 이력서 작성자의 동의없이 재배포 할 수 없으며,채용 목적 이외의 용도로 사용할 수 없습니다. 본 정보를 저장, 출력한 경우 개인정보 보호에 대한 책임은 저장, 출력한 당사자에게 있습니다. <b>보유기간의 경과, 개인정보 처리목적 달성 등으로 개인정보가 불필요하게 되었을 때는 지체 없이(5일 이내) 해당 개인정보를 파기해야 합니다.</b>
+					</p>
+				</div>
+			</div>
+			<div class="popup-page__btn row">
+				<a href="javascript:;" class="btn-regular-dark--outline">이력서 다운로드</a>
+				<a href="javascript:;" class="btn-regular-dark--outline mo-hide">이력서 인쇄</a>
+			</div>
+		</div>
+		<div class="popup-bg"></div>
+	</div>
+</body>
+
+</html>

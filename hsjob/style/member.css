@@ -1,0 +1,186 @@
+
+.wrapping_table, .wrapping_table tr, .wrapping_table td { position:relative;width:100%;height:100%;vertical-align: middle; }
+.page_login_info_table, .page_login_info_table tr, .page_login_info_table td { position:relative;width:100%;height:100%;vertical-align: middle; }
+.page_sign_up_info_table, .page_sign_up_info_table tr, .page_sign_up_info_table td { position:relative;width:100%;height:100%;vertical-align: middle; }
+.page_forget_pw_info_table, .page_forget_pw_info_table tr, .page_forget_pw_info_table td { position:relative;width:100%;height:100%;vertical-align: middle; }
+
+/* PC */
+@media screen and (min-width: 1200px) {
+
+    html { overflow-x:hidden; }
+    input { box-sizing: border-box;height:58px;font-family: Rototo-Regular;font-size:16px;line-height:58px;width:100%;padding-left:30px;padding-right:30px;border:none;outline:none;border-radius: 26px;background-color:#f7f9fe;color:#93a1b0 }
+    select { box-sizing: border-box;height:58px;font-family: Rototo-Regular;font-size:16px;line-height:58px;width:100%;padding-left:30px;padding-right:30px;border:none;outline:none;border-radius: 26px;background-color:#f7f9fe;color:#93a1b0 }
+
+    .background_image_wrapper { position:fixed;bottom:0;width:100%; }
+
+    .background_image { max-width:100%;display:block;margin:0 auto;bottom:0; }
+
+    .wrapping_table { position:relative;top:0; }
+
+    .page_title { cursor:pointer;font-family: Roboto-Medium; color:#353535; font-size: 30px; margin-top:70px;margin-bottom:70px;text-align: center; }
+    .page1 { width:1200px;height:700px;overflow: hidden;border-radius: 10px;margin:0 auto 70px auto; }
+
+    .page_login .page_login_input { float:right;padding-left:80px;padding-right:80px;width:440px;;background:#ffffff;height:700px;position:relative; }
+    .page_login .page_login_input_title { margin-top:150px;font-family: Roboto-Bold;font-size:46px;color:#353535;}
+    .page_login .page_login_input_login .button_red { width:100%;box-sizing: border-box;text-align: center; }
+
+    .page_login .page_login_input_id { margin-top:60px; }
+    .page_login .page_login_input_pw { margin-top:20px; }
+
+    .page_login .page_login_input_func { margin-top:15px; }
+    .page_login .page_login_input_func_forget_pw { cursor:pointer;text-align:right;font-family: Rototo-Regular;font-size:16px;color:#93a1b0; }
+
+    .page_login .page_login_input_login { margin-top:30px; }
+
+    .page_login .page_login_info { float:left;width:600px;position:relative;height:700px; }
+    .page_login .page_login_info .image_cover { position:absolute;width:600px;height:700px; }
+
+    .page_login .page_login_info_title { margin-top:30px;font-family: Roboto-Bold;color:#ffffff;font-size:46px;text-align: center; }
+    .page_login .page_login_info_desc {margin-top:45px;font-family: Rototo-Regular;color:#ffffff;font-size:20px;text-align: center; }
+    .page_login .page_login_info_button { margin:75px;text-align: center; }
+
+
+    .page_sign_up .page_sign_up_input { float:right;padding-left:80px;padding-right:80px;width:440px;;background:#ffffff;height:700px;position:relative; }
+    .page_sign_up .page_sign_up_input_title { margin-top:35px;font-family: Roboto-Bold;font-size:46px;color:#353535;}
+    .page_sign_up .page_sign_up_input_sign_up .button_blue { width:100%;box-sizing: border-box;text-align: center; }
+
+    .page_sign_up .page_sign_up_input_id { margin-top:50px; }
+    .page_sign_up .page_sign_up_input_name { margin-top:10px; }
+    .page_sign_up .page_sign_up_input_pw { margin-top:10px; }
+
+    .page_sign_up .page_sign_up_input_func { margin-top:15px; }
+    .page_sign_up .page_sign_up_input_func_forget_pw { text-align:right;font-family: Rototo-Regular;font-size:16px;color:#93a1b0; }
+
+    .page_sign_up .page_sign_up_input_sign_up { margin-top:20px; }
+
+    .page_sign_up .page_sign_up_info { float:left;width:600px;position:relative;height:700px; }
+    .page_sign_up .page_sign_up_info .image_cover { position:absolute;width:600px;height:700px; }
+
+    .page_sign_up .page_sign_up_info_title { margin-top:30px;font-family: Roboto-Bold;color:#ffffff;font-size:46px;text-align: center; }
+    .page_sign_up .page_sign_up_info_desc {margin-top:45px;font-family: Rototo-Regular;color:#ffffff;font-size:20px;text-align: center; }
+    .page_sign_up .page_sign_up_info_button { margin:75px;text-align: center; }
+
+
+
+
+
+
+
+
+
+    .page_forget_pw .page_forget_pw_input { float:right;padding-left:80px;padding-right:80px;width:440px;;background:#ffffff;height:700px;position:relative; }
+    .page_forget_pw .page_forget_pw_input_title { margin-top:140px;font-family: Roboto-Bold;font-size:46px;color:#353535;}
+
+    .page_forget_pw .page_forget_pw_input_id { margin-top:60px; }
+    .page_forget_pw .page_forget_pw_input_name { margin-top:20px; }
+
+    .page_forget_pw .page_forget_pw_input_reset_pw { margin-top:30px; }
+    .page_forget_pw .page_forget_pw_input_reset_pw .button_red { width:100%;box-sizing: border-box;text-align: center; }
+
+    .page_forget_pw .page_forget_pw_input_back { margin-top:10px; }
+    .page_forget_pw .page_forget_pw_input_back .button_white_black { width:100%;box-sizing: border-box;text-align: center; }
+
+    .page_forget_pw .page_forget_pw_input_sign_up { margin-top:30px; }
+
+    .page_forget_pw .page_forget_pw_info { float:left;width:600px;position:relative;height:700px; }
+    .page_forget_pw .page_forget_pw_info .image_cover { position:absolute;width:600px;height:700px; }
+
+    .page_forget_pw .page_forget_pw_info_title { margin-top:30px;font-family: Roboto-Bold;color:#ffffff;font-size:46px;text-align: center; }
+    .page_forget_pw .page_forget_pw_info_desc {margin-top:45px;font-family: Rototo-Regular;color:#ffffff;font-size:20px;text-align: center; }
+    .page_forget_pw .page_forget_pw_info_button { margin:75px;text-align: center; }
+
+}
+
+/* TABLET */
+/*@media screen and (min-width: 768px) and (max-width: 1200px) {*/
+/*}*/
+
+
+/* MOBILE */
+/*@media screen and (max-width: 767px) {*/
+@media screen and (max-width: 1200px) {
+
+    html { overflow-x:hidden; }
+    input { box-sizing: border-box;height:35px;font-family: Rototo-Regular;font-size:12px;line-height:35px;width:100%;padding-left:25px;padding-right:25px;border:none;outline:none;border-radius: 26px;background-color:#f7f9fe;color:#93a1b0 }
+    select { box-sizing: border-box;height:35px;font-family: Rototo-Regular;font-size:12px;line-height:35px;width:100%;padding-left:25px;padding-right:25px;border:none;outline:none;border-radius: 26px;background-color:#f7f9fe;color:#93a1b0 }
+
+    .background_image_wrapper { display: none; }
+
+    .wrapping_table td { padding-left:20px;padding-right:20px;box-sizing: border-box;}
+    .wrapping_table { position:relative;top:0; }
+
+    .page_title { cursor:pointer;font-family: Roboto-Medium; color:#353535; font-size: 19px; margin-top:23px; }
+    .page_title img { height:40px; }
+
+    .page1 { margin-top:82px; }
+
+    .page_login .page_login_input { position:relative; }
+    .page_login .page_login_input_title { margin-top:80px;font-family: Roboto-Bold;font-size:34px;color:#353535;}
+    .page_login .page_login_input_login .button_red { width:100%;box-sizing: border-box;text-align: center; }
+
+    .page_login .page_login_input_id { margin-top:28px; }
+    .page_login .page_login_input_pw { margin-top:14px; }
+
+    .page_login .page_login_input_func { margin-top:14px; }
+    .page_login .page_login_input_func_forget_pw { cursor:pointer;text-align:right;font-family: Rototo-Regular;font-size:12px;color:#93a1b0; }
+
+    .page_login .page_login_input_login { margin-top:20px; }
+
+    .page_login .page_login_info { margin-top:50px;margin-bottom:50px;position:relative;height:400px;overflow:hidden;border-radius: 10px; }
+    .page_login .page_login_info .image_cover { position:absolute;width:100%;height:400px; }
+
+    .page_login .page_login_info_title { font-family: Roboto-Bold;color:#ffffff;font-size:28px;text-align: center; }
+    .page_login .page_login_info_desc {margin-top:20px;font-family: Rototo-Regular;color:#ffffff;font-size:14px;text-align: center; }
+    .page_login .page_login_info_button { margin-top:25px;text-align: center; }
+
+
+    .page_sign_up .page_sign_up_input { position:relative; }
+    .page_sign_up .page_sign_up_input_title { margin-top:80px;font-family: Roboto-Bold;font-size:34px;color:#353535;}
+    .page_sign_up .page_sign_up_input_sign_up .button_blue { width:100%;box-sizing: border-box;text-align: center; }
+
+    .page_sign_up .page_sign_up_input_id { margin-top:28px; }
+    .page_sign_up .page_sign_up_input_name { margin-top:14px; }
+    .page_sign_up .page_sign_up_input_pw { margin-top:14px; }
+
+    .page_sign_up .page_sign_up_input_func { margin-top:14px; }
+    .page_sign_up .page_sign_up_input_func_forget_pw { text-align:right;font-family: Rototo-Regular;font-size:12px;color:#93a1b0; }
+
+    .page_sign_up .page_sign_up_input_sign_up { margin-top:20px; }
+
+    .page_sign_up .page_sign_up_info { margin-top:50px;margin-bottom:50px;position:relative;height:400px;overflow:hidden;border-radius: 10px; }
+    .page_sign_up .page_sign_up_info .image_cover { position:absolute;width:100%;height:400px; }
+
+    .page_sign_up .page_sign_up_info_title { font-family: Roboto-Bold;color:#ffffff;font-size:28px;text-align: center; }
+    .page_sign_up .page_sign_up_info_desc {margin-top:20px;font-family: Rototo-Regular;color:#ffffff;font-size:14px;text-align: center; }
+    .page_sign_up .page_sign_up_info_button { margin-top:25px;text-align: center; }
+
+
+
+
+
+
+
+
+    .page_forget_pw .page_forget_pw_input { position:relative; }
+    .page_forget_pw .page_forget_pw_input_title { margin-top:80px;font-family: Roboto-Bold;font-size:34px;color:#353535;}
+
+    .page_forget_pw .page_forget_pw_input_id { margin-top:28px; }
+    .page_forget_pw .page_forget_pw_input_name { margin-top:14px; }
+
+    .page_forget_pw .page_forget_pw_input_reset_pw { margin-top:20px; }
+    .page_forget_pw .page_forget_pw_input_reset_pw .button_red { width:100%;box-sizing: border-box;text-align: center; }
+    .page_forget_pw .page_forget_pw_input_back { margin-top:8px; }
+    .page_forget_pw .page_forget_pw_input_back .button_white_black { width:100%;box-sizing: border-box;text-align: center; }
+
+    .page_forget_pw .page_forget_pw_input_sign_up { margin-top:20px; }
+
+    .page_forget_pw .page_forget_pw_info { margin-top:50px;margin-bottom:50px;position:relative;height:400px;overflow:hidden;border-radius: 10px; }
+    .page_forget_pw .page_forget_pw_info .image_cover { position:absolute;width:100%;height:400px; }
+
+    .page_forget_pw .page_forget_pw_info_title { font-family: Roboto-Bold;color:#ffffff;font-size:28px;text-align: center; }
+    .page_forget_pw .page_forget_pw_info_desc {margin-top:20px;font-family: Rototo-Regular;color:#ffffff;font-size:14px;text-align: center; }
+    .page_forget_pw .page_forget_pw_info_button { margin-top:25px;text-align: center; }
+
+
+}
+
