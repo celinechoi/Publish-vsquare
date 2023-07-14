@@ -4556,6 +4556,7 @@ body {
 				background: url("../img/common/sub_bg.svg") no-repeat right bottom / contain;
 				@include tablet {
 					right: 0;
+					bottom: 40px;
 					width: 184px;
 					height: 60px;
 				}
@@ -6503,7 +6504,16 @@ body {
 			}
 			@include mobile {
 				width: 100%;
-				padding-top: 40px;
+				padding-top: 70px;
+			}
+			.board {
+				&__tab {
+					&--block {
+						justify-content: flex-start;
+						padding: 0 24px;
+						box-sizing: border-box;
+					}
+				}
 			}
 			.title {
 				display: none;
