@@ -6431,6 +6431,9 @@ body {
 			padding: 39px 0 12px;
 			border-radius: 12px;
 		}
+		@include mobile {
+			top: 90px;
+		}
 		&--block {
 			color: #{$gray--400};
 			font: 18px #{'/'$square--medium};
