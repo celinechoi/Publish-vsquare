@@ -943,7 +943,7 @@ body {
 			width: 52px;
 			height: 48px;
 			@include background-contain;
-			background-image: url("img/common/event_icon.png");
+			background-image: url("../img/common/event_icon.png");
 			@include tablet {
 				display: none;
 			}
@@ -1045,14 +1045,14 @@ body {
 		>.inner {
 			@include tablet {
 				height: 100%;
-				background: url("img/common/gnb_bg.png") no-repeat center top / cover;
+				background: url("../img/common/gnb_bg.png") no-repeat center top / cover;
 				&::before {
 					content: "";
 					@include absolute-horizontal-center;
 					top: 66px;
 					width: 80px;
 					height: 80px;
-					background: url("img/common/gnb_item.png") no-repeat center top / contain;
+					background: url("../img/common/gnb_item.png") no-repeat center top / contain;
 				}
 			}
 		}
@@ -1843,21 +1843,21 @@ body {
 			position: relative;
 			width: 100%;
 			height: 480px;
-			background: #{$secondary--color} url("img/home/tag_bg.png") no-repeat center top / cover;
+			background: #{$secondary--color} url("../img/home/tag_bg.png") no-repeat center top / cover;
 			@include laptop {
 				height: 360px;
-				background-image: url("img/home/tag_bg_lp.png");
+				background-image: url("../img/home/tag_bg_lp.png");
 				background-position: center top;
 			}
 			@include tablet {
 				height: 680px;
-				background-image: url("img/home/tag_bg_ta.png");
+				background-image: url("../img/home/tag_bg_ta.png");
 				background-size: contain;
 				background-position: left;
 			}
 			@include mobile {
 				height: 420px;
-				background-image: url("img/home/tag_bg_mo.png");
+				background-image: url("../img/home/tag_bg_mo.png");
 				background-size: cover;
 				background-position: center bottom;
 			}
@@ -2288,7 +2288,7 @@ body {
 				margin: 0 20px;
 				border-radius: 20px;
 				overflow: hidden;
-				background: url("img/home/diagnosis_bg_mo.png") no-repeat center bottom -10px / cover;
+				background: url("../img/home/diagnosis_bg_mo.png") no-repeat center bottom -10px / cover;
 			}
 			&__txt {
 				padding: 0 0 40px;
@@ -2427,7 +2427,7 @@ body {
 				bottom: -90px;
 				width: 253px;
 				height: 320px;
-				background: url("img/home/person_icon2.png") no-repeat center center / contain;
+				background: url("../img/home/person_icon2.png") no-repeat center center / contain;
 				@include laptop {
 					content: none;
 				}
@@ -2553,7 +2553,7 @@ body {
 							top: -30px;
 							width: 95px;
 							height: 60px;
-							background: url("img/home/money_icon.png") no-repeat center center / contain;
+							background: url("../img/home/money_icon.png") no-repeat center center / contain;
 							@include laptop {
 								right: -27px;
 								top: -12px;
@@ -4324,7 +4324,7 @@ body {
 		width: 50px;
 		height: 32px;
 		@include background-contain;
-		background-image: url("img/sub/clip_icon.svg");
+		background-image: url("../img/sub/clip_icon.svg");
 		@include tablet {
 			content: none;
 		}
@@ -4553,7 +4553,7 @@ body {
 				z-index: 2;
 				width: 245px;
 				height: 80px;
-				background: url("img/common/sub_bg.svg") no-repeat right bottom / contain;
+				background: url("../img/common/sub_bg.svg") no-repeat right bottom / contain;
 				@include tablet {
 					right: 0;
 					width: 184px;
@@ -4715,7 +4715,7 @@ body {
 			top: 6px;
 			width: 41px;
 			height: 44px;
-			background: url("img/common/talk_bg.svg") no-repeat center top / contain;
+			background: url("../img/common/talk_bg.svg") no-repeat center top / contain;
 			@include tablet {
 				left: -7px;
 				width: 40px;
@@ -5144,7 +5144,7 @@ body {
 					height: 25px;
 					padding-left: 0;
 					@include background-contain;
-					background-image: url("img/common/talk.svg");
+					background-image: url("../img/common/talk.svg");
 					@include tablet {
 						width: 16px;
 						height: 16px;
@@ -5474,10 +5474,10 @@ body {
 						@include background-contain;
 					}
 					.star {
-						background-image: url("img/common/star.svg");
+						background-image: url("../img/common/star.svg");
 					}
 					.point {
-						background-image: url("img/common/point.svg");
+						background-image: url("../img/common/point.svg");
 					}
 					p {
 						color: #{$gray--700};
@@ -6946,7 +6946,7 @@ body {
 			&--middle {
 				margin-bottom: 32px;
 				padding-left: 36px;
-				background: url("img/common/flag_txt.png") no-repeat left center / 24px 19px;
+				background: url("../img/common/flag_txt.png") no-repeat left center / 24px 19px;
 				font: 24px #{'/'+$square--bold};
 				@include tablet {
 					margin-bottom: 28px;
