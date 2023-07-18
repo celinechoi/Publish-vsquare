@@ -1,0 +1,102 @@
+@charset "utf-8";
+/*+-----------------------------------+    
+| Author: JS |         
+| Title: Varable settings |
+| "$font--" 로 시작하는 변수의 값만 변경 가능 나머지는 개인 변경 X |
++-------------------------------------+*/
+/* ########## Varable Setting */
+/* ++++++++++++++++++++++++++++++++++++++
+	@개인 변경 불가 XXXXXXXXXXXXXXXXXXXXX
+++++++++++++++++++++++++++++++++++++++*/
+$size--24: 24px;
+
+$gray--fff: '#fff';
+$gray--050: '#fafafa';
+$gray--100: '#f5f5f5';
+$gray--200: '#eee';
+$gray--300: '#e0e0e0';
+$gray--400: '#bdbdbd';
+$gray--500: '#9e9e9e';
+$gray--600: '#757575';
+$gray--700: '#616161';
+$gray--800: '#424242';
+$gray--900: '#000';
+
+$system--red: '#d32f2f';
+$system--green: '#4caf50';
+$system--yellow: '#f9a825';
+$system--blue: '#0091ea';
+
+$bor--solid: 1px solid;
+/* ++++++++++++++++++++++++++++++++++++++
+	@개인 변경 가능 OOOOOOOOOOOOOOOOOOOOOO
+++++++++++++++++++++++++++++++++++++++*/
+$font--bold: 1.4em 'spoqa-bold';
+$font--medium: 1.4em 'spoqa-medium';
+$font--regular: 1.75em 'spoqa-regular';
+$font--light: 1.75em 'spoqa-light';
+
+$primary--100: '#ebd7fb';
+$primary--200: '#d6b0f7';
+$primary--300: '#b584e7';
+$primary--400: '#9361d0';
+$primary--color: '#6733b2'; // $primary--500
+$primary--600: '#4F2599';
+$primary--700: '#3b1980';
+$primary--800: '#291067';
+$primary--900: '#1c0955';
+
+$secondary--100: '#fff7cf';
+$secondary--200: '#ffeda0';
+$secondary--300: '#ffe170';
+$secondary--400: '#ffd54d';
+$secondary--color: '#ffc112'; // $secondary--500
+$secondary--600: '#db9f0d';
+$secondary--700: '#b78009';
+$secondary--800: '#936305';
+$secondary--900: '#7a4e03';
+
+// @media query
+@mixin tablet {
+	@media (max-width: 1248px) {
+		@content;
+	}
+}
+
+@mixin mobile {
+	@media (max-width: 767px) {
+		@content;
+	}
+}
+
+/* // Varable Setting ########## */
+
+/* ########## Function Setting */
+@mixin absolute-center {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+@mixin absolute-horizontal-center {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translate(-50%, 0);
+}
+
+@mixin absolute-vertical-center {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+@mixin background-contain {
+	background: no-repeat center / contain;
+}
+
+@mixin background-cover {
+	background: no-repeat center / cover;
+}
+/* // Function Setting ########## */

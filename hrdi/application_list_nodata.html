@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<!-- TODO add -->
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="font/spoqa-han-sans/style.css">
+	<link rel="stylesheet" href="font/happiness-sans/style.css">
+	<link rel="stylesheet" href="style/slick-1.8.1.min.css">
+	<link rel="stylesheet" href="style/swiper-4.5.1.min.css">
+	<link rel="stylesheet" href="icon_fonts/icon_fonts.min.css">
+	<link rel="stylesheet" href="style/style.min.css">
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/slick-1.8.1.min.js"></script>
+	<script src="js/swiper-4.5.1.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/sub.js"></script>
+	<title>한국기술교육대학교</title>
+</head>
+
+<body>
+	<noscript>자바스크립트를 지원하지 않는 브라우저에서는 일부 기능이 정상 동작 하지 않을 수 있습니다.</noscript>
+	<div class="skip-navigation"><a href="#container">본문 바로가기</a></div>
+	<div class="skip-navigation"><a href="#gnb">주메뉴 바로가기</a></div>
+	<div class="skip-navigation"><a href="/">메인으로 바로가기</a></div>
+	<!-- header area -->
+	<header class="header">
+		<div class="header__top">
+			<div class="header__inner">
+				<ul class="lnb-left">
+					<li class="tm">
+						<a href="javascript:;" class="inside">
+							<span class="icon-albums_outline"></span>
+							<span class="albums-num">11</span>
+						</a>
+					</li>
+					<li class="point">
+						<a href="javascript:;" class="inside">
+							<span class="symbol"></span>한국기술교육대학교
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="inside">
+							스타훈련교사
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="inside">
+							일학습커뮤니티
+						</a>
+					</li>
+				</ul>
+				<a href="javascript:;" class="logo" title="한국기술교육대학교 능력개발교육원"></a>
+				<ul class="lnb-right">
+					<li class="tm js-menu-show">
+						<a href="javascript:;" class="inside">
+							<span class="icon-vs_menu"></span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="inside">
+							<span class="icon-custom-remote"></span>
+							<span>원격지원</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="inside">
+							<span class="icon-albums_outline"></span>
+							<span>팝업 <span class="primary-color">1</span>건</span>
+						</a>
+					</li>
+					<!-- 로그인 전 -->
+					<li>
+						<a href="javascript:;" class="inside">
+							<span class="icon-person_outline"></span>
+							<span>로그인</span>
+						</a>
+					</li>
+					<!-- 로그인 후 -->
+					<li>
+						<a href="javascript:;" class="inside">
+							<span class="icon-person_outline"></span>
+							<span>내 정보</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="inside">
+							<span class="icon-exit_outline"></span>
+							<span>로그아웃</span>
+						</a>
+					</li>
+					<li class="js-whole-menu">
+						<a href="javascript:;" class="inside">
+							<span class="icon-custom-menu"></span>
+							<span>전체메뉴</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="header__bottom">
+			<div class="header__inner">
+				<div class="menu-before">
+					<div class="menu-before__top">
+						<ul class="menu-before__top--list">
+							<!-- 로그인 후 -->
+							<li class="menu__logout">
+								<a href="javascript:;" class="inside">로그아웃</a>
+							</li>
+							<!-- 로그인 전 -->
+							<li class="menu__login">
+								<a href="javascript:;" class="inside">로그인</a>
+							</li>
+							<li class="menu__join">
+								<a href="javascript:;" class="inside">회원가입</a>
+							</li>
+						</ul>
+						<a href="javascript:;" class="icon-custom-close js-menu-hide"></a>
+					</div>
+					<div class="menu-comment">
+						<!-- 로그인 후 -->
+						<a href="javascript:;" class="btn-info">내 정보<span class="icon-chevron_forward"></span></a>
+						<p class="menu-comment__txt"><span>홍길동</span>(교육생)</p>
+						<!-- 로그인 전 -->
+						<p class="menu-comment__txt2">
+							안녕하세요!<br>
+							<b>로그인 후 이용해주세요.</b>
+						</p>
+					</div>
+				</div>
+				<ul id="gnb" class="gnb-list">
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="0">교육신청</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="1">교육마당</a>
+						<ul class="depth2-list" data-num="1">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">공지사항</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">제도 및 법률</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">연간 교육일정</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">교육체계도</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">각 교육별 과정안내</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">교육과정 안내책자</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="2">홍보마당</a>
+						<ul class="depth2-list" data-num="2">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">뉴스레터</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">연차보고서</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">홍보영상 및 보도자료</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">대학 및 능력개발교육원 UI</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="3">기관소개</a>
+						<ul class="depth2-list" data-num="3">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">교육원 설립목적</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">원장인사말</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">교육원 조직도</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">시설 안내</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">오시는 길</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="4">참여마당</a>
+						<ul class="depth2-list" data-num="4">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">자주하는 질문</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">묻고 답하기</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="5">나의강의실</a>
+						<ul class="depth2-list" data-num="5">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">나의 홈</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">나의 학습</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">문의내역</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<label for="familySite" class="family-label">
+					<select id="familySite" class="family-site">
+						<option value="">관련사이트</option>
+					</select>
+				</label>
+			</div>
+			<div class="header__bottom--bg"></div>
+		</div>
+		<div class="header__dim"></div>
+	</header>
+	<div class="site-map js-whole-page">
+		<div class="site-map__dim"></div>
+		<div class="site-map__page">
+			<div class="site-map__page--top">
+				<div class="inner">
+					<a href="javascript:;" class="logo" title="한국기술교육대학교 능력개발교육원"></a>
+					<a href="javascript:;" class="icon-custom-close js-whole-close" title="닫기"></a>
+				</div>
+			</div>
+			<div class="site-map__page--middle">
+				<ul class="site-map__list">
+					<li>
+						<dl>
+							<dt><a href="javascript:;" class="inside">교육신청</a></dt>
+							<dd></dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><a href="javascript:;" class="inside">교육마당</a></dt>
+							<dd>
+								<ul class="site-map__menu">
+									<li><a href="javascript:;" class="inside">공지사항</a></li>
+									<li><a href="javascript:;" class="inside">제도 및 법률</a></li>
+									<li><a href="javascript:;" class="inside">연간 교육일정</a></li>
+									<li><a href="javascript:;" class="inside">교육체계도</a></li>
+									<li>
+										<a href="javascript:;" class="inside js-open-depth3">각 교육별 과정안내</a>
+										<ul class="depth3-list">
+											<li><a href="javascript:;" class="inside">3댑스 메뉴</a></li>
+											<li><a href="javascript:;" class="inside">3댑스 메뉴</a></li>
+										</ul>
+									</li>
+									<li><a href="javascript:;" class="inside">교육과정 안내책자</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><a href="javascript:;" class="inside">홍보마당</a></dt>
+							<dd>
+								<ul class="site-map__menu">
+									<li><a href="javascript:;" class="inside">뉴스레터</a></li>
+									<li><a href="javascript:;" class="inside">연차보고서</a></li>
+									<li>
+										<a href="javascript:;" class="inside js-open-depth3">홍보영상 및 보도자료</a>
+										<ul class="depth3-list">
+											<li><a href="javascript:;" class="inside">3댑스 메뉴</a></li>
+											<li><a href="javascript:;" class="inside">3댑스 메뉴</a></li>
+										</ul>
+									</li>
+									<li><a href="javascript:;" class="inside">대학 및 능력개발교육원 UI</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><a href="javascript:;" class="inside">기관소개</a></dt>
+							<dd>
+								<ul class="site-map__menu">
+									<li><a href="javascript:;" class="inside">교육원 설립목적</a></li>
+									<li><a href="javascript:;" class="inside">원장인사말</a></li>
+									<li>
+										<a href="javascript:;" class="inside js-open-depth3">교육원 조직도</a>
+										<ul class="depth3-list">
+											<li><a href="javascript:;" class="inside">3댑스 메뉴</a></li>
+											<li><a href="javascript:;" class="inside">3댑스 메뉴</a></li>
+										</ul>
+									</li>
+									<li><a href="javascript:;" class="inside">시설 안내</a></li>
+									<li><a href="javascript:;" class="inside">오시는 길</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><a href="javascript:;" class="inside">참여마당</a></dt>
+							<dd>
+								<ul class="site-map__menu">
+									<li><a href="javascript:;" class="inside">자주하는 질문</a></li>
+									<li><a href="javascript:;" class="inside">묻고 답하기</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><a href="javascript:;" class="inside">나의강의실</a></dt>
+							<dd>
+								<ul class="site-map__menu">
+									<li><a href="javascript:;" class="inside">나의 홈</a></li>
+									<li><a href="javascript:;" class="inside">나의 학습</a></li>
+									<li><a href="javascript:;" class="inside">문의내역</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- // header area -->
+	<!-- container -->
+	<div id="container" class="container">
+		<div class="cm-index-box">
+			<div class="inner">
+				<ul class="cm-index-list">
+					<li><a href="javascript:;" class="inside">홈</a></li>
+					<li class="now"><a href="javascript:;" class="inside">교육신청</a></li>
+				</ul>
+				<div class="cm-index-title">
+					<p class="txt--b8">교육신청</p>
+				</div>
+			</div>
+		</div>
+		<div class="container-inner">
+			<div class="sidebar js-filter-page">
+				<div class="filter__title">
+					<p class="txt--m3">과정 필터</p>
+					<a href="javascript:;" class="icon-custom-close js-filter-hide"></a>
+				</div>
+				<ul class="category-frame">
+					<li>
+						<div class="category-frame__title js-toggle on" style="cursor: pointer;">
+							<p class="txt--m4">사업분야</p>
+							<span class="icon-custom-switch"></span>
+						</div>
+						<div class="category-frame__con js-toggle-con">
+							<ul class="category-list-large">
+								<li>
+									<label for="field" class="chk-box">
+										<input type="checkbox" id="field" class="overhead" name="business" checked>
+										<span class="chk-box__icon"></span>
+										<span class="chk-box__txt">자격교육(직업능력개발훈련교사)</span>
+									</label>
+									<ul class="category-list">
+										<li>
+											<label for="chkAll" class="chk-box">
+												<input type="checkbox" id="chkAll" class="overall">
+												<span class="chk-box__icon"></span>
+												<span class="chk-box__txt">전체</span>
+											</label>
+										</li>
+										<li>
+											<label for="option" class="chk-box">
+												<input type="checkbox" id="option" class="separate">
+												<span class="chk-box__icon"></span>
+												<span class="chk-box__txt">기본단계(이러닝포함)</span>
+											</label>
+										</li>
+										<li>
+											<label for="option2" class="chk-box">
+												<input type="checkbox" id="option2" class="separate">
+												<span class="chk-box__icon"></span>
+												<span class="chk-box__txt">활용단계</span>
+											</label>
+										</li>
+										<li>
+											<label for="option3" class="chk-box">
+												<input type="checkbox" id="option3" class="separate">
+												<span class="chk-box__icon"></span>
+												<span class="chk-box__txt">종합평가</span>
+											</label>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<label for="field2" class="chk-box">
+										<input type="checkbox" id="field2" class="overhead" name="business">
+										<span class="chk-box__icon"></span>
+										<span class="chk-box__txt">훈련교강사보수교육</span>
+									</label>
+								</li>
+								<li>
+									<label for="field3" class="chk-box">
+										<input type="checkbox" id="field3" class="overhead" name="business">
+										<span class="chk-box__icon"></span>
+										<span class="chk-box__txt">직업계고교원 현장직무연수</span>
+									</label>
+								</li>
+								<li>
+									<label for="field4" class="chk-box">
+										<input type="checkbox" id="field4" class="overhead" name="business" checked>
+										<span class="chk-box__icon"></span>
+										<span class="chk-box__txt">일학습병행 전담인력 양성교육</span>
+									</label>
+									<ul class="category-list">
+										<li>
+											<label for="chkAll2" class="chk-box">
+												<input type="checkbox" id="chkAll2" class="overall">
+												<span class="chk-box__icon"></span>
+												<span class="chk-box__txt">전체</span>
+											</label>
+										</li>
+										<li>
+											<label for="option4" class="chk-box">
+												<input type="checkbox" id="option4" class="separate">
+												<span class="chk-box__icon"></span>
+												<span class="chk-box__txt">기본과정 1단계 온라인</span>
+											</label>
+										</li>
+										<li>
+											<label for="option5" class="chk-box">
+												<input type="checkbox" id="option5" class="separate">
+												<span class="chk-box__icon"></span>
+												<span class="chk-box__txt">기업현장교사 기본과정 2단계
+													집체</span>
+											</label>
+										</li>
+										<li>
+											<label for="option6" class="chk-box">
+												<input type="checkbox" id="option6" class="separate">
+												<span class="chk-box__icon"></span>
+												<span class="chk-box__txt">기업현장교사 단기과정</span>
+											</label>
+										</li>
+										<li>
+											<label for="option7" class="chk-box">
+												<input type="checkbox" id="option7" class="separate">
+												<span class="chk-box__icon"></span>
+												<span class="chk-box__txt">기업현장교사 심화과정</span>
+											</label>
+										</li>
+										<li>
+											<label for="option8" class="chk-box">
+												<input type="checkbox" id="option8" class="separate">
+												<span class="chk-box__icon"></span>
+												<span class="chk-box__txt">HRD담당자 기본과정 2단계 집체</span>
+											</label>
+										</li>
+										<li>
+											<label for="option9" class="chk-box">
+												<input type="checkbox" id="option9" class="separate">
+												<span class="chk-box__icon"></span>
+												<span class="chk-box__txt">전담인력 보수과정</span>
+											</label>
+										</li>
+										<li>
+											<label for="option10" class="chk-box">
+												<input type="checkbox" id="option10" class="separate">
+												<span class="chk-box__icon"></span>
+												<span class="chk-box__txt">전담인력 세미나 및 행사</span>
+											</label>
+										</li>
+										<li>
+											<label for="option11" class="chk-box">
+												<input type="checkbox" id="option11" class="separate">
+												<span class="chk-box__icon"></span>
+												<span class="chk-box__txt">기타 수탁사업</span>
+											</label>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<label for="field5" class="chk-box">
+										<input type="checkbox" id="field5" class="overhead" name="business">
+										<span class="chk-box__icon"></span>
+										<span class="chk-box__txt">직업상담사 자격취득과정</span>
+									</label>
+								</li>
+								<li>
+									<label for="field6" class="chk-box">
+										<input type="checkbox" id="field6" class="overhead" name="business">
+										<span class="chk-box__icon"></span>
+										<span class="chk-box__txt">민간위탁기관 고용서비스교육</span>
+									</label>
+								</li>
+								<li>
+									<label for="field7" class="chk-box">
+										<input type="checkbox" id="field7" class="overhead" name="business">
+										<span class="chk-box__icon"></span>
+										<span class="chk-box__txt">고용서비스 보수교육</span>
+									</label>
+								</li>
+								<li>
+									<label for="field8" class="chk-box">
+										<input type="checkbox" id="field8" class="overhead" name="business">
+										<span class="chk-box__icon"></span>
+										<span class="chk-box__txt">기타특별교육</span>
+									</label>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="category-frame__title js-toggle on" style="cursor: pointer;">
+							<p class="txt--m4">운영방식</p>
+							<span class="icon-custom-switch"></span>
+						</div>
+						<div class="category-frame__con js-toggle-con">
+							<ul class="category-list-large">
+								<li>
+									<label for="during" class="chk-box">
+										<input type="checkbox" id="during" class="overhead" name="operate">
+										<span class="chk-box__icon"></span>
+										<span class="chk-box__txt">상시제</span>
+									</label>
+								</li>
+								<li>
+									<label for="during2" class="chk-box">
+										<input type="checkbox" id="during2" class="overhead" name="operate">
+										<span class="chk-box__icon"></span>
+										<span class="chk-box__txt">기수제</span>
+									</label>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="category-frame__title js-toggle on" style="cursor: pointer;">
+							<p class="txt--m4">학습방식</p>
+							<span class="icon-custom-switch"></span>
+						</div>
+						<div class="category-frame__con js-toggle-con">
+							<ul class="category-list-large">
+								<li>
+									<label for="study" class="chk-box">
+										<input type="checkbox" id="study" class="overhead" name="edu">
+										<span class="chk-box__icon"></span>
+										<span class="chk-box__txt">이러닝</span>
+									</label>
+								</li>
+								<li>
+									<label for="study2" class="chk-box">
+										<input type="checkbox" id="study2" class="overhead" name="edu">
+										<span class="chk-box__icon"></span>
+										<span class="chk-box__txt">집체</span>
+									</label>
+								</li>
+								<li>
+									<label for="study3" class="chk-box">
+										<input type="checkbox" id="study3" class="overhead" name="edu">
+										<span class="chk-box__icon"></span>
+										<span class="chk-box__txt">혼합</span>
+									</label>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="category-frame__title js-toggle on" style="cursor: pointer;">
+							<p class="txt--m4">상태</p>
+							<span class="icon-custom-switch"></span>
+						</div>
+						<div class="category-frame__con js-toggle-con">
+							<ul class="category-list-large">
+								<li>
+									<label for="recruit" class="chk-box">
+										<input type="checkbox" id="recruit" class="overhead" name="state">
+										<span class="chk-box__icon"></span>
+										<span class="chk-box__txt">모집대기</span>
+									</label>
+								</li>
+								<li>
+									<label for="recruit2" class="chk-box">
+										<input type="checkbox" id="recruit2" class="overhead" name="state">
+										<span class="chk-box__icon"></span>
+										<span class="chk-box__txt">모집중</span>
+									</label>
+								</li>
+								<li>
+									<label for="recruit3" class="chk-box">
+										<input type="checkbox" id="recruit3" class="overhead" name="state">
+										<span class="chk-box__icon"></span>
+										<span class="chk-box__txt">모집마감</span>
+									</label>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="category-frame__title js-toggle on" style="cursor: pointer;">
+							<p class="txt--m4">지역</p>
+							<span class="icon-custom-switch"></span>
+						</div>
+						<div class="category-frame__con js-toggle-con">
+							<ul class="category-list-large">
+								<li>
+									<label for="area" class="chk-box">
+										<input type="checkbox" id="area" class="overhead" name="region">
+										<span class="chk-box__icon"></span>
+										<span class="chk-box__txt">지역1</span>
+									</label>
+								</li>
+								<li>
+									<label for="area2" class="chk-box">
+										<input type="checkbox" id="area2" class="overhead" name="region">
+										<span class="chk-box__icon"></span>
+										<span class="chk-box__txt">지역2</span>
+									</label>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+				<div class="btn-filter-fence">
+					<a href="javascript:;" class="btn-custom-300--outline"><span class="icon-refresh" title="초기화 버튼"></span> 초기화</a>
+					<a href="javascript:;" class="btn-primary btn-custom-search">검색(<span>2</span>)</a>
+				</div>
+			</div>
+			<div class="sidebar-dim"></div>
+			<section class="content">
+
+				<div class="filter-fence__search">
+					<div class="input-button">
+						<input type="text" placeholder="찾으시는 과정명을 입력해주세요.">
+						<a href="javascript:;" class="icon-search"></a>
+					</div>
+				</div>
+				<div class="board__block">
+					<ul class="board__index-box">
+						<li>
+							<p class="board__index--num">총 <span>0</span> 건</p>
+						</li>
+						<li class="board__index-term">
+							<a href="javascript:;" class="icon-custom-filter js-filter"><span>과정 필터(<span>4</span>)</span></a>
+							<label for="kinds">
+								<select id="kinds">
+									<option value="0">최신순</option>
+									<option value="1">인기순</option>
+									<option value="2">신청인원 적은순</option>
+									<option value="3">신청인원 많은순</option>
+								</select>
+							</label>
+						</li>
+					</ul>
+					<div class="list-tag-frame">
+						<ul class="list-tag">
+							<li><a href="javascript:;" class="btn-tiny-refresh"><span class="icon-refresh"></span> 초기화</a></li>
+						</ul>
+						<ul class="list-tag">
+							<li><span class="btn-tiny-category">자격교육(직업능력개발훈련교사)<a href="javascript:;" class="icon-close" title="삭제"></a></span></li>
+							<li><span class="btn-tiny-category">일학습병행 전담인력 양성교육<a href="javascript:;" class="icon-close" title="삭제"></a></span></li>
+							<li><span class="btn-tiny-category">고용서비스 보수교육 &gt; 2depth 선택시 예시<a href="javascript:;" class="icon-close" title="삭제"></a></span></li>
+							<li><span class="btn-tiny-category">카테고리<a href="javascript:;" class="icon-close" title="삭제"></a></span></li>
+							<li><span class="btn-tiny-category">카테고리2<a href="javascript:;" class="icon-close" title="삭제"></a></span></li>
+							<li><span class="btn-tiny-category">카테고리3<a href="javascript:;" class="icon-close" title="삭제"></a></span></li>
+							<li><span class="btn-tiny-category">카테고리<a href="javascript:;" class="icon-close" title="삭제"></a></span></li>
+							<li><span class="btn-tiny-category">카테고리2<a href="javascript:;" class="icon-close" title="삭제"></a></span></li>
+							<li><span class="btn-tiny-category">카테고리3<a href="javascript:;" class="icon-close" title="삭제"></a></span></li>
+						</ul>
+					</div>
+					<ul class="board__list--inner nodata">
+						<li>
+							<div class="nodata__message">
+								<span class="icon-chatbox_ellipses_sharp" title="nodata"></span>
+								<p>등록된 게시글이 없습니다.</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+			</section>
+		</div>
+	</div>
+	<!-- // container -->
+	<!-- footer area -->
+	<footer class="footer">
+		<!-- top -->
+		<a href="javascript:;" id="top" title="위로 가기">TOP</a>
+		<!-- // top -->
+		<div class="footer__top">
+			<div class="footer__inner inner">
+				<div class="footer__inner--left">
+					<ul class="footer__link">
+						<li class="point"><a href="javascript:;" class="inside">개인정보처리방침</a></li>
+						<li><a href="javascript:;" class="inside">이메일무단수집거부</a></li>
+						<li><a href="javascript:;" class="inside">이용약관</a></li>
+					</ul>
+				</div>
+				<div class="footer__inner--right">
+					<a href="tel:041-521-8000" class="footer__phone"><span class="icon-call"></span>041-521-8000</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			<div class="footer__inner inner">
+				<div class="footer__inner--left">
+					<div class="footer__info">
+						<p class="address">31079) 충남 천안시 서북구 과수원길 18 한국기술교육대학교 능력개발교육원</p>
+						<a href="mailto:hrdiadmin@koreatech.ac.kr">EMAIL : hrdiadmin@koreatech.ac.kr</a>
+						<p class="txt-detail js-click">통신판매업자 정보 자세히보기 <span class="icon-chevron_down"></span></p>
+						<p class="txt-detail-con">사업자등록번호 : 312-82-03357 / 통신판매업신고 : 제2016-충남천안-0210호 한국기술교육대학교 / 대표자 : 이성기</p>
+						<p class="copyright">COPYRIGHT © 2022 BY KOREATECH HRDI ALL RIGHTS RESERVED.</p>
+					</div>
+					<ul class="footer__logo-list">
+						<li><img src="img/common/logo/logo_gray.svg" alt="한국기술교육대학교 능력개발교육원"></li>
+						<li><img src="img/common/logo/logo_tech_gray.svg" alt="한국기술교육대학교 KOREATECH"></li>
+						<li><img src="img/common/logo/logo_ability_gray.svg" alt="정부혁신 보다나은 능력개발교육원"></li>
+					</ul>
+				</div>
+				<div class="footer__inner--right">
+					<div class="ars-frame">
+						<p class="ars-frame__txt">부서별 ARS 연결 번호 안내 <span class="icon-chevron_down"></span></p>
+						<div class="ars-frame__list-frame">
+							<ul class="ars-frame__list">
+								<li>
+									<p class="ars-frame__title">①번 : 직업훈련교·강사</p>
+									<ul class="ars-frame__num">
+										<li>훈련교사 자격교육 : ①번</li>
+										<li>교직분야 보수교육 : ②번</li>
+										<li>전공분야 보수교육 : ③번</li>
+									</ul>
+								</li>
+								<li>
+									<div class="ars-frame__divide">
+										<ul class="ars-frame__divide--item">
+											<li>
+												<p class="ars-frame__title">②번 : 직업계고교원 교육</p>
+											</li>
+											<li>
+												<p class="ars-frame__title">③번 : 일학습 전담인력 교육</p>
+											</li>
+											<li>
+												<p class="ars-frame__title">④번 : 가입 로그인 관련 홈페이지</p>
+											</li>
+										</ul>
+										<ul class="ars-frame__divide--item">
+											<li>
+												<p class="ars-frame__title">⑤번 : 자격심사</p>
+											</li>
+											<li>
+												<p class="ars-frame__title">⑥번 : 고용서비스 전문인력 양성교육</p>
+											</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- // footer area -->
+</body>
+
+</html>

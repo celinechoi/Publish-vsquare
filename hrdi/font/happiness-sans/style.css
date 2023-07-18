@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'happiness-bold';
+    src: url('Happiness-Sans-Bold00.eot');
+    src: url('Happiness-Sans-Bold00.eot#iefix') format('embedded-opentype'),
+        url('Happiness-Sans-Bold00.woff2') format('woff2'),
+        url('Happiness-Sans-Bold00.woff') format('woff'),
+        url('Happiness-Sans-Bold00.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

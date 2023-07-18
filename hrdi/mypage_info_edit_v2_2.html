@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<!-- TODO add -->
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="font/spoqa-han-sans/style.css">
+	<link rel="stylesheet" href="font/happiness-sans/style.css">
+	<link rel="stylesheet" href="style/slick-1.8.1.min.css">
+	<link rel="stylesheet" href="style/swiper-4.5.1.min.css">
+	<link rel="stylesheet" href="icon_fonts/icon_fonts.min.css">
+	<link rel="stylesheet" href="style/style.min.css">
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/slick-1.8.1.min.js"></script>
+	<script src="js/swiper-4.5.1.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/sub.js"></script>
+	<title>한국기술교육대학교</title>
+</head>
+
+<body>
+	<noscript>자바스크립트를 지원하지 않는 브라우저에서는 일부 기능이 정상 동작 하지 않을 수 있습니다.</noscript>
+	<div class="skip-navigation"><a href="#container">본문 바로가기</a></div>
+	<div class="skip-navigation"><a href="#gnb">주메뉴 바로가기</a></div>
+	<div class="skip-navigation"><a href="/">메인으로 바로가기</a></div>
+	<!-- header area -->
+	<header class="header">
+		<div class="header__top">
+			<div class="header__inner">
+				<ul class="lnb-left">
+					<li class="tm">
+						<a href="javascript:;" class="inside">
+							<span class="icon-albums_outline"></span>
+							<span class="albums-num">11</span>
+						</a>
+					</li>
+					<li class="point">
+						<a href="javascript:;" class="inside">
+							<span class="symbol"></span>한국기술교육대학교
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="inside">
+							스타훈련교사
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="inside">
+							일학습커뮤니티
+						</a>
+					</li>
+				</ul>
+				<a href="javascript:;" class="logo" title="한국기술교육대학교 능력개발교육원"></a>
+				<ul class="lnb-right">
+					<li class="tm js-menu-show">
+						<a href="javascript:;" class="inside">
+							<span class="icon-vs_menu"></span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="inside">
+							<span class="icon-custom-remote"></span>
+							<span>원격지원</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="inside">
+							<span class="icon-albums_outline"></span>
+							<span>팝업 <span class="primary-color">1</span>건</span>
+						</a>
+					</li>
+					<!-- 로그인 전 -->
+					<li>
+						<a href="javascript:;" class="inside">
+							<span class="icon-person_outline"></span>
+							<span>로그인</span>
+						</a>
+					</li>
+					<!-- 로그인 후 -->
+					<li>
+						<a href="javascript:;" class="inside">
+							<span class="icon-person_outline"></span>
+							<span>내 정보</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="inside">
+							<span class="icon-exit_outline"></span>
+							<span>로그아웃</span>
+						</a>
+					</li>
+					<li class="js-whole-menu">
+						<a href="javascript:;" class="inside">
+							<span class="icon-custom-menu"></span>
+							<span>전체메뉴</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="header__bottom">
+			<div class="header__inner">
+				<div class="menu-before">
+					<div class="menu-before__top">
+						<ul class="menu-before__top--list">
+							<!-- 로그인 후 -->
+							<li class="menu__logout">
+								<a href="javascript:;" class="inside">로그아웃</a>
+							</li>
+							<!-- 로그인 전 -->
+							<li class="menu__login">
+								<a href="javascript:;" class="inside">로그인</a>
+							</li>
+							<li class="menu__join">
+								<a href="javascript:;" class="inside">회원가입</a>
+							</li>
+						</ul>
+						<a href="javascript:;" class="icon-custom-close js-menu-hide"></a>
+					</div>
+					<div class="menu-comment">
+						<!-- 로그인 후 -->
+						<a href="javascript:;" class="btn-info">내 정보<span class="icon-chevron_forward"></span></a>
+						<p class="menu-comment__txt"><span>홍길동</span>(교육생)</p>
+						<!-- 로그인 전 -->
+						<p class="menu-comment__txt2">
+							안녕하세요!<br>
+							<b>로그인 후 이용해주세요.</b>
+						</p>
+					</div>
+				</div>
+				<ul id="gnb" class="gnb-list">
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="0">교육신청</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="1">교육마당</a>
+						<ul class="depth2-list" data-num="1">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">공지사항</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">제도 및 법률</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">연간 교육일정</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">교육체계도</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">각 교육별 과정안내</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">교육과정 안내책자</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="2">홍보마당</a>
+						<ul class="depth2-list" data-num="2">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">뉴스레터</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">연차보고서</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">홍보영상 및 보도자료</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">대학 및 능력개발교육원 UI</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="3">기관소개</a>
+						<ul class="depth2-list" data-num="3">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">교육원 설립목적</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">원장인사말</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">교육원 조직도</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">시설 안내</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">오시는 길</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="4">참여마당</a>
+						<ul class="depth2-list" data-num="4">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">자주하는 질문</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">묻고 답하기</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="5">나의강의실</a>
+						<ul class="depth2-list" data-num="5">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">나의 홈</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">나의 학습</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">문의내역</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<label for="familySite" class="family-label">
+					<select id="familySite" class="family-site">
+						<option value="">관련사이트</option>
+					</select>
+				</label>
+			</div>
+			<div class="header__bottom--bg"></div>
+		</div>
+		<div class="header__dim"></div>
+	</header>
+	<div class="site-map js-whole-page">
+		<div class="site-map__dim"></div>
+		<div class="site-map__page">
+			<div class="site-map__page--top">
+				<div class="inner">
+					<a href="javascript:;" class="logo" title="한국기술교육대학교 능력개발교육원"></a>
+					<a href="javascript:;" class="icon-custom-close js-whole-close" title="닫기"></a>
+				</div>
+			</div>
+			<div class="site-map__page--middle">
+				<ul class="site-map__list">
+					<li>
+						<dl>
+							<dt><a href="javascript:;" class="inside">교육신청</a></dt>
+							<dd></dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><a href="javascript:;" class="inside">교육마당</a></dt>
+							<dd>
+								<ul class="site-map__menu">
+									<li><a href="javascript:;" class="inside">공지사항</a></li>
+									<li><a href="javascript:;" class="inside">제도 및 법률</a></li>
+									<li><a href="javascript:;" class="inside">연간 교육일정</a></li>
+									<li><a href="javascript:;" class="inside">교육체계도</a></li>
+									<li>
+										<a href="javascript:;" class="inside js-open-depth3">각 교육별 과정안내</a>
+										<ul class="depth3-list">
+											<li><a href="javascript:;" class="inside">3댑스 메뉴</a></li>
+											<li><a href="javascript:;" class="inside">3댑스 메뉴</a></li>
+										</ul>
+									</li>
+									<li><a href="javascript:;" class="inside">교육과정 안내책자</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><a href="javascript:;" class="inside">홍보마당</a></dt>
+							<dd>
+								<ul class="site-map__menu">
+									<li><a href="javascript:;" class="inside">뉴스레터</a></li>
+									<li><a href="javascript:;" class="inside">연차보고서</a></li>
+									<li>
+										<a href="javascript:;" class="inside js-open-depth3">홍보영상 및 보도자료</a>
+										<ul class="depth3-list">
+											<li><a href="javascript:;" class="inside">3댑스 메뉴</a></li>
+											<li><a href="javascript:;" class="inside">3댑스 메뉴</a></li>
+										</ul>
+									</li>
+									<li><a href="javascript:;" class="inside">대학 및 능력개발교육원 UI</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><a href="javascript:;" class="inside">기관소개</a></dt>
+							<dd>
+								<ul class="site-map__menu">
+									<li><a href="javascript:;" class="inside">교육원 설립목적</a></li>
+									<li><a href="javascript:;" class="inside">원장인사말</a></li>
+									<li>
+										<a href="javascript:;" class="inside js-open-depth3">교육원 조직도</a>
+										<ul class="depth3-list">
+											<li><a href="javascript:;" class="inside">3댑스 메뉴</a></li>
+											<li><a href="javascript:;" class="inside">3댑스 메뉴</a></li>
+										</ul>
+									</li>
+									<li><a href="javascript:;" class="inside">시설 안내</a></li>
+									<li><a href="javascript:;" class="inside">오시는 길</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><a href="javascript:;" class="inside">참여마당</a></dt>
+							<dd>
+								<ul class="site-map__menu">
+									<li><a href="javascript:;" class="inside">자주하는 질문</a></li>
+									<li><a href="javascript:;" class="inside">묻고 답하기</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><a href="javascript:;" class="inside">나의강의실</a></dt>
+							<dd>
+								<ul class="site-map__menu">
+									<li><a href="javascript:;" class="inside">나의 홈</a></li>
+									<li><a href="javascript:;" class="inside">나의 학습</a></li>
+									<li><a href="javascript:;" class="inside">문의내역</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- // header area -->
+	<!-- container -->
+	<div id="container" class="container">
+		<div class="cm-index-box">
+			<div class="inner">
+				<ul class="cm-index-list">
+					<li><a href="javascript:;" class="inside">홈</a></li>
+					<li><a href="javascript:;" class="inside">내정보</a></li>
+					<li class="now"><a href="javascript:;" class="inside">내 정보 수정</a></li>
+				</ul>
+				<div class="cm-index-title">
+					<p class="txt--b8">내정보</p>
+				</div>
+			</div>
+		</div>
+		<div class="drop-menu">
+			<a href="javascript:;" class="drop-menu__btn js-toggle">내 정보 수정<span class="icon-chevron_down"></span></a>
+			<ul class="drop-menu__list js-toggle-con">
+				<li class="on"><a href="javascript:;" class="inside">내 정보 수정</a></li>
+				<li><a href="javascript:;" class="inside">비밀번호 변경</a></li>
+				<li><a href="javascript:;" class="inside">회원탈퇴</a></li>
+			</ul>
+		</div>
+		<div class="container-inner">
+			<div class="sidebar">
+				<ul class="sidebar-list js-drop">
+					<li class="on">
+						<a href="javascript:;" class="inside">내 정보 수정 <span class="icon-chevron_forward"></span></a>
+					</li>
+					<li>
+						<a href="javascript:;" class="inside">비밀번호 변경 <span class="icon-chevron_forward"></span></a>
+					</li>
+					<li>
+						<a href="javascript:;" class="inside">회원탈퇴 <span class="icon-chevron_forward"></span></a>
+					</li>
+				</ul>
+			</div>
+			<section class="content">
+				<div class="title-frame">
+					<p class="cm-txt__title--normal">내 정보 수정</p>
+					<ul class="cm-share-list">
+						<li class="print"><a href="javascript:;" class="icon-vs_print inside" title="프린트하기"></a></li>
+					</ul>
+				</div>
+				<div class="board-frame">
+					<div class="board__tab-line-frame wide">
+						<ul class="board__tab-line">
+							<li><a href="javascript:;" class="board__tab--block">회원정보</a></li>
+							<li class="now"><a href="javascript:;" class="board__tab--block">소속기관정보</a></li>
+						</ul>
+					</div>
+					<div class="board__block">
+						<h4 class="member-frame--title-sub">
+							<p class="member-frame--title-sub__txt">소속기관선택</p>
+							<p class="txt-default"><span class="secondary-color">*</span> 필수입력</p>
+						</h4>
+						<div class="board__detail">
+							<div class="board__form">
+								<div class="board__form--inner">
+									<ul class="board__form--list">
+										<li>
+											<div class="board__form--flex">
+												<div class="board__form--title">
+													<span>소속기관 <span class="secondary-color">*</span></span>
+												</div>
+												<div class="board__form--con">
+													<label for="belong">
+														<select id="belong">
+															<option value="0">인문계고교</option>
+														</select>
+													</label>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="board__block--spacing">
+							<h4 class="member-frame--title-sub">
+								<p class="member-frame--title-sub__txt">소속기관정보</p>
+							</h4>
+							<div class="board__detail">
+								<div class="board__form">
+									<div class="board__form--inner">
+										<ul class="board__form--list">
+											<li>
+												<div class="board__form--flex">
+													<div class="board__form--title">
+														<span>소속교육청 <span class="secondary-color">*</span></span>
+													</div>
+													<div class="board__form--con">
+														<label for="district">
+															<select id="district">
+																<option value="0">서울특별시</option>
+															</select>
+														</label>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="board__form--flex">
+													<div class="board__form--title">
+														<span>소속명 <span class="secondary-color">*</span></span>
+													</div>
+													<div class="board__form--con">
+														<div class="form-sort-double">
+															<label for="affiliation" class="post-box__left">
+																<input type="text" id="affiliation" disabled value="(주)브이스퀘어">
+															</label>
+															<a href="javascript:;" class="btn-regular-dark--outline">소속명검색</a>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="board__form--flex">
+													<div class="board__form--title">
+														<span>부서 <span class="secondary-color">*</span></span>
+													</div>
+													<div class="board__form--con">
+														<label for="department">
+															<input type="text" id="department" value="UI/UX팀">
+														</label>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="board__form--flex">
+													<div class="board__form--title">
+														<span>직위 <span class="secondary-color">*</span></span>
+													</div>
+													<div class="board__form--con">
+														<label for="spot">
+															<input type="text" id="spot" value="대리">
+														</label>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="board__form--flex">
+													<div class="board__form--title">
+														<span>전화번호</span>
+													</div>
+													<div class="board__form--con">
+														<div class="form-sort-triple">
+															<label for="homeFirst">
+																<select id="homeFirst">
+																	<option value="0">02</option>
+																	<option value="0">031</option>
+																	<option value="0">032</option>
+																</select>
+															</label>
+															<label for="homeSecond">
+																<input type="number" id="homeSecond">
+															</label>
+															<label for="homeThird">
+																<input type="number" id="homeThird">
+															</label>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="board__form--flex">
+													<div class="board__form--title">
+														<span>팩스번호</span>
+													</div>
+													<div class="board__form--con">
+														<div class="form-sort-triple">
+															<label for="faxFirst">
+																<select id="faxFirst">
+																	<option value="0">02</option>
+																	<option value="0">031</option>
+																	<option value="0">032</option>
+																</select>
+															</label>
+															<label for="faxSecond">
+																<input type="number" id="faxSecond">
+															</label>
+															<label for="faxThird">
+																<input type="number" id="faxThird">
+															</label>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="board__form--flex">
+													<div class="board__form--title">
+														<span>주소 <span class="secondary-color">*</span></span>
+													</div>
+													<div class="board__form--con">
+														<div class="form-sort-single">
+															<div class="form-sort-double">
+																<label for="postSearch" class="post-box__left">
+																	<input type="text" id="postSearch" readonly="" placeholder="우편번호 검색">
+																</label>
+																<a href="javascript:;" class="btn-regular-dark--outline">주소검색</a>
+															</div>
+															<label for="postSearch2">
+																<input type="text" id="postSearch2" readonly="" placeholder="">
+															</label>
+															<label for="postDetail">
+																<input type="text" id="postDetail" placeholder="상세 주소">
+															</label>
+														</div>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="board__block--spacing">
+							<h4 class="member-frame--title-sub">
+								<p class="member-frame--title-sub__txt">NEIS정보</p>
+							</h4>
+							<div class="board__detail">
+								<div class="board__form">
+									<div class="board__form--inner">
+										<ul class="board__form--list">
+											<li>
+												<div class="board__form--flex">
+													<div class="board__form--title">
+														<span>NEIS 개인번호 <span class="secondary-color">*</span></span>
+													</div>
+													<div class="board__form--con">
+														<label for="privacy">
+															<input type="text" id="privacy" placeholder="" value="A1234567">
+														</label>
+														<p class="input-comment"><span class="icon-alert_circle_outline" title="주의"></span> NEIS 개인번호 확인방법 : 나이스 로그인 → 인사기록 → 기본사항 ( 예)A1234567 (알파벳 + 숫자9개))</p>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="board__block--spacing">
+							<h4 class="member-frame--title-sub">
+								<p class="member-frame--title-sub__txt">관심과목</p>
+							</h4>
+							<div class="board__detail">
+								<div class="board__form">
+									<div class="board__form--inner">
+										<ul class="board__form--list">
+											<li>
+												<div class="board__form--flex">
+													<div class="board__form--title">
+														<span></span>
+													</div>
+													<div class="board__form--con">
+														<ul class="list-chk-frame">
+															<li>
+																<label for="attention" class="chk-box">
+																	<input type="checkbox" id="attention" name="interests" checked>
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">사업 관리</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention2" class="chk-box">
+																	<input type="checkbox" id="attention2" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">경영·회계·사무</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention3" class="chk-box">
+																	<input type="checkbox" id="attention3" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">금융·보험</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention4" class="chk-box">
+																	<input type="checkbox" id="attention4" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">교육·자연·사회 과학</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention5" class="chk-box">
+																	<input type="checkbox" id="attention5" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">법률·경찰·소방·교도·국방</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention6" class="chk-box">
+																	<input type="checkbox" id="attention6" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">보건·의료</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention7" class="chk-box">
+																	<input type="checkbox" id="attention7" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">사회 복지·종교</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention8" class="chk-box">
+																	<input type="checkbox" id="attention8" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">문화·예술·디자인·방송</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention9" class="chk-box">
+																	<input type="checkbox" id="attention9" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">운정·운송</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention10" class="chk-box">
+																	<input type="checkbox" id="attention10" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">영업판매</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention11" class="chk-box">
+																	<input type="checkbox" id="attention11" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">경비·청소</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention12" class="chk-box">
+																	<input type="checkbox" id="attention12" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">이용·숙박·여행·오락·스포츠</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention13" class="chk-box">
+																	<input type="checkbox" id="attention13" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">음식 서비스</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention14" class="chk-box">
+																	<input type="checkbox" id="attention14" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">건설</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention15" class="chk-box">
+																	<input type="checkbox" id="attention15" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">기계</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention16" class="chk-box">
+																	<input type="checkbox" id="attention16" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">재료</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention17" class="chk-box">
+																	<input type="checkbox" id="attention17" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">화학</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention18" class="chk-box">
+																	<input type="checkbox" id="attention18" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">섬유·의복</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention19" class="chk-box">
+																	<input type="checkbox" id="attention19" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">전기·전자</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention20" class="chk-box">
+																	<input type="checkbox" id="attention20" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">정보·통신</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention21" class="chk-box">
+																	<input type="checkbox" id="attention21" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">식품가공</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention22" class="chk-box">
+																	<input type="checkbox" id="attention22" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">인쇄·목재·가구·공예</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention23" class="chk-box">
+																	<input type="checkbox" id="attention23" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">환경·에너지·안전</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention24" class="chk-box">
+																	<input type="checkbox" id="attention24" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">농림·어업</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention25" class="chk-box">
+																	<input type="checkbox" id="attention25" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">공통역량</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention26" class="chk-box">
+																	<input type="checkbox" id="attention26" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">교수역량</span> 
+																</label>
+															</li>
+															<li>
+																<label for="attention27" class="chk-box">
+																	<input type="checkbox" id="attention27" name="interests">
+																	<span class="chk-box__icon"></span>
+																	<span class="chk-box__txt">직무역량</span> 
+																</label>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="btn-interval-small--side">
+							<div class="btn-interval__left">
+								<a href="javascript:;" class="btn-regular-dark--outline">취소</a>
+							</div>
+							<div class="btn-interval__right">
+								<a href="javascript:;" class="btn-regular-primary">수정</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<!-- // container -->
+	<!-- footer area -->
+	<footer class="footer">
+		<!-- top -->
+		<a href="javascript:;" id="top" title="위로 가기">TOP</a>
+		<!-- // top -->
+		<div class="footer__top">
+			<div class="footer__inner inner">
+				<div class="footer__inner--left">
+					<ul class="footer__link">
+						<li class="point"><a href="javascript:;" class="inside">개인정보처리방침</a></li>
+						<li><a href="javascript:;" class="inside">이메일무단수집거부</a></li>
+						<li><a href="javascript:;" class="inside">이용약관</a></li>
+					</ul>
+				</div>
+				<div class="footer__inner--right">
+					<a href="tel:041-521-8000" class="footer__phone"><span class="icon-call"></span>041-521-8000</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			<div class="footer__inner inner">
+				<div class="footer__inner--left">
+					<div class="footer__info">
+						<p class="address">31079) 충남 천안시 서북구 과수원길 18 한국기술교육대학교 능력개발교육원</p>
+						<a href="mailto:hrdiadmin@koreatech.ac.kr">EMAIL : hrdiadmin@koreatech.ac.kr</a>
+						<p class="txt-detail js-click">통신판매업자 정보 자세히보기 <span class="icon-chevron_down"></span></p>
+						<p class="txt-detail-con">사업자등록번호 : 312-82-03357 / 통신판매업신고 : 제2016-충남천안-0210호 한국기술교육대학교 / 대표자 : 이성기</p>
+						<p class="copyright">COPYRIGHT © 2022 BY KOREATECH HRDI ALL RIGHTS RESERVED.</p>
+					</div>
+					<ul class="footer__logo-list">
+						<li><img src="img/common/logo/logo_gray.svg" alt="한국기술교육대학교 능력개발교육원"></li>
+						<li><img src="img/common/logo/logo_tech_gray.svg" alt="한국기술교육대학교 KOREATECH"></li>
+						<li><img src="img/common/logo/logo_ability_gray.svg" alt="정부혁신 보다나은 능력개발교육원"></li>
+					</ul>
+				</div>
+				<div class="footer__inner--right">
+					<div class="ars-frame">
+						<p class="ars-frame__txt">부서별 ARS 연결 번호 안내 <span class="icon-chevron_down"></span></p>
+						<div class="ars-frame__list-frame">
+							<ul class="ars-frame__list">
+								<li>
+									<p class="ars-frame__title">①번 : 직업훈련교·강사</p>
+									<ul class="ars-frame__num">
+										<li>훈련교사 자격교육 : ①번</li>
+										<li>교직분야 보수교육 : ②번</li>
+										<li>전공분야 보수교육 : ③번</li>
+									</ul>
+								</li>
+								<li>
+									<div class="ars-frame__divide">
+										<ul class="ars-frame__divide--item">
+											<li>
+												<p class="ars-frame__title">②번 : 직업계고교원 교육</p>
+											</li>
+											<li>
+												<p class="ars-frame__title">③번 : 일학습 전담인력 교육</p>
+											</li>
+											<li>
+												<p class="ars-frame__title">④번 : 가입 로그인 관련 홈페이지</p>
+											</li>
+										</ul>
+										<ul class="ars-frame__divide--item">
+											<li>
+												<p class="ars-frame__title">⑤번 : 자격심사</p>
+											</li>
+											<li>
+												<p class="ars-frame__title">⑥번 : 고용서비스 전문인력 양성교육</p>
+											</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- // footer area -->
+</body>
+
+</html>

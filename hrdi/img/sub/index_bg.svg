@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2560px" height="130px" viewBox="0 0 2560 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bg copy</title>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#7AAEFF" offset="0%"></stop>
+            <stop stop-color="#4476FF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,0 L2560,0 L2560,100 C2133.33333,120 1706.66667,130 1280,130 C853.333333,130 426.666667,120 0,100 L0,0 Z" id="path-2"></path>
+        <linearGradient x1="50%" y1="18.2517158%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#F2F2F2" stop-opacity="0.639892578" offset="99.9214653%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="18.2517158%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#F2F2F2" stop-opacity="0.536979835" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="기타요소" transform="translate(0.000000, -115.000000)">
+            <g id="타이틀영역-배경-이미지" transform="translate(0.000000, 60.000000)">
+                <g id="bg-copy" transform="translate(0.000000, 55.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    <g id="Group-3" mask="url(#mask-3)">
+                        <g transform="translate(395.000000, -414.000000)">
+                            <g id="Group-2" transform="translate(457.993036, 479.508271) rotate(31.000000) translate(-457.993036, -479.508271) translate(147.832317, 106.461269)">
+                                <polygon id="Triangle-Copy-2" fill="url(#linearGradient-4)" opacity="0.5" points="248.5 249.094005 497 746.094005 0 746.094005"></polygon>
+                                <polygon id="Triangle-Copy-3" fill="url(#linearGradient-5)" opacity="0.300000012" transform="translate(371.821437, 248.500000) scale(1, -1) translate(-371.821437, -248.500000) " points="371.821437 0 620.321437 497 123.321437 497"></polygon>
+                            </g>
+                            <g id="Group-2-Copy" transform="translate(1311.993036, 479.508271) rotate(31.000000) translate(-1311.993036, -479.508271) translate(1001.832317, 106.461269)">
+                                <polygon id="Triangle-Copy-2" fill="url(#linearGradient-4)" opacity="0.300000012" points="248.5 249.094005 497 746.094005 0 746.094005"></polygon>
+                                <polygon id="Triangle-Copy-3" fill="url(#linearGradient-5)" opacity="0.5" transform="translate(371.821437, 248.500000) scale(1, -1) translate(-371.821437, -248.500000) " points="371.821437 0 620.321437 497 123.321437 497"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

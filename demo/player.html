@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<!-- TODO add -->
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="font/spoqa-han-sans/style.css">
+	<link rel="stylesheet" href="lia/vendor/jquery-ui-1.12.1.custom/jquery-ui.css">
+	<link rel="stylesheet" href="icon_fonts/icon_fonts.min.css">
+	<link rel="stylesheet" href="style/style.min.css">
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="lia/vendor/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+	<title>플레이어</title>
+</head>
+
+<body>
+	<noscript>자바스크립트를 지원하지 않는 브라우저에서는 일부 기능이 정상 동작 하지 않을 수 있습니다.</noscript>
+	<!-- container -->
+	<div id="container" class="container">
+		<!-- TODO 커스텀 오버레이 플레이어 시작 -->
+		<div class="player-overlay">
+			<ul class="player-control__option">
+				<li class="option-subtitle"><span class="icon-custom-subtitle" title="자막"></span></li>
+				<li class="option-speed">
+					<span class="icon-custom-speed" title="속도"></span>
+					<div class="box-speed">
+						<p class="box-speed__title">배속</p>
+						<ul class="box-speed__list">
+							<li class="on">0.5x</li>
+							<li>1.0x</li>
+							<li>1.5x</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+			<ul class="player-overlay__control">
+				<li class="mo-show"><span class="icon-play_back" title="10초 이전"></span></li>
+				<li class="mo-hide"><span class="icon-custom-big__play" title="재생"></span></li>
+				<li class="mo-hide"><span class="icon-custom-big__pause" title="정지"></span></li>
+				<li class="mo-show"><span class="icon-play" title="재생"></span></li>
+				<li class="mo-show"><span class="icon-pause" title="정지"></span></li>
+				<li class="mo-show"><span class="icon-play_forward" title="10초 이후"></span></li>
+			</ul>
+		</div>
+		<!-- // TODO 커스텀 오버레이위 플레이어 끝 -->
+		<!-- TODO 커스텀 플레이어 시작 -->
+		<div class="player-control">
+			<div class="player-control__bar">
+				<span class="bar-on"></span>
+			</div>
+			<div class="player-control__left">
+				<ul class="player-control__list">
+					<li><span class="icon-play_back" title="10초 이전"></span></li>
+					<li><span class="icon-play" title="재생"></span></li>
+					<li><span class="icon-pause" title="정지"></span></li>
+					<li><span class="icon-play_forward" title="10초 이후"></span></li>
+				</ul>
+				<ul class="list-sound">
+					<li><span class="icon-volume_medium" title="소리"></span></li>
+					<li><span class="icon-custom-mute" title="음소거"></span></li>
+					<li class="list-sound__control"><div id="soundControl" title="소리 조절"></div></li>
+				</ul>
+				<div class="box-time">
+					<span class="time-past">00:00</span>
+					<span class="time-all">/ 09:00</span>
+				</div>
+			</div>
+			<div class="player-control__right">
+				<ul class="player-control__option">
+					<li class="option-subtitle mo-hide"><span class="icon-custom-subtitle" title="자막"></span></li>
+					<li class="option-speed mo-hide">
+						<span class="icon-custom-speed" title="속도"></span>
+						<div class="box-speed">
+							<p class="box-speed__title">배속</p>
+							<ul class="box-speed__list">
+								<li class="on">0.5x</li>
+								<li>1.0x</li>
+								<li>1.5x</li>
+							</ul>
+						</div>
+					</li>
+					<li><span class="icon-scan" title="확대"></span></li>
+				</ul>
+			</div>
+		</div>
+		<!-- // TODO 커스텀 플레이어 끝 -->
+	</div>
+	<!-- // container -->
+	<script>
+		$(function(){
+			// 소리 컨트롤 jQuery ui
+			$("#soundControl").slider();
+			// 배속 목록
+			$(".option-speed").on("mouseenter", function(){
+				$(this).find(".box-speed").show();
+			});
+			$(".player-control__option>li").not("li.option-speed").on("mouseenter", function(){
+				$(".box-speed").hide();
+			});
+			$(".box-speed").on("mouseleave", function(){
+				$(this).hide();
+			});
+		});
+	</script>
+</body>
+
+</html>

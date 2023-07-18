@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<!-- TODO add -->
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="font/spoqa-han-sans/style.css">
+	<link rel="stylesheet" href="style/slick-1.8.1.min.css">
+	<link rel="stylesheet" href="style/swiper-4.5.1.min.css">
+	<link rel="stylesheet" href="icon_fonts/icon_fonts.min.css">
+	<link rel="stylesheet" href="style/style.min.css">
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/slick-1.8.1.min.js"></script>
+	<script src="js/swiper-4.5.1.min.js"></script>
+	<script src="js/sub.js"></script>
+	<script src="js/common.js"></script>
+	<title>DEMO</title>
+</head>
+
+<body>
+	<noscript>자바스크립트를 지원하지 않는 브라우저에서는 일부 기능이 정상 동작 하지 않을 수 있습니다.</noscript>
+	<div class="skip-navigation"><a href="#container">본문 바로가기</a></div>
+	<div class="skip-navigation"><a href="#gnb">주메뉴 바로가기</a></div>
+	<div class="skip-navigation"><a href="/">메인으로 바로가기</a></div>
+	<!-- header area -->
+	<header class="header">
+		<div class="inner">
+			<a href="javascript:;" class="logo" title="VSQUARE"></a>
+		<div class="header-box">
+			<div class="header-box__bg"></div>
+			<div class="header-box__top">
+				<div class="inner">
+					<div class="header-box__top--left">
+						<div class="time-box">
+							<span class="icon-time_outline" title="시간아이콘"></span>
+							<span>04</span>분 <span>00</span>초
+							<a href="javascript:;" class="btn-time">연장</a>
+						</div>
+						<div class="member-area">
+							<a href="javascript:;" class="member-area__login">로그인 하기</a>
+							<!-- TODO : 로그인 했을 경우 -->
+							<!-- <div class="member-area__me">
+								<a href="javascript:;" class="member-area__me--info">
+									<span>홍길동</span> 님
+								</a>
+								<a href="javascript:;" class="icon-settings_outline" title="정보보기"></a>
+							</div> -->
+						</div>
+					</div>
+					<div class="header-box__top--right">
+						<ul class="list-default">
+							<li>
+								<a href="javascript:;" class="inside tm-hide">로그인</a>
+								<!-- TODO : 로그인 했을 경우 -->
+								<!-- <a href="javascript:;" class="inside">로그아웃</a> -->
+							</li>
+							<li>
+								<a href="javascript:;" class="inside">회원가입</a>
+							</li>
+						</ul>
+						<a href="javascript:;" class="icon-close js-menu-hide" title="닫기"></a>
+					</div>
+				</div>
+			</div>
+			<div class="header-box__bottom">
+				<ul id="gnb" class="gnb-list">
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="0">소개</a>
+						<ul class="depth2-list" data-num=0">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">기관소개</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">인사말</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">연혁</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">오시는 길</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="1">전체과정</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="2">고객센터</a>
+						<ul class="depth2-list" data-num="2">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">공지사항</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">FAQ</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">문의하기</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">진행중인 이벤트</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="3">마이페이지</a>
+						<ul class="depth2-list" data-num="3">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">나의강의실</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">설문함</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">문의내역</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">개인정보수정</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<ul class="header__list-icon">
+			<li id="searchShow" class="header__search">
+				<a href="javascript:;" class="icon-search js-search-show" title="검색창띄우기"></a>
+				<div class="tm-search-show">
+					<label for="inputIcon" class="input-button">
+						<a href="javascript:;" class="icon-search js-option" title="검색"></a>
+						<input type="text" id="inputIcon" class="js-option" placeholder="과정명을 입력해주세요">
+						<a href="javascript:;" class="icon-close_circle js-remove" title="지우기"></a>
+					</label>
+					<a href="javascript:;" class="btn-cancel js-tm-search-cancel">취소</a>
+				</div>
+			</li>
+			<li class="header__menu">
+				<a href="javascript:;" class="icon-vs_menu js-menu-show" title="메뉴 펼치기"></a>
+			</li>
+		</ul>
+		</div>
+	</header>
+	<!-- // header area -->
+	<!-- container -->
+	<div id="container" class="container">
+		<div class="cm-index-box">
+			<div class="inner">
+				<ul class="cm-index-list">
+					<li><a href="javascript:;" class="inside">홈</a></li>
+					<li><a href="javascript:;" class="inside">고객센터</a></li>
+					<li class="now"><a href="javascript:;" class="inside">공지사항</a></li>
+				</ul>
+				<div class="cm-index-title">
+					<p class="txt--b9">소개</p>
+					<ul class="cm-share-list">
+						<li><a href="javascript:;" class="icon-share_social inside" title="공유하기"></a></li>
+						<li class="print"><a href="javascript:;" class="icon-vs_print inside" title="프린트하기"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="cm-depth-box">
+			<div class="inner">
+				<ul class="cm-depth-list">
+					<li><a href="javascript:;" class="inside">회사소개</a></li>
+					<li class="now"><a href="javascript:;" class="inside">연혁</a></li>
+					<li><a href="javascript:;" class="inside">오시는 길</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="inner">
+			<section class="section-box">
+				<p class="cm-txt__title--normal">연혁</p>
+				<ol class="box-history">
+					<li>
+						<p class="cm-txt__title--normal">2021</p>
+						<ul class="box-history__list">
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>강동구청 스마트교육 플랫폼 통합교육포털 
+										구축 (진행 중)</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>KOICA 비대면 연수 통합 플랫폼 구축 
+										(진행 중)</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>신한은행 차세대 교육 플랫폼 구축 (진행 중)</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>자생한방병원 Medical Academy 통합 LMS 시스템 구축</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>중앙급식센터 EIP 메뉴플랜 고도화 사업 (진행 중)</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<p class="cm-txt__title--normal">2020</p>
+						<ul class="box-history__list">
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>총신대학교/대학원 홈페이지 통합 SSO/CMS 구축</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>중앙급식센터 EIP 1차사업 CMS 구축</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>여성인권진흥원 종사자 교육포털 구축</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>정화예술대학교 홈페이지 리뉴얼 및 CMS 구축</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<p class="cm-txt__title--normal">2019 ~<br class="mo-hide">2017</p>
+						<ul class="box-history__list">
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>남서울대 CTL 유지보수</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>농심NDS 클라우드 기반 온라인 교육서비스 사업제휴 MOU</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>국방대학교 원격교육체계 성능개선 및 교체 사업</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>남서울대학교 학부 스마트통합러닝 시스템 유지보수 사업</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>남서울대 종합정보 시스템 유지 보수</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>한국기술교육대 스마트직업교육 훈련플랫폼 구축(STEP)</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>경희사이버대학교 LMS, CDMS 개발 용역사업</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<p class="cm-txt__title--normal">2016 ~<br class="mo-hide">2014</p>
+						<ul class="box-history__list">
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>웹어워드코리아 대학 부문 우수상 수상 (남서울대 반응형 홈페이지)</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>합동군사대학교 M-MOOC 체계 구축</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>2017년도 코리아텍 온라인평생교육원 시스템 통합유지보수</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>남서울대 반응형 대학 홈페이지 구축</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>남서울대 SSO 통합인증시스템 구축</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>Pysxis 2.0 (SSO 솔루션) 출시</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>Pluto 1.0 (웹 CMS 솔루션) 출시</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>Polaris 2.0 (통합 eLearning 솔루션) 출시</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<p class="cm-txt__title--normal">2013</p>
+						<ul class="box-history__list">
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>한국기술교육대학교 e-koreatech 구축사업</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>남서울대학교 LMS 신규 구축 개발</li>
+								</ul>
+							</li>
+							<li>
+								<p class="txt--m3"></p>
+								<ul class="box-history__month">
+									<li>㈜브이스퀘어 설립</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ol>
+			</section>
+		</div>
+	</div>
+	<!-- // container -->
+	<!-- footer area -->
+	<div class="banner-list">
+		<div class="inner">
+			<p class="txt--m3">배너모음</p>
+			<div class="banner-list__control">
+				<a href="javascript:;" class="banner-list__prev icon-chevron_back" title="이전"></a>
+				<a href="javascript:;" class="banner-list__stop icon-pause_outline" title="리모트"></a>
+				<a href="javascript:;" class="banner-list__next icon-chevron_forward" title="다음"></a>
+			</div>
+			<div class="swiper banner-list__slider">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href="https://vsquare.cc/" target="_blank">
+							<img src="./img/common/logo.svg" alt="VSQUARE">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="https://vsquare.cc/" target="_blank">
+							<img src="./img/common/logo.svg" alt="VSQUARE">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="https://vsquare.cc/" target="_blank">
+							<img src="./img/common/logo.svg" alt="VSQUARE">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="https://vsquare.cc/" target="_blank">
+							<img src="./img/common/logo.svg" alt="VSQUARE">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="https://vsquare.cc/" target="_blank">
+							<img src="./img/common/logo.svg" alt="VSQUARE">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="https://vsquare.cc/" target="_blank">
+							<img src="./img/common/logo.svg" alt="VSQUARE">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<!-- top -->
+		<a href="javascript:;" id="top" title="위로 가기">TOP</a>
+		<!-- // top -->
+		<div class="footer__inner inner">
+			<div class="footer__inner--left">
+				<ul class="footer__link">
+					<li class="point"><a href="javascript:;" class="inside">개인정보처리방침</a></li>
+					<li><a href="javascript:;" class="inside">이용약관</a></li>
+					<li><a href="javascript:;" class="inside">이메일무단수집거부</a></li>
+					<li><a href="javascript:;" class="inside">고객센터</a></li>
+				</ul>
+				<div class="footer__info">
+					<p class="address">서울특별시 서초구 강남대로 327 대륭서초타워, 1608호</p>
+					<p><span>Tel : <a href="tel:02-566-7748">02-566-7748</a></span>&ensp;<span>FAX : 02-566-7749</span></p>
+					<p class="copyright">Copyright ⓒ VSQUARE 2021. All rights reserved.</p>
+				</div>
+			</div>
+			<div class="footer__inner--right">
+				<label for="familySite">
+					<select id="familySite" class="family-site">
+						<option value="">관련사이트</option>
+					</select>
+				</label>
+			</div>
+		</div>
+	</footer>
+	<!-- // footer area -->
+</body>
+
+</html>

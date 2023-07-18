@@ -1,0 +1,16 @@
+@charset "utf-8";
+/*+-----------------------------------+    
+| Title: Main Style |
+| Note: 추가 수정 스타일 파일 입니다.
+수정한 부분이 적용이 되지 않으면 스타일 뒤에 !important를 붙여주세요.
+ex) .main { cursor: pointer !important; } |
++-------------------------------------+*/
+
+.gnb-list__title {
+    cursor: pointer;
+}
+
+@media (max-width: 1248px) {
+    header .btn.login, header .login.btn--outline { width:105px }
+}
+

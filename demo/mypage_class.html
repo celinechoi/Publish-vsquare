@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<!-- TODO add -->
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="font/spoqa-han-sans/style.css">
+	<link rel="stylesheet" href="style/slick-1.8.1.min.css">
+	<link rel="stylesheet" href="style/swiper-4.5.1.min.css">
+	<link rel="stylesheet" href="icon_fonts/icon_fonts.min.css">
+	<link rel="stylesheet" href="style/style.min.css">
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/slick-1.8.1.min.js"></script>
+	<script src="js/swiper-4.5.1.min.js"></script>
+	<script src="js/sub.js"></script>
+	<script src="js/common.js"></script>
+	<title>DEMO</title>
+</head>
+
+<body>
+	<noscript>자바스크립트를 지원하지 않는 브라우저에서는 일부 기능이 정상 동작 하지 않을 수 있습니다.</noscript>
+	<div class="skip-navigation"><a href="#container">본문 바로가기</a></div>
+	<div class="skip-navigation"><a href="#gnb">주메뉴 바로가기</a></div>
+	<div class="skip-navigation"><a href="/">메인으로 바로가기</a></div>
+	<!-- header area -->
+	<header class="header">
+		<div class="inner">
+			<a href="javascript:;" class="logo" title="VSQUARE"></a>
+		<div class="header-box">
+			<div class="header-box__bg"></div>
+			<div class="header-box__top">
+				<div class="inner">
+					<div class="header-box__top--left">
+						<div class="time-box">
+							<span class="icon-time_outline" title="시간아이콘"></span>
+							<span>04</span>분 <span>00</span>초
+							<a href="javascript:;" class="btn-time">연장</a>
+						</div>
+						<div class="member-area">
+							<a href="javascript:;" class="member-area__login">로그인 하기</a>
+							<!-- TODO : 로그인 했을 경우 -->
+							<!-- <div class="member-area__me">
+								<a href="javascript:;" class="member-area__me--info">
+									<span>홍길동</span> 님
+								</a>
+								<a href="javascript:;" class="icon-settings_outline" title="정보보기"></a>
+							</div> -->
+						</div>
+					</div>
+					<div class="header-box__top--right">
+						<ul class="list-default">
+							<li>
+								<a href="javascript:;" class="inside tm-hide">로그인</a>
+								<!-- TODO : 로그인 했을 경우 -->
+								<!-- <a href="javascript:;" class="inside">로그아웃</a> -->
+							</li>
+							<li>
+								<a href="javascript:;" class="inside">회원가입</a>
+							</li>
+						</ul>
+						<a href="javascript:;" class="icon-close js-menu-hide" title="닫기"></a>
+					</div>
+				</div>
+			</div>
+			<div class="header-box__bottom">
+				<ul id="gnb" class="gnb-list">
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="0">소개</a>
+						<ul class="depth2-list" data-num=0">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">기관소개</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">인사말</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">연혁</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">오시는 길</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="1">전체과정</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="2">고객센터</a>
+						<ul class="depth2-list" data-num="2">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">공지사항</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">FAQ</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">문의하기</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">진행중인 이벤트</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="3">마이페이지</a>
+						<ul class="depth2-list" data-num="3">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">나의강의실</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">설문함</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">문의내역</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">개인정보수정</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<ul class="header__list-icon">
+			<li id="searchShow" class="header__search">
+				<a href="javascript:;" class="icon-search js-search-show" title="검색창띄우기"></a>
+				<div class="tm-search-show">
+					<label for="inputIcon" class="input-button">
+						<a href="javascript:;" class="icon-search js-option" title="검색"></a>
+						<input type="text" id="inputIcon" class="js-option" placeholder="과정명을 입력해주세요">
+						<a href="javascript:;" class="icon-close_circle js-remove" title="지우기"></a>
+					</label>
+					<a href="javascript:;" class="btn-cancel js-tm-search-cancel">취소</a>
+				</div>
+			</li>
+			<li class="header__menu">
+				<a href="javascript:;" class="icon-vs_menu js-menu-show" title="메뉴 펼치기"></a>
+			</li>
+		</ul>
+		</div>
+	</header>
+	<!-- // header area -->
+	<!-- container -->
+	<div id="container" class="container">
+		<div class="cm-index-box">
+			<div class="inner">
+				<ul class="cm-index-list">
+					<li><a href="javascript:;" class="inside">홈</a></li>
+					<li><a href="javascript:;" class="inside">마이페이지</a></li>
+					<li class="now"><a href="javascript:;" class="inside">설문함</a></li>
+				</ul>
+				<div class="cm-index-title">
+					<p class="txt--b9">마이페이지</p>
+					<ul class="cm-share-list">
+						<li><a href="javascript:;" class="icon-share_social inside" title="공유하기"></a></li>
+						<li class="print"><a href="javascript:;" class="icon-vs_print inside" title="프린트하기"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="cm-depth-box">
+			<div class="inner">
+				<ul class="cm-depth-list">
+					<li class="now"><a href="javascript:;" class="inside">나의 강의실</a></li>
+					<li><a href="javascript:;" class="inside">설문함</a></li>
+					<li><a href="javascript:;" class="inside">문의내역</a></li>
+					<li><a href="javascript:;" class="inside">회원정보</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="inner">
+			<section class="section-box">
+				<p class="cm-txt__title--normal">나의 강의실</p>
+				<div class="board-frame">
+					<ul class="board__tab-line">
+						<li class="now"><a href="javascript:;" class="board__tab--block">학습과정</a></li>
+						<li><a href="javascript:;" class="board__tab--block">학습종료</a></li>
+						<li><a href="javascript:;" class="board__tab--block">청강과정</a></li>
+						<li><a href="javascript:;" class="board__tab--block">관심과정</a></li>
+						<li><a href="javascript:;" class="board__tab--block">북마크/메모</a></li>
+					</ul>
+					<div class="box-info">
+						<div class="flex-box">
+							<span class="icon-alert_circle_outline"></span>
+							<p>학습기간이 종료된 과정은 ‘학습종료’ 탭에서 확인 가능합니다.</p>
+						</div>
+					</div>
+					<div class="board__block">
+						<ul class="board__index-box">
+							<li><p class="board__index--num">총 <span>229</span> 건</p></li>
+							<li class="board__index-term">
+								<label for="kinds">
+									<select id="kinds">
+										<option>전체</option>
+										<option>전체</option>
+										<option>전체</option>
+									</select>
+								</label>
+								<label for="endImminent">
+									<select id="endImminent">
+										<option>종료임박순</option>
+										<option>종료임박순</option>
+										<option>종료임박순</option>
+									</select>
+								</label>
+							</li>
+						</ul>
+						<ul class="list-border-gap--regular">
+							<li>
+								<ul class="list__inner-flex--triple">
+									<li class="box-img">
+										<img src="img/sub/banner/banner_list6.png" alt="강의 이미지">
+									</li>
+									<li class="box-middle">
+										<div class="box-middle__top">
+											<span class="board-tag-primary">카테고리</span>
+											<span class="board-num__square">상시제</span>
+										</div>
+										<div class="box-middle__center">
+											<a href="javascript:;" class="txt--m4 word-line-single">시작부터 끝까지, 확실하게 밀착특강 시작부터 끝까지, 확실하게 밀착특강시작부터 끝까지, 확실하게 밀착특강 시작부터 끝까지, 확실하게 밀착특강시작부터 끝까지, 확실하게 밀착특강시작부터 끝까지, 확실하게 밀착특강</a>
+										</div>
+										<div class="box-middle__bottom">
+											<p class="txt-default">학습기간 : 수강신청일로부터 30일</p>
+											<p class="txt-default">진행률 : 0%</p>
+										</div>
+									</li>
+									<li class="box-right">
+										<a href="javascript:;" class="btn-small--bg"><span class="icon-time"></span>&ensp;학습예정</a>
+										<a href="javascript:;" class="btn-small">취소하기</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="list__inner-flex--triple">
+									<li class="box-img">
+										<img src="img/sub/banner/banner_list6.png" alt="강의 이미지">
+									</li>
+									<li class="box-middle">
+										<div class="box-middle__top">
+											<span class="board-tag-primary">카테고리</span>
+											<span class="board-num__square">상시제</span>
+										</div>
+										<div class="box-middle__center">
+											<a href="javascript:;" class="txt--m4 word-line-single">시작부터 끝까지, 확실하게 밀착특강</a>
+										</div>
+										<div class="box-middle__bottom">
+											<p class="txt-default">학습기간 : 수강신청일로부터 30일</p>
+											<p class="txt-default">진행률 : 0%</p>
+										</div>
+									</li>
+									<li class="box-right">
+										<a href="javascript:;" class="btn-small-primary">학습하기</a>
+										<a href="javascript:;" class="btn-small">취소하기</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<ul class="pagination">
+						<li class="pagination__remote all-prev">
+							<a href="javascript:;" class="icon-vs_chevron_first inside"></a>
+						</li>
+						<li class="pagination__remote prev">
+							<a href="javascript:;" class="icon-chevron_back inside"></a>
+						</li>
+						<li class="now"><a href="javascript:;" class="inside">1</a></li>
+						<li><a href="javascript:;" class="inside">2</a></li>
+						<li><a href="javascript:;" class="inside">3</a></li>
+						<li><a href="javascript:;" class="inside">4</a></li>
+						<li><a href="javascript:;" class="inside">5</a></li>
+						<li class="pagination__remote next">
+							<a href="javascript:;" class="icon-chevron_forward inside"></a>
+						</li>
+						<li class="pagination__remote all-next">
+							<a href="javascript:;" class="icon-vs_chevron_last inside"></a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+	</div>
+	<!-- // container -->
+	<!-- footer area -->
+	<div class="banner-list">
+		<div class="inner">
+			<p class="txt--m3">배너모음</p>
+			<div class="banner-list__control">
+				<a href="javascript:;" class="banner-list__prev icon-chevron_back" title="이전"></a>
+				<a href="javascript:;" class="banner-list__stop icon-pause_outline" title="리모트"></a>
+				<a href="javascript:;" class="banner-list__next icon-chevron_forward" title="다음"></a>
+			</div>
+			<div class="swiper banner-list__slider">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href="https://vsquare.cc/" target="_blank">
+							<img src="./img/common/logo.svg" alt="VSQUARE">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="https://vsquare.cc/" target="_blank">
+							<img src="./img/common/logo.svg" alt="VSQUARE">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="https://vsquare.cc/" target="_blank">
+							<img src="./img/common/logo.svg" alt="VSQUARE">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="https://vsquare.cc/" target="_blank">
+							<img src="./img/common/logo.svg" alt="VSQUARE">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="https://vsquare.cc/" target="_blank">
+							<img src="./img/common/logo.svg" alt="VSQUARE">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="https://vsquare.cc/" target="_blank">
+							<img src="./img/common/logo.svg" alt="VSQUARE">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<!-- top -->
+		<a href="javascript:;" id="top" title="위로 가기">TOP</a>
+		<!-- // top -->
+		<div class="footer__inner inner">
+			<div class="footer__inner--left">
+				<ul class="footer__link">
+					<li class="point"><a href="javascript:;" class="inside">개인정보처리방침</a></li>
+					<li><a href="javascript:;" class="inside">이용약관</a></li>
+					<li><a href="javascript:;" class="inside">이메일무단수집거부</a></li>
+					<li><a href="javascript:;" class="inside">고객센터</a></li>
+				</ul>
+				<div class="footer__info">
+					<p class="address">서울특별시 서초구 강남대로 327 대륭서초타워, 1608호</p>
+					<p><span>Tel : <a href="tel:02-566-7748">02-566-7748</a></span>&ensp;<span>FAX : 02-566-7749</span></p>
+					<p class="copyright">Copyright ⓒ VSQUARE 2021. All rights reserved.</p>
+				</div>
+			</div>
+			<div class="footer__inner--right">
+				<label for="familySite">
+					<select id="familySite" class="family-site">
+						<option value="">관련사이트</option>
+					</select>
+				</label>
+			</div>
+		</div>
+	</footer>
+	<!-- // footer area -->
+</body>
+
+</html>

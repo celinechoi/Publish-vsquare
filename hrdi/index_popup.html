@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<!-- TODO add -->
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="font/spoqa-han-sans/style.css">
+	<link rel="stylesheet" href="font/happiness-sans/style.css">
+	<link rel="stylesheet" href="style/slick-1.8.1.min.css">
+	<link rel="stylesheet" href="style/swiper-4.5.1.min.css">
+	<link rel="stylesheet" href="icon_fonts/icon_fonts.min.css">
+	<link rel="stylesheet" href="style/style.min.css">
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/slick-1.8.1.min.js"></script>
+	<script src="js/swiper-4.5.1.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/main.js"></script>
+	<title>한국기술교육대학교</title>
+</head>
+
+<body>
+	<noscript>자바스크립트를 지원하지 않는 브라우저에서는 일부 기능이 정상 동작 하지 않을 수 있습니다.</noscript>
+	<div class="skip-navigation"><a href="#container">본문 바로가기</a></div>
+	<div class="skip-navigation"><a href="#gnb">주메뉴 바로가기</a></div>
+	<div class="skip-navigation"><a href="/">메인으로 바로가기</a></div>
+	<!-- header area -->
+	<header class="header">
+		<div class="header__top">
+			<div class="header__inner">
+				<ul class="lnb-left">
+					<li class="tm">
+						<a href="javascript:;" class="inside">
+							<span class="icon-albums_outline"></span>
+							<span class="albums-num">11</span>
+						</a>
+					</li>
+					<li class="point">
+						<a href="javascript:;" class="inside">
+							<span class="symbol"></span>한국기술교육대학교
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="inside">
+							스타훈련교사
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="inside">
+							일학습커뮤니티
+						</a>
+					</li>
+				</ul>
+				<a href="javascript:;" class="logo" title="한국기술교육대학교 능력개발교육원"></a>
+				<ul class="lnb-right">
+					<li class="tm js-menu-show">
+						<a href="javascript:;" class="inside">
+							<span class="icon-vs_menu"></span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="inside">
+							<span class="icon-custom-remote"></span>
+							<span>원격지원</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="inside">
+							<span class="icon-albums_outline"></span>
+							<span>팝업 <span class="primary-color">1</span>건</span>
+						</a>
+					</li>
+					<!-- 로그인 전 -->
+					<li>
+						<a href="javascript:;" class="inside">
+							<span class="icon-person_outline"></span>
+							<span>로그인</span>
+						</a>
+					</li>
+					<!-- 로그인 후 -->
+					<li>
+						<a href="javascript:;" class="inside">
+							<span class="icon-person_outline"></span>
+							<span>내 정보</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="inside">
+							<span class="icon-exit_outline"></span>
+							<span>로그아웃</span>
+						</a>
+					</li>
+					<li class="js-whole-menu">
+						<a href="javascript:;" class="inside">
+							<span class="icon-custom-menu"></span>
+							<span>전체메뉴</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="header__bottom">
+			<div class="header__inner">
+				<div class="menu-before">
+					<div class="menu-before__top">
+						<ul class="menu-before__top--list">
+							<!-- 로그인 후 -->
+							<li class="menu__logout">
+								<a href="javascript:;" class="inside">로그아웃</a>
+							</li>
+							<!-- 로그인 전 -->
+							<li class="menu__login">
+								<a href="javascript:;" class="inside">로그인</a>
+							</li>
+							<li class="menu__join">
+								<a href="javascript:;" class="inside">회원가입</a>
+							</li>
+						</ul>
+						<a href="javascript:;" class="icon-custom-close js-menu-hide"></a>
+					</div>
+					<div class="menu-comment">
+						<!-- 로그인 후 -->
+						<a href="javascript:;" class="btn-info">내 정보<span class="icon-chevron_forward"></span></a>
+						<p class="menu-comment__txt"><span>홍길동</span>(교육생)</p>
+						<!-- 로그인 전 -->
+						<p class="menu-comment__txt2">
+							안녕하세요!<br>
+							<b>로그인 후 이용해주세요.</b>
+						</p>
+					</div>
+				</div>
+				<ul id="gnb" class="gnb-list">
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="0">교육신청</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="1">교육마당</a>
+						<ul class="depth2-list" data-num="1">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">공지사항</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">제도 및 법률</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">연간 교육일정</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">교육체계도</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">각 교육별 과정안내</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">교육과정 안내책자</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="2">홍보마당</a>
+						<ul class="depth2-list" data-num="2">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">뉴스레터</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">연차보고서</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">홍보영상 및 보도자료</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">대학 및 능력개발교육원 UI</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="3">기관소개</a>
+						<ul class="depth2-list" data-num="3">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">교육원 설립목적</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">원장인사말</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">교육원 조직도</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">시설 안내</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">오시는 길</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="4">참여마당</a>
+						<ul class="depth2-list" data-num="4">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">자주하는 질문</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">묻고 답하기</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;" class="gnb-list__txt" data-index="5">나의강의실</a>
+						<ul class="depth2-list" data-num="5">
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">나의 홈</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">나의 학습</a>
+							</li>
+							<li>
+								<a href="javascript:;" class="depth2-list__txt">문의내역</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<label for="familySite" class="family-label">
+					<select id="familySite" class="family-site">
+						<option value="">관련사이트</option>
+					</select>
+				</label>
+			</div>
+			<div class="header__bottom--bg"></div>
+		</div>
+		<div class="header__dim"></div>
+	</header>
+	<div class="site-map js-whole-page">
+		<div class="site-map__dim"></div>
+		<div class="site-map__page">
+			<div class="site-map__page--top">
+				<div class="inner">
+					<a href="javascript:;" class="logo" title="한국기술교육대학교 능력개발교육원"></a>
+					<a href="javascript:;" class="icon-custom-close js-whole-close" title="닫기"></a>
+				</div>
+			</div>
+			<div class="site-map__page--middle">
+				<ul class="site-map__list">
+					<li>
+						<dl>
+							<dt><a href="javascript:;" class="inside">교육신청</a></dt>
+							<dd></dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><a href="javascript:;" class="inside">교육마당</a></dt>
+							<dd>
+								<ul class="site-map__menu">
+									<li><a href="javascript:;" class="inside">공지사항</a></li>
+									<li><a href="javascript:;" class="inside">제도 및 법률</a></li>
+									<li><a href="javascript:;" class="inside">연간 교육일정</a></li>
+									<li><a href="javascript:;" class="inside">교육체계도</a></li>
+									<li>
+										<a href="javascript:;" class="inside js-open-depth3">각 교육별 과정안내</a>
+										<ul class="depth3-list">
+											<li><a href="javascript:;" class="inside">3댑스 메뉴</a></li>
+											<li><a href="javascript:;" class="inside">3댑스 메뉴</a></li>
+										</ul>
+									</li>
+									<li><a href="javascript:;" class="inside">교육과정 안내책자</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><a href="javascript:;" class="inside">홍보마당</a></dt>
+							<dd>
+								<ul class="site-map__menu">
+									<li><a href="javascript:;" class="inside">뉴스레터</a></li>
+									<li><a href="javascript:;" class="inside">연차보고서</a></li>
+									<li>
+										<a href="javascript:;" class="inside js-open-depth3">홍보영상 및 보도자료</a>
+										<ul class="depth3-list">
+											<li><a href="javascript:;" class="inside">3댑스 메뉴</a></li>
+											<li><a href="javascript:;" class="inside">3댑스 메뉴</a></li>
+										</ul>
+									</li>
+									<li><a href="javascript:;" class="inside">대학 및 능력개발교육원 UI</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><a href="javascript:;" class="inside">기관소개</a></dt>
+							<dd>
+								<ul class="site-map__menu">
+									<li><a href="javascript:;" class="inside">교육원 설립목적</a></li>
+									<li><a href="javascript:;" class="inside">원장인사말</a></li>
+									<li>
+										<a href="javascript:;" class="inside js-open-depth3">교육원 조직도</a>
+										<ul class="depth3-list">
+											<li><a href="javascript:;" class="inside">3댑스 메뉴</a></li>
+											<li><a href="javascript:;" class="inside">3댑스 메뉴</a></li>
+										</ul>
+									</li>
+									<li><a href="javascript:;" class="inside">시설 안내</a></li>
+									<li><a href="javascript:;" class="inside">오시는 길</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><a href="javascript:;" class="inside">참여마당</a></dt>
+							<dd>
+								<ul class="site-map__menu">
+									<li><a href="javascript:;" class="inside">자주하는 질문</a></li>
+									<li><a href="javascript:;" class="inside">묻고 답하기</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><a href="javascript:;" class="inside">나의강의실</a></dt>
+							<dd>
+								<ul class="site-map__menu">
+									<li><a href="javascript:;" class="inside">나의 홈</a></li>
+									<li><a href="javascript:;" class="inside">나의 학습</a></li>
+									<li><a href="javascript:;" class="inside">문의내역</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- // header area -->
+	<!-- container -->
+	<div id="container" class="main-container">
+		<div class="visual">
+			<div class="visual__slider--prev swiper-button-prev"></div>
+			<div class="visual__slider--next swiper-button-next"></div>
+			<div class="visual__inner">
+				<!-- 슬라이드 두개 이상일 시 작동. 하나일 땐 슬라이드 X -->
+				<div class="swiper visual__slider">
+					<div class="swiper-pagination"></div>
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="img/home/visual_img.png" class="mo-hide" alt="">
+							<img src="img/home/visual_img_mo.png" class="mo-show" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/home/visual_img.png" class="mo-hide" alt="">
+							<img src="img/home/visual_img_mo.png" class="mo-show" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="visual__login">
+					<div class="visual__login--open">
+						<p>로그인이 필요해요!</p>
+					</div>
+					<div class="visual__login-inner">
+						<!-- @로그인 전1 -->
+						<p class="visual__login-inner--comment">
+							안녕하세요!<br>
+							<b>로그인 후 이용해주세요.</b>
+						</p>
+						<!-- // @로그인 전1 끝 -->
+						<div class="visual__login-con">
+							<!-- @@로그인 전2 -->
+							<div class="member__form">
+								<ul class="member__list">
+									<li>
+										<label for="idCon">
+											<input type="text" id="idCon" placeholder="아이디">
+										</label>
+									</li>
+									<li>
+										<label for="pwdCon">
+											<input type="password" id="pwdCon" placeholder="비밀번호">
+										</label>
+									</li>
+								</ul>
+								<div class="member__line">
+									<div class="member__line--left">
+										<label for="option1" class="chk-box">
+											<input type="checkbox" id="option1" name="option">
+											<span class="chk-box__icon"></span>
+											<span class="chk-box__txt">아이디 저장</span> 
+										</label>
+									</div>
+								</div>
+							</div>
+							<a href="javascript:;" class="btn-large-primary">로그인</a>
+							<div class="member__line">
+								<div class="member__line--left">
+									<ul class="list-dot">
+										<li><a href="javascript:;" class="inside">아이디</a></li>
+										<li><a href="javascript:;" class="inside">비밀번호 찾기</a></li>
+									</ul>
+								</div>
+								<div class="member__line--right">
+									<ul class="list-dot">
+										<li><a href="javascript:;" class="inside">회원가입</a></li>
+									</ul>
+								</div>
+							</div>
+							<!-- // @@로그인 전2 끝 -->
+							<!-- **로그인 후1 -->
+							<!-- <div class="menu-comment">
+								<div class="flex-box">
+									<a href="javascript:;" class="btn-info">내 정보<span class="icon-chevron_forward"></span></a>
+									<ul class="menu-before__top--list">
+										<li class="menu__logout">
+											<a href="javascript:;" class="inside">로그아웃</a>
+										</li>
+									</ul>
+								</div>
+								<p class="menu-comment__txt"><span>홍길동</span>(교육생)</p>
+								<div class="menu-activity">
+									<p class="menu-comment__activity">나의 학습활동</p>
+									<a href="javascript:;" class="btn-transform"><span class="icon-sync"></span> 강사전환</a>
+								</div>
+								<ul class="menu-comment__list">
+									<li>
+										<a href="javascript:;" class="inside">
+											<p class="num">0</p>
+											<p class="txt">학습중</p>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:;" class="inside">
+											<p class="num">4</p>
+											<p class="txt">수료</p>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:;" class="inside">
+											<p class="num">2</p>
+											<p class="txt">미수료</p>
+										</a>
+									</li>
+								</ul>
+								<a href="javascript:;" class="btn-regular-secondary--900">나의강의실 바로가기</a>
+							</div> -->
+							<!-- // **로그인 후1 끝 -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 로그인 전, 후 스크립트 -->
+		<script>
+			$(function(){
+				// * ========== Visual Login
+					// TODOJS 로그인 전, 후 멘트
+					var ment = {};
+					ment['loginBefore'] = '로그인이 필요해요!',
+					ment['loginAfterHello'] = '안녕하세요.',
+					ment['loginAfterName'] = '홍길동',
+					ment['loginAfterTitle'] ='님',
+					ment['goToBanner'] = '배너 보러가기'
+					$(".visual__login--open").on("click", function(){
+						if(!$(".visual__login").hasClass("open")){
+							$(".visual__login").addClass("open").animate({}, 500, function(){
+								$(".visual__login-con, .member__form").stop().fadeIn();
+								$(".visual__login--open > p").addClass("on");
+								$(".visual__login--open > p").text(ment.goToBanner);
+							});
+						} else {
+							$(".visual__login").removeClass("open").animate({}, 500, function(){
+								$(".visual__login-con, .member__form").stop().fadeOut("fast");
+								$(".visual__login--open > p").removeClass("on");
+								// 로그인 전
+								$(".visual__login--open > p").text(ment.loginBefore);
+								// 로그인 후
+								// $(".visual__login--open > p").text(ment.loginAfterHello+' '+ment.loginAfterName+ment.loginAfterTitle);
+							});
+						}
+					});
+					if($(window).outerWidth() > 1024) { //pc
+						$(".visual__login-con").show();
+						$(".member__form").hide();
+						if($(".visual__login").hasClass("open")) {
+							$(".visual__login").removeClass("open");
+						} else {
+						}
+					} else { // tm
+						$(".visual__login").removeClass("open");
+						$(".visual__login-con").hide();
+						$(".visual__login--open > p").removeClass("on");
+						// 로그인 전
+						$(".visual__login--open > p").text(ment.loginBefore);
+						// 로그인 후
+						// $(".visual__login--open > p").text(ment.loginAfterHello+' '+ment.loginAfterName+ment.loginAfterTitle);
+					}
+					$(window).on("resize", function(){
+						if($(window).outerWidth() > 1024) { //pc
+							$(".visual__login-con").show();
+							$(".member__form").hide();
+							if($(".visual__login").hasClass("open")) {
+								$(".visual__login").removeClass("open");
+							} else {
+							}
+						} else { // tm
+							$(".visual__login").removeClass("open");
+							$(".visual__login-con").hide();
+							$(".visual__login--open > p").removeClass("on");
+							// 로그인 전
+							$(".visual__login--open > p").text(ment.loginBefore);
+							// 로그인 후
+							// $(".visual__login--open > p").text(ment.loginAfterHello+' '+ment.loginAfterName+ment.loginAfterTitle);
+						}
+					});
+					// * Visual Login ==========
+			});
+		</script>
+		<!-- // 로그인 전, 후 스크립트 -->
+		<div class="quick-box">
+			<div class="inner flex-box">
+				<div class="flex-box__left">
+					<p class="txt--m2 gray-color--500">빠르게 만나보세요!</p>
+					<p class="txt-line">
+            <span class="line">자주찾는 서비스<br class="mo-hide">
+            바로가기</span></p>
+				</div>
+				<div class="flex-box__right">
+					<ul class="quick-box__list">
+						<li>
+							<a href="javascript:;">
+                <div class="quick-box__bg application">
+                </div>
+								<p class="txt--m5">교육신청</p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+                <div class="quick-box__bg history">
+                </div>
+								<p class="txt--m5">나의 학습</p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+                <div class="quick-box__bg calendar">
+                </div>
+								<p class="txt--m5">연간 교육일정</p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+                <div class="quick-box__bg faq">
+                </div>
+								<p class="txt--m5">자주하는 질문</p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+                <div class="quick-box__bg map">
+                </div>
+								<p class="txt--m5">오시는 길</p>
+							</a>
+						</li>
+						<li class="remote">
+							<a href="javascript:;">
+                <div class="quick-box__bg remote">
+                </div>
+								<p class="txt--m5">원격지원</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<section class="main-section bg">
+			<div class="inner">
+				<div class="main-title">
+					<p class="single">교육마당</p>
+				</div>
+				<div class="main-section__flex">
+          <div class="main-section__flex--left main__slider-frame">
+            <div class="swiper main__slider-fraction">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="box-img">
+                    <img src="img/home/notice_img.png" alt="공지사항">
+                  </div>
+                  <p class="main__slider-fraction--title">[보수교육] 2022년도 2차 훈련교강사 보수교육 추가모집 추가모집 추가모집 추가모집 추가모집 추가모집 추가모집</p>
+                </div>
+                <div class="swiper-slide">
+                  <div class="box-img">
+                    <img src="img/home/notice_img.png" alt="공지사항">
+                  </div>
+                  <p class="main__slider-fraction--title">[보수교육] 2022년도 2차 훈련교강사 보수교육 추가모집</p>
+                </div>
+              </div>
+							<div class="fraction-remote">
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-pagination"></div>	
+								<div class="swiper-button-next"></div>
+							</div>
+            </div>
+          </div>
+          <div class="main-section__flex--right">
+            <div class="main-title__sub">
+              <p>공지사항</p>
+              <a href="javascript:;" class="main-section__more">더보기</a>
+            </div>
+            <ul class="main-list">
+              <li>
+                <div class="main-list__top">
+                  <span class="board-tag-primary">일학습 전담인력 양성교육</span>
+                  <span class="state-square__yellow">공지</span>
+                </div>
+                <div class="main-list__bottom">
+                  <a href="javascript:;" class="main-list__title word-line-single">일학습병행 전담인력 보수과정 안내</a>
+                  <span class="txt-default gray-color--500">2022.05.15</span>
+                </div>
+              </li>
+              <li>
+                <div class="main-list__top">
+                  <span class="board-tag-primary">일학습 전담인력 양성교육</span>
+                  <span class="state-square__yellow">공지</span>
+                </div>
+                <div class="main-list__bottom">
+                  <a href="javascript:;" class="main-list__title word-line-single">2022년도 하계 직업계고 현장기술연수 신청 안내</a>
+                  <span class="txt-default gray-color--500">2022.05.15</span>
+                </div>
+              </li>
+              <li>
+                <div class="main-list__top">
+                  <span class="board-tag-primary">일학습 전담인력 양성교육</span>
+                </div>
+                <div class="main-list__bottom">
+                  <a href="javascript:;" class="main-list__title word-line-single">[고용서비스교육] 2022년 2분기(6~8월) 민간 고용서비스 보수교육 신청 안내</a>
+                  <span class="txt-default gray-color--500">2022.05.15</span>
+                </div>
+              </li>
+							<li>
+                <div class="main-list__top">
+                  <span class="board-tag-primary">일학습 전담인력 양성교육</span>
+                </div>
+                <div class="main-list__bottom">
+                  <a href="javascript:;" class="main-list__title word-line-single">일학습병행 전담인력 보수과정 안내</a>
+                  <span class="txt-default gray-color--500">2022.05.15</span>
+                </div>
+              </li>
+              <li>
+                <div class="main-list__top">
+                  <span class="board-tag-primary">일학습 전담인력 양성교육</span>
+                </div>
+                <div class="main-list__bottom">
+                  <a href="javascript:;" class="main-list__title word-line-single">2022년도 하계 직업계고 현장기술연수 신청 안내</a>
+                  <span class="txt-default gray-color--500">2022.05.15</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+			</div>
+		</section>
+		<section class="main-section">
+			<div class="inner">
+				<div class="main-section__flex">
+          <div class="main-section__flex--left">
+            <div class="main-title">
+							<p>홍보마당</p>
+							<a href="javascript:;" class="main-section__more">더보기</a>
+						</div>
+						<div class="swiper main__slider-article">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="box-img">
+                    <img src="img/home/article_img.jpg" alt="홍보마당">
+                  </div>
+									<div class="article-box">
+										<p class="main__slider-article--title">‘잘 가르치는 대학’, ‘취업률 최상위’ 한국기술교육대 에서 꿈은 현실이 됩니다</p>
+										<p class="main__slider-article--sub">한국기술교육대학교(KOREATECH, 총장 이성기)는 교육의 내실 화를 통해 4차 산업혁명 시대가 요구하는 창의・융합형 인재 양성을 선도하는 교육혁신 선도대학이다.</p>
+										<p class="main__slider-article--date">2020.02.26</p>
+									</div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="box-img">
+                    <img src="img/common/banner/noimg.png" alt="홍보마당">
+                  </div>
+									<div class="article-box">
+										<p class="main__slider-article--title">‘잘 가르치는 대학’, ‘취업률 최상위’ 한국기술교육대 에서 꿈은 현실이 됩니다</p>
+										<p class="main__slider-article--sub">한국기술교육대학교(KOREATECH, 총장 이성기)는 교육의 내실 화를 통해 4차 산업혁명 시대가 요구하는 창의・융합형 인재 양성을 선도하는 교육혁신 선도대학이다.</p>
+										<p class="main__slider-article--date">2020.02.26</p>
+									</div>
+                </div>
+              </div>
+							<div class="swiper-pagination"></div>	
+            </div>
+          </div>
+          <div class="main-section__flex--right">
+						<div class="main-title">
+							<p>교육 장소를 찾아보세요</p>
+							<a href="javascript:;" class="main-section__more">더보기</a>
+						</div>
+						<!-- TODO : 지도 -->
+            <div class="main-map"></div>
+          </div>
+        </div>
+			</div>
+		</section>
+		<section>
+			<div class="main-banner">
+				<div class="inner">
+					<ul class="main-banner__list">
+						<li>
+							<p class="txt-line">
+								<span class="line">능력개발교육원<br class="mo-hide">
+								문의안내</span>
+							</p>
+						</li>
+						<li>
+							<p class="txt--m2">문의 ARS</p>
+							<p class="main-banner__num">041-521-8000</p>
+							<ul class="main-banner__time">
+								<li>평일 <span class="txt-happiness">09:00 ~ 18:00</span> (주말, 공휴일 휴무)</li>
+								<li>점심 <span class="txt-happiness">12:00 ~ 13:00</span></li>
+							</ul>
+						</li>
+						<li>
+							<p class="txt--m2">문의 게시판</p>
+							<a href="javascript:;" class="btn-regular-secondary--900">문의 바로가기</a>
+						</li>
+					</ul>
+				</div>
+				<img src="img/common/info_bg.png" class="main-banner__img" alt="문의이미지">
+			</div>
+		</section>
+	</div>
+	<!-- // container -->
+	<div class="banner-list">
+		<div class="inner">
+			<div class="swiper banner-list__slider">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href="javascript:;" target="_blank">
+							<img src="img/common/logo/logo_tech.png" alt="한국기술교육대학교">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="javascript:;" target="_blank">
+							<img src="img/common/logo/logo_education.png" alt="한국기술교육대학교 온라인평생교육원">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="javascript:;" target="_blank">
+							<img src="img/common/logo/logo_evaluation.png" alt="한국기술교육대학교 직업능력심사평가원">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="javascript:;" target="_blank">
+							<img src="img/common/logo/logo_industry.png" alt="HRDK 한국산업인력공단">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="javascript:;" target="_blank">
+							<img src="img/common/logo/logo_ncs.png" alt="NCS">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="banner-list__control">
+				<a href="javascript:;" class="banner-list__prev icon-chevron_back" title="이전"></a>
+				<a href="javascript:;" class="banner-list__stop icon-pause_outline" title="리모트"></a>
+				<a href="javascript:;" class="banner-list__next icon-chevron_forward" title="다음"></a>
+			</div>
+		</div>
+	</div>
+	<!-- footer area -->
+	<footer class="footer">
+		<!-- top -->
+		<a href="javascript:;" id="top" title="위로 가기">TOP</a>
+		<!-- // top -->
+		<div class="footer__top">
+			<div class="footer__inner inner">
+				<div class="footer__inner--left">
+					<ul class="footer__link">
+						<li class="point"><a href="javascript:;" class="inside">개인정보처리방침</a></li>
+						<li><a href="javascript:;" class="inside">이메일무단수집거부</a></li>
+						<li><a href="javascript:;" class="inside">이용약관</a></li>
+					</ul>
+				</div>
+				<div class="footer__inner--right">
+					<a href="tel:041-521-8000" class="footer__phone"><span class="icon-call"></span>041-521-8000</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			<div class="footer__inner inner">
+				<div class="footer__inner--left">
+					<div class="footer__info">
+						<p class="address">31079) 충남 천안시 서북구 과수원길 18 한국기술교육대학교 능력개발교육원</p>
+						<a href="mailto:hrdiadmin@koreatech.ac.kr">EMAIL : hrdiadmin@koreatech.ac.kr</a>
+						<p class="txt-detail js-click">통신판매업자 정보 자세히보기 <span class="icon-chevron_down"></span></p>
+						<p class="txt-detail-con">사업자등록번호 : 312-82-03357 / 통신판매업신고 : 제2016-충남천안-0210호 한국기술교육대학교 / 대표자 : 이성기</p>
+						<p class="copyright">COPYRIGHT © 2022 BY KOREATECH HRDI ALL RIGHTS RESERVED.</p>
+					</div>
+					<ul class="footer__logo-list">
+						<li><img src="img/common/logo/logo_gray.svg" alt="한국기술교육대학교 능력개발교육원"></li>
+						<li><img src="img/common/logo/logo_tech_gray.svg" alt="한국기술교육대학교 KOREATECH"></li>
+						<li><img src="img/common/logo/logo_ability_gray.svg" alt="정부혁신 보다나은 능력개발교육원"></li>
+					</ul>
+				</div>
+				<div class="footer__inner--right">
+					<div class="ars-frame">
+						<p class="ars-frame__txt">부서별 ARS 연결 번호 안내 <span class="icon-chevron_down"></span></p>
+						<div class="ars-frame__list-frame">
+							<ul class="ars-frame__list">
+								<li>
+									<p class="ars-frame__title">①번 : 직업훈련교·강사</p>
+									<ul class="ars-frame__num">
+										<li>훈련교사 자격교육 : ①번</li>
+										<li>교직분야 보수교육 : ②번</li>
+										<li>전공분야 보수교육 : ③번</li>
+									</ul>
+								</li>
+								<li>
+									<div class="ars-frame__divide">
+										<ul class="ars-frame__divide--item">
+											<li>
+												<p class="ars-frame__title">②번 : 직업계고교원 교육</p>
+											</li>
+											<li>
+												<p class="ars-frame__title">③번 : 일학습 전담인력 교육</p>
+											</li>
+											<li>
+												<p class="ars-frame__title">④번 : 가입 로그인 관련 홈페이지</p>
+											</li>
+										</ul>
+										<ul class="ars-frame__divide--item">
+											<li>
+												<p class="ars-frame__title">⑤번 : 자격심사</p>
+											</li>
+											<li>
+												<p class="ars-frame__title">⑥번 : 고용서비스 전문인력 양성교육</p>
+											</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- // footer area -->
+	<!-- TODOJS main popup -->
+	<div class="popup-dim"></div>
+	<div class="main-popup popup-page">
+		<div class="main-popup__slider--prev swiper-button-prev"></div>
+		<div class="main-popup__slider--next swiper-button-next"></div>
+		<div class="swiper main-popup__slider">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="box-img">
+						<img src="img/common/banner/popup_main.png" alt="메인팝업">
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="box-img">
+						<img src="img/common/banner/popup_main2.png" alt="메인팝업">
+					</div>
+				</div>
+			</div>
+			<div class="main-popup__slider--pagination"></div>
+		</div>
+		<div class="popup-page__window">
+			<label for="todayChk" class="chk-box">
+				<input type="checkbox" id="todayChk" name="today" checked="">
+				<span class="chk-box__icon"></span>
+				<span class="chk-box__txt">오늘 하루 열지 않기</span> 
+			</label>
+			<a href="javascript:;" class="btn-tiny-dark">닫기</a>
+		</div>
+	</div>
+	<!-- // TODOJS main popup 끝 -->
+</body>
+
+</html>

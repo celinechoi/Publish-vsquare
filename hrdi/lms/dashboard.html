@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../icon_fonts/icon_fonts.min.css?V=9092">
+	<!-- lms link -->
+	<link rel="stylesheet" type="text/css" href="font/notokr-regular/stylesheet.css?V=9092" />
+	<link rel="stylesheet" type="text/css" href="font/notokr-bold/stylesheet.css?V=9092" />
+	<link rel="stylesheet" type="text/css" href="font/notokr-medium/stylesheet.css?V=9092" />
+	<link rel="stylesheet" type="text/css" href="font/spoqa-han-sans/style.css?V=9092" />
+	<link rel="stylesheet" type="text/css" href="style/lia.css" />
+	<link rel="stylesheet" type="text/css" href="style/hrdi_lms.css" />
+	<script src="../js/jquery-3.6.0.min.js"></script>
+	<title>학습자 대시보드</title>
+</head>
+
+<body>
+	<header>
+		<ul class="lnb-left">
+			<li class="whole-menu">
+				<a href="javascript:;" class="inside">
+					<span class="whole-menu__img"></span>
+					<span>전체메뉴</span>
+				</a>
+			</li>
+		</ul>
+		<a href="javascript:;" id="logo" title="한국기술교육대학교 능력개발교육원"></a>
+		<ul class="lnb-right">
+			<li class="lnb-remote">
+				<a href="javascript:;" class="inside">
+					<img src="../img/lms/remote_icon.png" alt="원격지원">
+					<span>원격지원</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;" class="inside">
+					<img src="../img/lms/close_icon.png" alt="나가기">
+					<span>나가기</span>
+				</a>
+			</li>
+		</ul>
+	</header>
+	<div class="wrap">
+		<div class="sidebar">
+			<ul class="sidebar-list">
+				<li class="home now">과정 홈</li>
+				<li class="notice">과정공지</li>
+				<li class="data">과정자료</li>
+				<li class="qna">과정질문</li>
+				<li class="survey">설문</li>
+				<li class="error">콘텐츠 오류신고</li>
+			</ul>
+		</div>
+		<div class="con">
+			<div class="headline">
+				<div class="headline-top">
+					<div class="headline-top__left">
+						<span>교육과정</span>
+						<p>고용서비스 관련 법률 이해 [2022-1차]</p>
+					</div>
+					<div class="headline-top__right">
+						<div class="course">
+							<a href="javascript:;" class="move-home js-move">다른 과정 홈으로 이동</a>
+							<ul class="course-list">
+								<li>고용서비스 관련 법률 이해 [2022-1차]</li>
+								<li>교·강사를 위한 저작권법[기초/11차/온라인] [2022-11차]</li>
+							</ul>
+						</div>
+						<div class="confirmation-frame">
+							<span>첨부파일</span>
+							<a href="javascript:;" class="btn-round-white"><img src="../img/lms/download_icon.png" alt="다운로드"> 교육참가확인서</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="con-frame">
+				<section class="con-section">
+					<div class="con-section__item">
+						<div class="con-section__title">
+							<p class="title">과목목록</p>
+							<span class="status">이수 기준</span>
+						</div>
+						<div class="info-data-box">
+							<p class="title">과정1</p>
+							<p class="con">3개 과목 중 1개 과목 이수 필수</p>
+						</div>
+						<ul class="subject-list js-list">
+							<li>
+								<ul class="subject-list__inner">
+									<li><span class="state-blue">교육중</span></li>
+									<li class="middle">
+										<div class="subject-title">
+											<span class="square-primary">필수</span>
+											<p class="title">01. 고용서비스 정책의 이해</p>
+										</div>
+										<ul class="list-line">
+											<li>이러닝</li>
+											<li><span class="color-gray">교육기간 : 2022.03.07 ~ 2022.05.22</span></li>
+											<li><span class="color-gray">과제 :</span> 1 <span class="color-gray">/ 3개</span></li>
+											<li><span class="color-gray">시험 :</span> 0 <span class="color-gray">/ 1개</span></li>
+											<li><span class="color-gray">설문 :</span> 0 <span class="color-gray">/ 1개</span></li>
+										</ul>
+									</li>
+									<li class="rate-frame">
+										<div class="rate-box">
+											<ul class="list-rate">
+												<li>
+													<p class="list-rate__item">진도율(%)</p>
+													<p class="list-rate__item"><span class="line1__num"></span></p>
+												</li>
+											</ul>
+											<div class="bar-frame">
+												<div class="bar-frame-line line1"></div>
+												<span class="pin"></span>
+											</div>
+										</div>
+										<div class="btn-area">
+											<a href="javascript:;" class="btn-primary">입장하기</a>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="subject-list__inner">
+									<li><span class="state-green">이수</span></li>
+									<li class="middle">
+										<div class="subject-title">
+											<span class="square-primary">필수</span>
+											<p class="title">02. 직업안정법</p>
+										</div>
+										<ul class="list-line">
+											<li>이러닝</li>
+											<li><span class="color-gray">교육기간 : 2022.03.07 ~ 2022.05.22</span></li>
+											<li><span class="color-gray">과제 :</span> 1 <span class="color-gray">/ 3개</span></li>
+											<li><span class="color-gray">시험 :</span> 0 <span class="color-gray">/ 1개</span></li>
+											<li><span class="color-gray">설문 :</span> 0 <span class="color-gray">/ 1개</span></li>
+										</ul>
+									</li>
+									<li class="rate-frame">
+										<div class="rate-box">
+											<ul class="list-rate">
+												<li>
+													<p class="list-rate__item">진도율(%)</p>
+													<p class="list-rate__item"><span class="line2__num"></span></p>
+												</li>
+											</ul>
+											<div class="bar-frame">
+												<div class="bar-frame-line line2"></div>
+											</div>
+										</div>
+										<a href="javascript:;" class="btn-gray">완료</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="subject-list__inner">
+									<li><span class="state-orange">기이수</span></li>
+									<li class="middle">
+										<div class="subject-title">
+											<span class="square-gray">선택</span>
+											<p class="title">03. 근로기준법 이해와 적용</p>
+										</div>
+										<ul class="list-line">
+											<li>이러닝</li>
+											<li><span class="color-gray">교육기간 : 2022.03.07 ~ 2022.05.22</span></li>
+											<li><span class="color-gray">과제 :</span> 1 <span class="color-gray">/ 3개</span></li>
+											<li><span class="color-gray">시험 :</span> 0 <span class="color-gray">/ 1개</span></li>
+											<li><span class="color-gray">설문 :</span> 0 <span class="color-gray">/ 1개</span></li>
+										</ul>
+									</li>
+									<li class="rate-frame">
+										<div class="rate-box">
+											<ul class="list-rate">
+												<li>
+													<p class="list-rate__item">진도율(%)</p>
+													<p class="list-rate__item"><span class="line3__num"></span></p>
+												</li>
+											</ul>
+											<div class="bar-frame">
+												<div class="bar-frame-line line3"></div>
+												<span class="pin"></span>
+											</div>
+										</div>
+										<div class="btn-area">
+											<a href="javascript:;" class="btn-primary">입장하기</a>
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<div class="info-data-box">
+							<p class="title">과정2</p>
+							<p class="con">2개 과목 중 2개 과목 이수 필수 / 단, 과정1 이수 필수</p>
+						</div>
+						<ul class="subject-list drop-list">
+							<li>
+								<ul class="subject-list__inner">
+									<li><span class="state-red">미이수</span></li>
+									<li class="middle">
+										<div class="subject-title">
+											<span class="square-gray">선택</span>
+											<p class="title">04. 직업윤리와 개인정보보호법</p>
+										</div>
+										<ul class="list-line">
+											<li>이러닝</li>
+											<li><span class="color-gray">교육기간 : 2022.03.07 ~ 2022.05.22</span></li>
+											<li><span class="color-gray">과제 :</span> 1 <span class="color-gray">/ 3개</span></li>
+											<li><span class="color-gray">시험 :</span> 0 <span class="color-gray">/ 1개</span></li>
+											<li><span class="color-gray">설문 :</span> 0 <span class="color-gray">/ 1개</span></li>
+										</ul>
+									</li>
+									<li class="rate-frame">
+										<div class="rate-box">
+											<ul class="list-rate">
+												<li>
+													<p class="list-rate__item">진도율(%)</p>
+													<p class="list-rate__item"><span class="line4__num"></span></p>
+												</li>
+											</ul>
+											<div class="bar-frame">
+												<div class="bar-frame-line line4"></div>
+												<span class="pin"></span>
+											</div>
+										</div>
+										<div class="btn-area">
+											<a href="javascript:;" class="btn-primary">입장하기</a>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="subject-list__inner">
+									<li><span class="state-gray">교육대기</span></li>
+									<li class="middle">
+										<div class="subject-title">
+											<span class="square-gray">선택</span>
+											<p class="title">05. 고용서비스 관련 노동법 적용</p>
+										</div>
+										<ul class="list-line">
+											<li>집체</li>
+											<li><span class="color-gray">교육기간 : 2022.03.07 ~ 2022.05.22</span></li>
+											<li><span class="color-gray">과제 :</span> 1 <span class="color-gray">/ 3개</span></li>
+											<li><span class="color-gray">시험 :</span> 0 <span class="color-gray">/ 1개</span></li>
+											<li><span class="color-gray">설문 :</span> 0 <span class="color-gray">/ 1개</span></li>
+										</ul>
+									</li>
+									<li class="rate-frame">
+										<div class="rate-box">
+											<ul class="list-rate">
+												<li>
+													<p class="list-rate__item">진도율(%)</p>
+													<p class="list-rate__item"><span class="line5__num"></span></p>
+												</li>
+											</ul>
+											<div class="bar-frame">
+												<div class="bar-frame-line line5"></div>
+												<span class="pin"></span>
+											</div>
+										</div>
+										<div class="btn-area">
+											<a href="javascript:;" class="btn-primary">입장하기</a>
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="con-section">
+					<div class="con-section__item">
+						<div class="con-section__title">
+							<p class="title">과정공지</p>
+							<a href="javascript:;" class="btn-more"><img src="../img/lms/more_icon.png" alt="더보기 아이콘"> 더보기</a>
+						</div>
+						<div class="notice-box">
+							<ul class="notice-title">
+								<li class="num">번호</li>
+								<li class="title">제목</li>
+								<li>등록일</li>
+							</ul>
+							<ul class="notice-con">
+								<li>
+									<ul class="notice-con__inner">
+										<li class="num"><span class="color-secondary--900">공지</span></li>
+										<li class="title"><a href="javascript:;">[고용서비스 관련 법률 이해] 이수 기준 및 이수증 발급</a></li>
+										<li class="date"><span>2022.04.20</span></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="notice-con__inner">
+										<li class="num"><span>2</span></li>
+										<li class="title"><a href="javascript:;">[고용서비스 관련 법률 이해] 이수 기준 및 이수증 발급</a></li>
+										<li class="date"><span>2022.04.20</span></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="notice-con__inner">
+										<li class="num"><span>1</span></li>
+										<li class="title"><a href="javascript:;">[고용서비스 관련 법률 이해] 이수 기준 및 이수증 발급</a></li>
+										<li class="date"><span>2022.04.20</span></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="con-section__item">
+						<div class="con-section__title">
+							<p class="title">과정질문</p>
+							<a href="javascript:;" class="btn-more"><img src="../img/lms/more_icon.png" alt="더보기 아이콘"> 더보기</a>
+						</div>
+						<div class="notice-box">
+							<ul class="notice-title">
+								<li class="num">번호</li>
+								<li class="title">제목</li>
+								<li>등록일</li>
+								<li>답변여부</li>
+							</ul>
+							<ul class="notice-con">
+								<li>
+									<ul class="notice-con__inner">
+										<li class="num"><span>6</span></li>
+										<li class="title"><a href="javascript:;">고용서비스 관련 질문입니다</a></li>
+										<li><span>2022.04.20</span></li>
+										<li class="state-area"><span class="state-gray">답변대기</span></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="notice-con__inner">
+										<li class="num"><span>5</span></li>
+										<li class="title"><a href="javascript:;">고용서비스 관련 질문입니다</a></li>
+										<li><span>2022.04.20</span></li>
+										<li class="state-area"><span class="state-gray">답변대기</span></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="notice-con__inner">
+										<li class="num"><span>4</span></li>
+										<li class="title"><a href="javascript:;">고용서비스 관련 질문입니다</a></li>
+										<li><span>2022.04.20</span></li>
+										<li class="state-area"><span class="state-green">답변완료</span></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="notice-con__inner">
+										<li class="num"><span>3</span></li>
+										<li class="title"><a href="javascript:;">고용서비스 관련 질문입니다</a></li>
+										<li><span>2022.04.20</span></li>
+										<li class="state-area"><span class="state-green">답변완료</span></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="notice-con__inner">
+										<li class="num"><span>2</span></li>
+										<li class="title"><a href="javascript:;">고용서비스 관련 질문입니다</a></li>
+										<li><span>2022.04.20</span></li>
+										<li class="state-area"><span class="state-green">답변완료</span></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div> <!-- // wrap -->
+	<!-- TODOJS rprogressbar 차트 플러그인 -->
+	<link rel="stylesheet" href="../style/jquery.rprogessbar.min.css">
+	<script src="../js/jQuery.rProgressbar.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+	<script>
+		// # author: jschoi
+		$(function(){
+			/* TODOJS sidebar 메뉴 호버 이벤트 */
+			$(".sidebar-list>li").on("mouseenter", function(){
+				if(!$(this).hasClass("on")) {
+					$(this).addClass("on");
+				} 
+			});
+			$(".sidebar-list>li").on("mouseleave", function(){
+				if($(this).hasClass("on")) {
+					$(this).removeClass("on");
+				} 
+			});
+
+			/* TODOJS tablet, mobile 메뉴 구현 */
+			$(".whole-menu").on("click", function(){
+				if($(this).hasClass("on")){
+					$(this).removeClass("on");
+					$(".sidebar").stop().animate({left: -200},500);
+				} else {
+					$(this).addClass("on");
+					$(".sidebar").stop().animate({left: 0},500);
+				}
+			});
+
+			/* TODOJS 다른 과정 홈으로 이동*/
+			/* TODOJS 과정 드롭다운 */
+			if(window.innerWidth < 1221){ // tablet, mobile
+				var empty = '';
+				$(".move-home.js-move").addClass("simple").text(empty);
+				$(".headline-top").addClass("headline-click");
+
+				$(".info-data-box").removeClass("on");
+				$(".js-list").hide();
+				$(".info-data-box").off("click").on("click",function(){
+					if(!$(this).hasClass("on")){
+						$(this).addClass("on");
+						$(this).next().stop().slideDown();
+					} else {
+						$(this).removeClass("on");
+						$(this).next().stop().slideUp();
+					}
+				});
+			} else {
+				empty = '다른 과정 홈으로 이동';
+				$(".move-home.js-move").removeClass("simple").text(empty);
+				$(".headline-top").removeClass("headline-click");
+
+				$(".info-data-box").removeClass("on").off("click");
+				$(".info-data-box").next().show();
+			}
+
+			$(window).resize(function(){
+				if(window.innerWidth < 1221){ // tablet, mobile
+					empty = '';
+					$(".move-home.js-move").addClass("simple").text(empty);
+					$(".headline-top").addClass("headline-click");
+
+					$(".info-data-box").removeClass("on");
+					$(".js-list").hide();
+					$(".info-data-box").off("click").on("click",function(){
+						if(!$(this).hasClass("on")){
+							$(this).addClass("on");
+							$(this).next().stop().slideDown();
+						} else {
+							$(this).removeClass("on");
+							$(this).next().stop().slideUp();
+						}
+					});
+				} else {
+					empty = '다른 과정 홈으로 이동';
+					$(".move-home.js-move").removeClass("simple").text(empty);
+					$(".headline-top").removeClass("headline-click");
+					
+					$(".info-data-box").removeClass("on").off("click");
+					$(".info-data-box").next().show();
+				}
+			});
+
+			$(".headline-click").off("click").on("click", function(){
+				if(!$(this).hasClass("on")){
+					$(this).addClass("on");
+					$(this).find(".course-list").slideDown();
+				} else {
+					$(this).removeClass("on");
+					$(this).find(".course-list").slideUp();
+				}
+			});
+
+			$(".js-move").off("click").on("click", function(){
+				if(!$(this).hasClass("on")){
+					$(this).addClass("on");
+					$(".course-list").stop().slideDown();
+				} else {
+					$(this).removeClass("on");
+					$(".course-list").stop().slideUp();
+				}
+			});
+			
+			/* 교육참가확인서 스크롤 최하단 스타일 */
+			var scrollBottom;
+			if(window.innerWidth < 1221){ // tablet, mobile
+				$(window).scroll(function () {
+					scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
+					if (scrollBottom < 80) {
+						$(".con-frame").addClass("increase");
+					} else {
+						$(".con-frame").removeClass("increase");
+					}
+				});
+			}
+			$(window).resize(function(){
+				$(window).scroll(function () {
+					if(window.innerWidth < 1221){ // tablet, mobile
+						scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
+						if (scrollBottom < 80) {
+							$(".con-frame").addClass("increase");
+						} else {
+							$(".con-frame").removeClass("increase");
+						}
+					} else {
+						$(".con-frame").removeClass("increase");
+					}
+				});
+			});
+
+			/* TODOJS rprogressbar 차트_line graph */
+			// 객체 생성
+			var chartNum = {};
+			chartNum['line1'] = 50; // 01. 고용서비스 정책의 이해
+			chartNum['line2'] = 100; // 02. 직업안정법
+			chartNum['line3'] = 0; // 03. 근로기준법 이해와 적용
+			chartNum['line4'] = 0; // 04. 직업안정법
+			chartNum['line5'] = 0; // 05. 근로기준법 이해와 적용
+			// 카운트 에니메이션
+			$({
+				line1 : 0,
+				line2 : 0,
+				line3 : 0,
+				line4 : 0,
+				line5 : 0
+			}).animate({
+				line1 : chartNum['line1'],
+				line2 : chartNum['line2'],
+				line3 : chartNum['line3'],
+				line4 : chartNum['line4'],
+				line5 : chartNum['line5']
+			},
+			{
+				duration: 1000,
+				step: function(){
+					$(".line1__num").text(Number(this.line1).toFixed(0)+'%');
+					$(".line2__num").text(Number(this.line2).toFixed(0)+'%');
+					$(".line3__num").text(Number(this.line3).toFixed(0)+'%');
+					$(".line4__num").text(Number(this.line4).toFixed(0)+'%');
+					$(".line5__num").text(Number(this.line5).toFixed(0)+'%');
+				}
+			})
+			// line graph
+			// 01. 고용서비스 정책의 이해
+			$('.line1').rProgressbar({
+				percentage: Number(chartNum['line1']),
+				fillBackgroundColor: '#ffb600',
+				backgroundColor: '#eee'
+			});
+			// 02. 직업안정법
+			$('.line2').rProgressbar({
+				percentage: Number(chartNum['line2']),
+				fillBackgroundColor: '#ffb600',
+				backgroundColor: '#eee'
+			});
+			// 03. 근로기준법 이해와 적용
+			$('.line3').rProgressbar({
+				percentage: Number(chartNum['line3']),
+				fillBackgroundColor: '#ffb600',
+				backgroundColor: '#eee'
+			});
+			// 04. 직업안정법
+			$('.line4').rProgressbar({
+				percentage: Number(chartNum['line4']),
+				fillBackgroundColor: '#ffb600',
+				backgroundColor: '#eee'
+			});
+			// 05. 근로기준법 이해와 적용
+			$('.line5').rProgressbar({
+				percentage: Number(chartNum['line5']),
+				fillBackgroundColor: '#ffb600',
+				backgroundColor: '#eee'
+			});
+		});
+	</script>
+</body>
+
+</html>
