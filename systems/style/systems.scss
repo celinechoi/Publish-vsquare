@@ -1,0 +1,324 @@
+@charset "utf-8";
+@import "normalize.scss";
+@import "var_function.scss";
+
+/*+-----------------------------------+    
+| Author: JS |
+| Version: V2.2 |           
+| Title: Base settings and Publishing systems kit minify |
++-------------------------------------+*/
+
+/* ########## Fixed Style
+@grey scale
+@typo
+@button
+@input[type="text/ password/ number/ checkbox/ radio"]
+*/
+
+// ##### @grey scale
+.grey-color--fff {
+	color: #{$grey--fff} !important;
+}
+
+.grey-bg--fff {
+	background-color: #{$grey--fff} !important;
+}
+
+.grey-bor--fff {
+	border: $bor--solid #{$grey--fff} !important;
+}
+
+.grey-color--050 {
+	color: #{$grey--050} !important;
+}
+
+.grey-bg--050 {
+	background-color: #{$grey--050} !important;
+}
+
+.grey-bor--050 {
+	border: $bor--solid #{$grey--050} !important;
+}
+
+.grey-color--100 {
+	color: #{$grey--100} !important;
+}
+
+.grey-bg--100 {
+	background-color: #{$grey--100} !important;
+}
+
+.grey-bor--100 {
+	border: $bor--solid #{$grey--100} !important;
+}
+
+.grey-color--200 {
+	color: #{$grey--200} !important;
+}
+
+.grey-bg--200 {
+	background-color: #{$grey--200} !important;
+}
+
+.grey-bor--200 {
+	border: $bor--solid #{$grey--200} !important;
+}
+
+.grey-color--300 {
+	color: #{$grey--300} !important;
+}
+
+.grey-bg--300 {
+	background-color: #{$grey--300} !important;
+}
+
+.grey-bor--300 {
+	border: $bor--solid #{$grey--300} !important;
+}
+
+.grey-color--050 {
+	color: #{$grey--400} !important;
+}
+
+.grey-bg--400 {
+	background-color: #{$grey--400} !important;
+}
+
+.grey-bor--400 {
+	border: $bor--solid #{$grey--400} !important;
+}
+
+.grey-color--500 {
+	color: #{$grey--500} !important;
+}
+
+.grey-bg--500 {
+	background-color: #{$grey--500} !important;
+}
+
+.grey-bor--500 {
+	border: $bor--solid #{$grey--500} !important;
+}
+
+.grey-color--600 {
+	color: #{$grey--600} !important;
+}
+
+.grey-bg--600 {
+	background-color: #{$grey--600} !important;
+}
+
+.grey-bor--600 {
+	border: $bor--solid #{$grey--600} !important;
+}
+
+.grey-color--700 {
+	color: #{$grey--700} !important;
+}
+
+.grey-bg--700 {
+	background-color: #{$grey--700} !important;
+}
+
+.grey-bor--700 {
+	border: $bor--solid #{$grey--700} !important;
+}
+
+.grey-color--800 {
+	color: #{$grey--800} !important;
+}
+
+.grey-bg--800 {
+	background-color: #{$grey--800} !important;
+}
+
+.grey-bor--800 {
+	border: $bor--solid #{$grey--800} !important;
+}
+
+.grey-color--900 {
+	color: #{$grey--900} !important;
+}
+
+.grey-bg--900 {
+	background-color: #{$grey--900} !important;
+}
+
+.grey-bor--900 {
+	border: $bor--solid #{$grey--900} !important;
+}
+
+// @grey scale #####
+// ##### @typo
+.txt--b {
+	font: 16px / $spoqa--bold;
+}
+
+.txt--b2 {
+	font: 18px / $spoqa--bold;
+}
+
+.txt--b3 {
+	font: 20px / $spoqa--bold;
+}
+
+.txt--b4 {
+	font: 22px / $spoqa--bold;
+}
+
+.txt--b5 {
+	font: 24px / $spoqa--bold;
+}
+
+.txt--b6 {
+	font: 26px / $spoqa--bold;
+}
+
+.txt--b7 {
+	font: 28px / $spoqa--bold;
+}
+
+.txt--b8 {
+	font: 30px / $spoqa--bold;
+}
+
+.txt--b9 {
+	font: 32px / $spoqa--bold;
+}
+
+.txt--b10 {
+	font: 34px / $spoqa--bold;
+}
+
+.txt--b11 {
+	font: 36px / $spoqa--bold;
+}
+
+.txt--b12 {
+	font: 38px / $spoqa--bold;
+}
+
+.txt--m {
+	font: 14px / $spoqa--medium;
+}
+
+.txt--m2 {
+	font: 15px / $spoqa--medium;
+}
+
+.txt--m3 {
+	font: 16px / $spoqa--medium;
+}
+
+.txt--m4 {
+	font: 18px / $spoqa--medium;
+}
+
+.txt--m5 {
+	font: 20px / $spoqa--medium;
+}
+
+.txt--m6 {
+	font: 22px / $spoqa--medium;
+}
+
+.txt--m7 {
+	font: 24px / $spoqa--medium;
+}
+
+.txt--m8 {
+	font: 26px / $spoqa--medium;
+}
+
+.txt--m9 {
+	font: 28px / $spoqa--medium;
+}
+
+.txt--m10 {
+	font: 30px / $spoqa--medium;
+}
+
+.txt--m11 {
+	font: 32px / $spoqa--medium;
+}
+
+// @typo #####
+// ##### @button
+.btn {
+	display: inline-block;
+	min-width: 60px;
+	max-width: 140px;
+	height: 42px;
+	padding: 0 16px;
+	background-color: #{$grey--800};
+	border: $bor--solid #{$grey--800};
+	box-sizing: border-box;
+	font: 14px 'spoqa-medium';
+	color: #{$grey--fff};
+	text-align: center;
+
+	&:disabled {
+		@extend .btn;
+		background-color: #{$grey--200};
+		border-color: #{$grey--200};
+		color: #{$grey--500};
+	}
+
+	&--outline {
+		@extend .btn;
+		background-color: #{$grey--fff};
+		color: #{$grey--900};
+
+		&:disabled {
+			@extend .btn;
+			background-color: #{$grey--fff};
+			border-color: #{$grey--300};
+			color: #{$grey--500};
+		}
+	}
+}
+
+// @button #####
+// ##### @select/ input[type="text/ password/ number/ checkbox/ radio"]
+select {
+	@extend input;
+	appearance: none;
+	background: no-repeat right 16px center / 24px;
+	background-image: iconImg(chevron_down, $grey--300);
+	&::-ms-expand {
+		display:none;
+	}
+}
+input {
+	height: 44px;
+	padding: 0 16px;
+	border: $bor--solid #{$grey--300};
+	box-sizing: border-box;
+	color: #{$grey--900};
+
+	&::placeholder {
+		color: #{$grey--500};
+	}
+
+	&:disabled {
+		background-color: #{$grey--100};
+		color: #{$grey--500};
+		border: none;
+	}
+}
+
+.success-box {
+	input {
+		@extend input;
+		padding-right: 40px;
+		border-color: $system--green;
+	}
+}
+
+// @select/ input[type="text/ password/ number/ checkbox/ radio"] #####
+
+
+/* // Fixed Style ########## */
+/* ########## Single Style */
+
+/* // Single Style ########## */

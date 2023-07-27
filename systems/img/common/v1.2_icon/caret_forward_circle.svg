@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VSQUARE/4) Icons/caret/circle/forward/caret_forward_circle</title>
+    <g id="VSQUARE_Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VSQUARE/4)-Icons/caret/circle/forward/caret_forward_circle">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <path d="M21,12 C21,7.02966346 16.9703365,3 12,3 C7.02966346,3 3,7.02966346 3,12 C3,16.9703365 7.02966346,21 12,21 C16.9703365,21 21,16.9703365 21,12 Z M10.0961538,15.2079808 L10.0961538,8.79201923 C10.0963605,8.52361977 10.2516829,8.2795247 10.4947266,8.1656472 C10.7377703,8.05176971 11.0247348,8.08863235 11.2311058,8.26024038 L15.0859615,11.4677885 C15.2440651,11.5993202 15.3355043,11.7943369 15.3355043,12 C15.3355043,12.2056631 15.2440651,12.4006798 15.0859615,12.5322115 L11.2311058,15.7397596 C11.0247348,15.9113676 10.7377703,15.9482303 10.4947266,15.8343528 C10.2516829,15.7204753 10.0963605,15.4763802 10.0961538,15.2079808 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

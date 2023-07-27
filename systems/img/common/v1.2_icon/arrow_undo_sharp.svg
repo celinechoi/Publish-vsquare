@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VSQUARE/4) Icons/arrow/basic/undo/arrow_undo_sharp</title>
+    <g id="VSQUARE_Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VSQUARE/4)-Icons/arrow/basic/undo/arrow_undo_sharp">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <path d="M21,20 L19.7832692,18.603913 C18.8105769,17.4886957 17.9084135,16.6278261 16.6644231,16.0517391 C15.5130288,15.5186957 14.0682692,15.2408696 12.1527404,15.1891304 L12.1527404,19.6521739 L3,11.826087 L12.1527404,4 L12.1527404,8.4873913 C15.3062019,8.61782609 17.6557212,9.66478261 19.1433173,11.6069565 C20.3751923,13.2173913 21,15.4430435 21,18.2286957 L21,20 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

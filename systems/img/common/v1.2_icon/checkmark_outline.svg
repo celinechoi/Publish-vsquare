@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VSQUARE/4) Icons/checkmark/checkmark_outline</title>
+    <g id="VSQUARE_Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VSQUARE/4)-Icons/checkmark/checkmark_outline">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <path d="M17.8847159,6.2276725 C18.1161498,5.95058169 18.5181803,5.92250338 18.7826762,6.16495784 C19.0435488,6.40409101 19.0731952,6.81708147 18.8519058,7.0942102 L18.8425402,7.10567778 L9.93345482,17.7723339 C9.69415827,18.0588385 9.27575905,18.0769992 9.01465834,17.8150816 L9.00456592,17.8047353 L5.18638648,13.8047393 C4.93787117,13.54439 4.93787117,13.1222804 5.18638648,12.8619312 C5.43145018,12.6051978 5.82666218,12.6016321 6.07589667,12.8512339 L6.08634,12.8619312 L9.42351997,16.3580405 L17.8847159,6.2276725 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

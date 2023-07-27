@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VSQUARE/4) Icons/caret/basic/down/caret_down_outline</title>
+    <g id="VSQUARE_Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VSQUARE/4)-Icons/caret/basic/down/caret_down_outline">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <path d="M6.21417978,9.501337 L11.3332268,15.6825105 C11.5002075,15.8840273 11.743943,16 12.0004827,16 C12.2570225,16 12.5007579,15.8840273 12.6677387,15.6825105 L17.7867857,9.501337 C18.2753254,8.91133657 17.8702842,8 17.1195297,8 L6.87997084,8 C6.12921634,8 5.72417514,8.91133657 6.21417978,9.501337 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

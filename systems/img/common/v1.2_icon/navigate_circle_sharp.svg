@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VSQUARE/4) Icons/navigate_circle/navigate_circle_sharp</title>
+    <g id="VSQUARE_Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VSQUARE/4)-Icons/navigate_circle/navigate_circle_sharp">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <path d="M12,3 L12,3 C7.03171086,3.00548469 3.00548469,7.03171086 3,12 C3,16.9621154 7.03745192,21 12,21 L12,21 C16.9682891,20.9945153 20.9945153,16.9682891 21,12 C21,7.03745192 16.9625481,3 12,3 Z M11.6538462,18.6201923 L11.6538462,12.3461538 L5.42307692,12.3461538 L5.37980769,12.3461538 L16.5865385,7.40870192 L11.6538462,18.6201923 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

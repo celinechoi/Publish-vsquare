@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VSQUARE/4) Icons/chevron/circle/down/chevron_down_circle</title>
+    <g id="VSQUARE_Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VSQUARE/4)-Icons/chevron/circle/down/chevron_down_circle">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <path d="M21,12 C21,7.02966346 16.9703365,3 12,3 C7.02966346,3 3,7.02966346 3,12 C3,16.9703365 7.02966346,21 12,21 C16.9703365,21 21,16.9703365 21,12 Z M16.6432212,10.7586058 L12.489375,14.9124519 C12.2190488,15.182601 11.7809512,15.182601 11.510625,14.9124519 L7.35677885,10.7586058 C7.09818192,10.4864151 7.10367071,10.0577093 7.36915153,9.79222845 C7.63463235,9.52674764 8.06333818,9.52125885 8.33552885,9.77985577 L12,13.4438942 L15.6644712,9.77985577 C15.9366618,9.52125885 16.3653677,9.52674764 16.6308485,9.79222845 C16.8963293,10.0577093 16.9018181,10.4864151 16.6432212,10.7586058 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VSQUARE/4) Icons/chevron/basic/up/chevron_up_outline</title>
+    <g id="VSQUARE_Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VSQUARE/4)-Icons/chevron/basic/up/chevron_up_outline">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <path d="M11.3939085,8.75628157 C11.7251927,8.41809558 12.2601886,8.41460913 12.595673,8.74582221 L12.6060915,8.75628157 L17.7489487,14.0062816 C18.0836838,14.3479903 18.0836838,14.9020097 17.7489487,15.2437184 C17.4176644,15.5819044 16.8826686,15.5853909 16.5471841,15.2541778 L16.5367656,15.2437184 L12,10.6124323 L7.46323438,15.2437184 C7.13195015,15.5819044 6.59695429,15.5853909 6.26146982,15.2541778 L6.25105133,15.2437184 C5.9197671,14.9055324 5.9163518,14.3593908 6.24080543,14.0169171 L6.25105133,14.0062816 L11.3939085,8.75628157 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

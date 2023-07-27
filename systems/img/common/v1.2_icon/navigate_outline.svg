@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VSQUARE/4) Icons/navigate/navigate_outline</title>
+    <g id="VSQUARE_Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VSQUARE/4)-Icons/navigate/navigate_outline">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <path d="M3.8820684,10.7585057 L3.86318504,10.7674809 C3.24839153,11.0701194 3.45983603,12.0064228 4.15462411,12.0064228 L11.9992981,12.0064228 L11.9992981,19.8453766 C11.9992981,20.547291 12.9548414,20.755839 13.2472974,20.1177533 L20.4382485,4.42840557 C20.6908089,3.87736486 20.122381,3.30910822 19.5714164,3.56183454 L3.8820684,10.7585057 Z M18.5160159,5.4843528 L13.3067438,16.8499778 L13.3067438,11.6795614 L13.3066124,11.6633457 C13.2979531,11.1292631 12.8623056,10.6989772 12.3261595,10.6989772 L7.1476941,10.6989772 L18.5160159,5.4843528 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

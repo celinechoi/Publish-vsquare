@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font/spoqa-han-sans/style.css"/>
+    <link rel="stylesheet" href="style/main.min.css"/>
+		<link rel="stylesheet" href="style/icon_fonts.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="header">
+			<div class="inner">
+				<a class="logo"></a>
+				<div class="header_content">
+					<p class="header_content--top">VSQUARE</p>
+					<p class="header_content--bottom">Design Systems Guide Kit</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="main-container">
+			<div class="inner">
+				<div class="content-list">
+					<div class="content-item">
+						<h2 class="content-item__title">Input Forms</h2>
+						<!--서치 박스-->
+						<div class="content-item__section">
+							<h3 class="content-item__section--title">
+								Search box
+							</h3>
+							<div class="content-item__section--box">
+								<div class="input-list">
+									<div class="input-item">
+										<p class="input-title">기본 서치박스</p>
+										<form class="input-box">
+											<div class="input-wrap">
+												<input class="search-box__basic" name="search" type="text" placeholder="검색어를 입력하세요" />
+												<a class="icon-right input-icon icon-search"></a>
+											</div>
+										</form>
+									</div>
+									<div class="input-item">
+										<p class="input-title">서치박스 왼쪽 버튼</p>
+										<form class="input-box">
+											<div class="search-box type_left">
+												<input class="search-box__basic" name="search" type="text" placeholder="검색어를 입력하세요" />
+												<a class="icon-left input-icon icon-search"></a>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--인풋 입력 창-->
+						<div class="content-item__section">
+							<h3 class="content-item__section--title">
+								Input box
+							</h3>
+							<div class="content-item__section--box">
+								<div class="input-list">
+									<div class="input-item">
+										<p class="input-title">기본 입력 인풋</p>
+										<form class="input-box">
+											<div class="input-wrap">
+												<input class="input-wrap__basic" name="id" type="text" placeholder="입력하세요." />
+											</div>
+										</form>
+									</div>
+									<div class="input-item">
+										<p class="input-title">패스워드 인풋</p>
+										<form class="input-box">
+											<div class="input-wrap">
+												<input class="input-wrap__basic" name="pw" type="password" placeholder="입력하세요." />
+											</div>
+										</form>
+									</div>
+									<div class="input-item">
+										<p class="input-title">아이콘 인풋</p>
+										<form class="input-box">
+											<div class="input-wrap">
+												<input class="input-wrap__icon" name="pw" type="text" placeholder="입력하세요." />
+												<span class="icon-left input-icon icon-person"></span>
+											</div>
+										</form>
+									</div>
+									<div class="input-item">
+										<p class="input-title">Active 인풋</p>
+										<form class="input-box">
+											<div class="input-wrap input-active">
+												<input class="input-wrap__basic" name="text" type="text" placeholder="입력하세요." />
+											</div>
+										</form>
+									</div>
+									<div class="input-item">
+										<p class="input-title">Error 인풋</p>
+										<form class="input-box">
+											<div class="input-wrap input-error">
+												<input class="input-wrap__basic" name="text" type="text" placeholder="입력하세요."/>
+												<span class="icon-right input-icon icon-alert_circle"></span>
+											</div>
+										</form>
+									</div>
+									<div class="input-item">
+										<p class="input-title">Success 인풋</p>
+										<form class="input-box">
+											<div class="input-wrap input-success">
+												<input class="input-wrap__basic" name="text" type="text" placeholder="입력하세요."/>
+												<span class="icon-right input-icon icon-checkmark_sharp"></span>
+											</div>
+										</form>
+									</div>
+									<div class="input-item">
+										<p class="input-title">Password-Typing 인풋</p>
+										<form class="input-box">
+											<div class="input-wrap input-view">
+												<input class="input-wrap__basic" name="pw" type="password" />
+												<span class="icon-right input-icon icon-eye"></span>
+											</div>
+										</form>
+									</div>
+									<div class="input-item">
+										<p class="input-title">Caption 인풋</p>
+										<form class="input-box">
+											<div class="input-wrap">
+												<input class="input-wrap__basic" name="text" type="text" placeholder="입력하세요."/>
+												<p class="input-wrap__caption">
+													<span class="input-wrap__caption--title">Caption text, description, error notification</span>
+													<span class="input-wrap__caption--icon icon-alert_circle_outline"></span>
+												</p>
+											</div>
+										</form>
+									</div>
+									<div class="input-item">
+										<p class="input-title">Caption Error 인풋</p>
+										<form class="input-box">
+											<div class="input-wrap input-error">
+												<input class="input-wrap__basic" name="text" type="text" placeholder="입력하세요."/>
+												<p class="input-wrap__caption">
+													<span class="input-wrap__caption--title">Caption text, description, error notification</span>
+													<span class="input-wrap__caption--icon icon-alert_circle_outline"></span>
+												</p>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--셀렉트 박스 -->
+						<div class="content-item__section">
+							<h3 class="content-item__section--title">
+								Select box
+							</h3>
+							<div class="content-item__section--box">
+								<div class="input-list">
+									<div class="input-item">
+										<p class="input-title">기본 셀렉트 박스</p>
+										<form class="input-box">
+											<div class="input-wrap">
+												<select class="input-wrap__select">
+													<option value="">옵션1</option>
+													<option value="">옵션2</option>
+													<option value="">옵션3</option>
+												</select>
+												<span class="icon-right input-icon icon-chevron_down"></span>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--버튼 -->
+						<div class="content-item__section">
+							<h3 class="content-item__section--title">
+								Button box
+							</h3>
+							<div class="content-item__section--box">
+								<div class="input-list">
+									<div class="input-item">
+										<p class="input-title">기본 버튼</p>
+										<a class="btn-box">
+											<span class="btn-box__title">Button</span>
+										</a>
+									</div>
+									<div class="input-item">
+										<p class="input-title">Border 버튼</p>
+										<a class="btn-box btn-bor">
+											<span class="btn-box__title">Button</span>
+										</a>
+									</div>
+									<div class="input-item">
+										<p class="input-title">Icon right 버튼</p>
+										<a class="btn-box">
+											<span class="btn-box__title">Button</span>
+											<span class="btn-box__icon icon-happy"></span>
+										</a>
+									</div>
+									<div class="input-item">
+										<p class="input-title">Icon left 버튼</p>
+										<a class="btn-box box-left">
+											<span class="btn-box__title">Button</span>
+											<span class="btn-box__icon icon-happy"></span>
+										</a>
+									</div>
+									<div class="input-item">
+										<p class="input-title">Icon space between right 버튼</p>
+										<a class="btn-box box-between">
+											<span class="btn-box__title">Button</span>
+											<span class="btn-box__icon icon-happy"></span>
+										</a>
+									</div>
+									<div class="input-item">
+										<p class="input-title">Icon space between left 버튼</p>
+										<a class="btn-box box-left box-between">
+											<span class="btn-box__title">Button</span>
+											<span class="btn-box__icon icon-happy"></span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="content-item">
+						<h2 class="content-item__title">Other Components</h2>
+						<!--버튼 -->
+						<div class="content-item__section">
+							<h3 class="content-item__section--title">
+								Check Box
+							</h3>
+							<div class="content-item__section--box">
+								<div class="input-list">
+									<div class="input-item">
+										<p class="input-title">기본 체크박스</p>
+										<div class="margin-item">
+											<div class="chkbox">
+												<input type="checkbox" id="chk1" name="checkbox_01" />
+												<label class="icon-checkbox_check" for="chk1"><span>Checkbox</span></label>
+											</div>
+										</div>
+										<div class="margin-item">
+											<div class="chkbox chk-bor">
+												<input type="checkbox" id="chk2" name="checkbox_02" />
+												<label class="icon-checkbox_check" for="chk2"><span>Checkbox Radius</span></label>
+											</div>
+										</div>
+										<div class="margin-item">
+											<div class="chkbox">
+												<input type="checkbox" id="chk3" name="checkbox_03" disabled/>
+												<label class="icon-checkbox_check" for="chk3"><span>Checkbox Disabled</span></label>
+											</div>
+										</div>
+										<div class="margin-item">
+											<div class="chkbox">
+												<input type="checkbox" id="chk3" name="checkbox_03" checked disabled/>
+												<label class="icon-checkbox_check" for="chk3"><span>Checkbox Check Disabled</span></label>
+											</div>
+										</div>
+									</div>
+									<div class="input-item">
+										<p class="input-title">기본 라디오 버튼</p>
+										<div class="margin-item">
+											<div class="radiobox">
+												<input type="radio" name="radio" id="radio1" checked/>
+												<label for="radio1">A</label>
+											</div>
+										</div>
+										<div class="margin-item">
+											<div class="radiobox">
+												<input type="radio" name="radio" id="radio1"/>
+												<label for="radio1">B</label>
+											</div>
+										</div>
+										<div class="margin-item">
+											<div class="radiobox">
+												<input type="radio" name="radio2" id="radio2" disabled/>
+												<label for="radio2">Radio Disabled</label>
+											</div>
+										</div>
+										<div class="margin-item">
+											<div class="radiobox">
+												<input type="radio" name="radio2" id="radio2" checked disabled/>
+												<label for="radio2">Radio Check Disabled</label>
+											</div>
+										</div>
+									</div>
+									<div class="input-item">
+										<p class="input-title">별점</p>
+										<div class="margin-item">
+											<div class="star-rating">
+												<span class="star-rating__item icon-star_pull"></span>
+											</div>
+											<span class="margin-item__title">Default</span>
+										</div>
+										<div class="margin-item">
+											<div class="star-rating">
+												<span class="star-rating__item icon-star_empty"></span>
+											</div>
+											<span class="margin-item__title">Disabled</span>
+										</div>
+										<div class="margin-item">
+											<div class="star-rating">
+												<span class="star-rating__item icon-star_pull"></span>
+												<span class="star-rating__item icon-star_pull"></span>
+												<span class="star-rating__item icon-star_pull"></span>
+												<span class="star-rating__item icon-star_half">
+													<span class="path1"></span>
+													<span class="path2"></span>
+												</span>
+												<span class="star-rating__item icon-star_empty"></span>
+											</div>
+											<span class="margin-item__title">Full</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</body>
+</html>

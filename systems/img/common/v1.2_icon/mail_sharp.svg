@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VSQUARE/4) Icons/mail/mail_sharp</title>
+    <g id="VSQUARE_Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VSQUARE/4)-Icons/mail/mail_sharp">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <path d="M20.3571429,5 L3.64285714,5 C3.28781695,5 3,5.2849097 3,5.63636364 L3,18.3636364 C3,18.7150903 3.28781695,19 3.64285714,19 L20.3571429,19 C20.7121831,19 21,18.7150903 21,18.3636364 L21,5.63636364 C21,5.2849097 20.7121831,5 20.3571429,5 Z M12.3945536,13.1386932 C12.1624588,13.3172989 11.8375412,13.3172989 11.6054464,13.1386932 L5.31227679,8.29357955 L6.10138393,7.28892045 L12,11.8301705 L17.8986161,7.28892045 L18.6877232,8.29357955 L12.3945536,13.1386932 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

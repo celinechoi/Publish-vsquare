@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VSQUARE/4) Icons/arrow/basic/down/arrow_down_outline</title>
+    <g id="VSQUARE_Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VSQUARE/4)-Icons/arrow/basic/down/arrow_down_outline">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <path d="M12,4.5 C12.5077075,4.5 12.920247,4.93880572 12.928447,5.48346317 L12.928,16.085 L16.9148294,11.7928932 C17.2737207,11.406395 17.8532995,11.4024104 18.216741,11.7809397 L18.2280277,11.7928932 C18.586919,12.1793915 18.5906189,12.8035533 18.2391275,13.1949519 L18.2280277,13.2071068 L12.6565992,19.2071068 C12.2977079,19.593605 11.7181291,19.5975896 11.3546875,19.2190603 L11.3434008,19.2071068 L5.77197227,13.2071068 C5.40934258,12.8165825 5.40934258,12.1834175 5.77197227,11.7928932 C6.13086352,11.406395 6.71044238,11.4024104 7.07388389,11.7809397 L7.08517058,11.7928932 L11.071,16.085 L11.0714286,5.5 C11.0714286,4.94771525 11.4871642,4.5 12,4.5 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

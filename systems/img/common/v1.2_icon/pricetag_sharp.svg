@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VSQUARE/4) Icons/pricetag/pricetag_sharp</title>
+    <g id="VSQUARE_Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VSQUARE/4)-Icons/pricetag/pricetag_sharp">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <path d="M14.4137931,2 L2,14.4137931 L9.5862069,22 L22,9.5862069 L22,2 L14.4137931,2 Z M17.862069,7.51724138 C17.1002969,7.51724138 16.4827586,6.8997031 16.4827586,6.13793103 C16.4827586,5.37615897 17.1002969,4.75862069 17.862069,4.75862069 C18.623841,4.75862069 19.2413793,5.37615897 19.2413793,6.13793103 C19.2413793,6.50374688 19.0960595,6.85457987 18.8373887,7.11325073 C18.5787178,7.3719216 18.2278848,7.51724138 17.862069,7.51724138 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

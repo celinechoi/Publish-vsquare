@@ -1,0 +1,83 @@
+@charset "utf-8";
+@import "systems.scss";
+/*+-----------------------------------+    
+| Author: JS |   
+| Title: Layout Style(header, footer, top etc) |
++-------------------------------------+*/
+/* ########## Custom Varable */
+$primary--color: '#6733b2';
+$secondary--color: '#ffc112';
+// primary & secondary
+.primary-color{
+	color: #{$primary--color};
+}
+.secondary-color{
+	color: #{$secondary--color};
+}
+.primary-bg{
+	background-color: #{$primary--color};
+}
+.secondary-color{
+	background-color: #{$secondary--color};
+}
+.primary-bor{
+	border: $bor--solid #{$primary--color};
+}
+.secondary-bor{
+	border: $bor--solid #{$secondary--color};
+}
+/* // Custom Varable ########## */
+
+/* ##### Element Custom */
+html,
+body,
+a {
+	color: #{$grey--900};
+}
+/* // Element Custom ##### */
+
+/* ########## Media Query */
+@mixin pc {
+	@media (min-width: 1240px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+	@media (max-width: 1239px) and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+	@media (max-width: 767px) {
+    @content;
+  }
+}
+
+.inner{
+	margin: 0 auto;
+}
+@include pc {
+	.inner{
+		width: 1240px;
+	}
+}
+
+@include tablet {
+	.tm-hide {
+		display: none;
+	}
+	.inner {
+		max-width: 100%;
+		width: calc(100% - 48px)!important;
+	}
+}
+
+@include mobile {
+	.inner {
+    max-width: 100%;
+    width: calc(100% - 40px)!important;
+	}
+}
+/* // Media Query ########## */

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VSQUARE/4) Icons/bookmark/bookmark_outline</title>
+    <g id="VSQUARE_Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VSQUARE/4)-Icons/bookmark/bookmark_outline">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <path d="M16.2,2 L7.8,2 C6.2536027,2 5,3.2790971 5,4.85694333 L5,21.2843674 L5.00021311,21.3027685 C5.01424626,21.907111 5.71813812,22.2235322 6.16505469,21.818194 L12,16.5260391 L17.8349453,21.818194 C18.2863762,22.2276265 19,21.900645 19,21.2843674 L19,4.85694333 C19,3.2790971 17.7463973,2 16.2,2 Z M16.2,3.42847166 L16.2231516,3.42866304 C16.985672,3.44127757 17.6,4.07590944 17.6,4.85694333 L17.6,19.6938982 L12.4650547,15.0366543 L12.4527193,15.025723 C12.1875688,14.7961655 11.7960852,14.7998092 11.5349453,15.0366543 L6.4,19.6938982 L6.4,4.85694333 C6.4,4.06802021 7.02680135,3.42847166 7.8,3.42847166 L16.2,3.42847166 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VSQUARE/4) Icons/play/skip_forward/play_skip_forward</title>
+    <g id="VSQUARE_Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VSQUARE/4)-Icons/play/skip_forward/play_skip_forward">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <path d="M16.5,6 C16.2238576,6 16,6.22385763 16,6.5 L16,10.7634375 L8.7259375,6.4096875 C8.38374087,6.20153204 7.95533828,6.19626234 7.608125,6.3959375 C7.233125,6.6084375 7,7.0196875 7,7.46875 L7,16.53125 C7,16.9803125 7.233125,17.3915625 7.608125,17.6040625 C7.95541267,17.8035745 8.38377882,17.7981855 8.7259375,17.59 L16,13.2365625 L16,17.5 C16,17.7761424 16.2238576,18 16.5,18 C16.7761424,18 17,17.7761424 17,17.5 L17,6.5 C17,6.22385763 16.7761424,6 16.5,6 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

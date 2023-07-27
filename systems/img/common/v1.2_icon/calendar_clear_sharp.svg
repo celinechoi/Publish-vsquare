@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VSQUARE/4) Icons/calendar_clear/calendar_clear_sharp</title>
+    <g id="VSQUARE_Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VSQUARE/4)-Icons/calendar_clear/calendar_clear_sharp">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <path d="M2,20.9285714 C2,21.5203051 2.47969491,22 3.07142857,22 L20.9285714,22 C21.5203051,22 22,21.5203051 22,20.9285714 L22,9.14285714 L2,9.14285714 L2,20.9285714 Z M22,4.48973214 C21.9996531,4.20661801 21.8863294,3.93535027 21.6851758,3.73612438 C21.4840222,3.5368985 21.2116758,3.4261921 20.9285714,3.42857143 L18.4321429,3.42857143 L18.4321429,2 L16.2892857,2 L16.2892857,3.42857143 L7.71071429,3.42857143 L7.71071429,2 L5.56785714,2 L5.56785714,3.42857143 L3.07142857,3.42857143 C2.78832423,3.4261921 2.51597784,3.5368985 2.31482423,3.73612438 C2.11367062,3.93535027 2.00034687,4.20661801 2,4.48973214 L2,7 L22,7 L22,4.48973214 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

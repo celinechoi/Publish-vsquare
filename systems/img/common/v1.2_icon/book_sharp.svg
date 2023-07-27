@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VSQUARE/4) Icons/book/book_sharp</title>
+    <g id="VSQUARE_Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VSQUARE/4)-Icons/book/book_sharp">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <path d="M21.5333333,3 C18.4345417,3.01305 16.1309583,3.432 14.464,4.15605 C13.2200833,4.69605 12.7333333,5.10465 12.7333333,6.48885 L12.7333333,21 C14.638625,19.3125 16.3294167,18.84 23,18.84 L23,3 L21.5333333,3 Z M2.46666667,3 C5.56545833,3.01305 7.86904167,3.432 9.536,4.15605 C10.7799167,4.69605 11.2666667,5.10465 11.2666667,6.48885 L11.2666667,21 C9.361375,19.3125 7.67058333,18.84 1,18.84 L1,3 L2.46666667,3 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
