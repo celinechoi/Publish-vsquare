@@ -254,8 +254,7 @@
 				<ul class="index-list">
 					<li><a href="javascript:;" class="container__txt--small">홈</a></li>
 					<li><a href="javascript:;" class="container__txt--small">나의 강의실</a></li>
-					<li><a href="javascript:;" class="container__txt--small">학습현황</a></li>
-					<li><a href="javascript:;" class="container__txt--small now">학습이력</a></li>
+					<li><a href="javascript:;" class="container__txt--small now">학위현황</a></li>
 				</ul>
 				<h3 class="container__title">
 					<div class="container__title--target">
@@ -384,7 +383,7 @@
 										}
 									});
 									// *** 바 차트 폰트 사이즈 반응형
-									if(window.innerWidth < 1249) {
+									if (window.innerWidth < 1249) {
 										barChart.config.options.scales.yAxes[0].ticks.fontSize = 11; // y축 
 										barChart.config.options.plugins.datalabels.font.size = 11; // 각 시간 값(y값)
 										barChart.config.options.scales.xAxes[0].ticks.fontSize = 11; // x축
@@ -393,8 +392,8 @@
 										barChart.config.options.plugins.datalabels.font.size = 13; // 각 시간 값(y값)
 										barChart.config.options.scales.xAxes[0].ticks.fontSize = 13; // x축
 									}
-									$(window).on("resize", function(){
-										if(window.innerWidth < 1249) {
+									$(window).on("resize", function () {
+										if (window.innerWidth < 1249) {
 											barChart.config.options.scales.yAxes[0].ticks.fontSize = 11; // y축 
 											barChart.config.options.plugins.datalabels.font.size = 11; // 각 시간 값(y값)
 											barChart.config.options.scales.xAxes[0].ticks.fontSize = 11; // x축
@@ -430,15 +429,15 @@
 									(function () {
 										var ctx2 = document.getElementById('doughnutChart').getContext('2d');
 										var labels2 = ['시민라이프칼리지 이수시간', '과정연계 이수시간', '남은 이수시간'];
-										var getTotal = function(doughnutChart) {
+										var getTotal = function (doughnutChart) {
 											return `35%`;
 										}
-										var doughnutChart  = new Chart(ctx2, {
+										var doughnutChart = new Chart(ctx2, {
 											type: 'doughnut',
 											data: {
 												datasets: [{
 													data: [50, 10, 40],
-													backgroundColor: ['#b584e7','#7284e9','#f5f5f5'], // #f5f5f5는 남은 이수시간
+													backgroundColor: ['#b584e7', '#7284e9', '#f5f5f5'], // #f5f5f5는 남은 이수시간
 													borderWidth: 1,
 													borderColor: '#eee',
 													scaleBeginAtZero: true,
@@ -448,27 +447,27 @@
 											options: {
 												responsive: true, // 반응형 여부
 												maintainAspectRatio: false, // 사이즈 커스텀
-												legendCallback: function(doughnutChart){ // *** 도넛 차트 범계 커스텀
-													var items 	= doughnutChart.legend.legendItems; //labels
-													var len 	= items.length;
-													var text 	= [];
+												legendCallback: function (doughnutChart) { // *** 도넛 차트 범계 커스텀
+													var items = doughnutChart.legend.legendItems; //labels
+													var len = items.length;
+													var text = [];
 													var itemNum = doughnutChart.config.data.datasets[0].data;
 													var completeTime = doughnutChart.config.data.datasets[0].data[0] + doughnutChart.config.data.datasets[0].data[1];
-													var html =  '<div class="doughnut-legend">';
-															html += '  <div class="doughnut-legend__total">';
-															html += '    <div class="doughnut-legend__total--left"><p>총 이수시간</p></div>';
-															html += '    <div class="doughnut-legend__total--right"><span class="doughnut-legend__total--right-t">'+completeTime+'</span><span class="doughnut-legend__total--right-s">시간</span></div>';
-															html += '  </div>';
-															html += '  <ul class="doughnut-legend__list">';
+													var html = '<div class="doughnut-legend">';
+													html += '  <div class="doughnut-legend__total">';
+													html += '    <div class="doughnut-legend__total--left"><p>총 이수시간</p></div>';
+													html += '    <div class="doughnut-legend__total--right"><span class="doughnut-legend__total--right-t">' + completeTime + '</span><span class="doughnut-legend__total--right-s">시간</span></div>';
+													html += '  </div>';
+													html += '  <ul class="doughnut-legend__list">';
 
-													for (var i = 0; i < len-1; i++) { 
+													for (var i = 0; i < len - 1; i++) {
 														html += '    <li>';
 														html += '      <div class="doughnut-legend__item--left">';
 														html += '        <span style="background :' + items[i]['fillStyle'] + ';" class="doughnut-legend__item--left-i"></span>';
-														html += '        <span class="doughnut-legend__item--left-c">'+items[i]['text']+'</span>';
+														html += '        <span class="doughnut-legend__item--left-c">' + items[i]['text'] + '</span>';
 														html += '      </div>';
 														html += '      <div class="doughnut-legend__item--right">';
-														html += '        <span class="doughnut-legend__item--right-t">'+itemNum[i]+'</span>';
+														html += '        <span class="doughnut-legend__item--right-t">' + itemNum[i] + '</span>';
 														html += '        <span class="doughnut-legend__item--right-s">시간</span>';
 														html += '      </div>';
 														html += '    </li>';
@@ -518,15 +517,15 @@
 										});
 										$(".doughnut-frame").append(doughnutChart.generateLegend());
 										// *** 도넛 차트 범계 폰트 사이즈 반응형
-										if(window.innerWidth < 1249) {
+										if (window.innerWidth < 1249) {
 											doughnutChart.config.options.plugins.doughnutlabel.labels[0].font.size = 13; // ex.명예시민 석사
 											doughnutChart.config.options.plugins.doughnutlabel.labels[1].font.size = 18; // ex.35%
 										} else {
 											doughnutChart.config.options.plugins.doughnutlabel.labels[0].font.size = 15; // ex.명예시민 석사
 											doughnutChart.config.options.plugins.doughnutlabel.labels[1].font.size = 26; // ex.35%
 										}
-										$(window).on("resize", function(){
-											if(window.innerWidth < 1249) {
+										$(window).on("resize", function () {
+											if (window.innerWidth < 1249) {
 												doughnutChart.config.options.plugins.doughnutlabel.labels[0].font.size = 13; // ex.명예시민 석사
 												doughnutChart.config.options.plugins.doughnutlabel.labels[1].font.size = 18; // ex.35%
 											} else {
